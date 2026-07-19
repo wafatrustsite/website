@@ -86,11 +86,11 @@ export default function Header() {
       {/* Header */}
       <header className={`header ${scrolled ? 'scrolled' : ''}`} id="main-header">
         <div className="container">
-          <Link href="/" className="header-logo" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <Image src="/assets/logo.jpeg" alt="Wafa Trust Logo" width={55} height={55} style={{ borderRadius: '8px' }} />
+          <Link href="/" className="header-logo">
+            <Image src="/assets/logo.jpeg" alt="Wafa Trust Logo" width={55} height={55} className="header-logo-img" style={{ borderRadius: '8px' }} />
             <div className="header-logo-text">
-              <strong style={{ fontSize: '1.2rem', color: 'var(--color-primary)' }}>Wafa Trust</strong>
-              <span style={{ fontSize: '0.8rem', color: 'var(--color-text-light)' }}>Educational &amp; Charitable</span>
+              <strong>Wafa Trust</strong>
+              <span>Educational &amp; Charitable</span>
             </div>
           </Link>
 
