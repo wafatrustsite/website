@@ -2103,4 +2103,251 @@ button {
   }
 }
 
+/* ===== BLOG (cards, pagination, article, FAQ, CTA) ===== */
+.blog-card-image {
+  position: relative;
+  display: block;
+}
+
+.blog-card-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.3px;
+}
+
+.blog-card-excerpt {
+  color: var(--color-text-light);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: var(--space-md);
+}
+
+/* Inline money-page links inside article content */
+.content-body a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.content-body a:hover {
+  color: var(--color-accent);
+}
+
+.blog-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  color: var(--color-text-muted, #7a8a80);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border, #e5e9e7);
+}
+
+.blog-post-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.page-banner-tag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.9rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* FAQ */
+.blog-faq {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border, #e5e9e7);
+}
+
+.blog-faq-item {
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--color-border-light, #eef2f0);
+}
+
+.blog-faq-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.blog-faq-item p {
+  color: var(--color-text-light);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* In-article donation CTA */
+.blog-cta {
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.blog-cta h3 {
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.blog-cta p {
+  color: rgba(255, 255, 255, 0.92);
+  max-width: 620px;
+  margin: 0 auto var(--space-lg);
+  line-height: 1.7;
+}
+
+.blog-cta .btn-primary {
+  background: #fff;
+  color: var(--color-primary);
+}
+
+.blog-cta .btn-primary:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Related programmes (internal links to money pages) */
+.blog-related-programs {
+  margin-top: var(--space-2xl);
+}
+
+.blog-related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.blog-related-card {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.blog-related-card img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.blog-related-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.1));
+}
+
+.blog-related-card span {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.75rem;
+  line-height: 1.3;
+}
+
+.blog-related-card:hover img {
+  transform: scale(1.06);
+}
+
+/* Sidebar donate box */
+.blog-sidebar-cta {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border-light, #eef2f0);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+.blog-sidebar-cta h4 {
+  margin-bottom: 0.5rem;
+}
+
+.blog-sidebar-cta p {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-md);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: var(--space-2xl);
+}
+
+.pagination-num,
+.pagination-btn {
+  min-width: 42px;
+  height: 42px;
+  padding: 0 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border, #e5e9e7);
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.pagination-num:hover,
+.pagination-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.pagination-num.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.pagination-ellipsis {
+  padding: 0 0.4rem;
+  color: var(--color-text-muted, #7a8a80);
+}
+
+@media (max-width: 768px) {
+  .blog-related-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-cta {
+    padding: var(--space-lg);
+  }
+}
+
 

@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { blogPosts } from './blogsData';
 
 function loadData() {
   const filePath = path.join(process.cwd(), 'public', 'data', 'site-data.json');
@@ -11,13 +12,38 @@ export function getCounters() {
   return loadData().counters;
 }
 
+// ===== BLOG =====
+export const BLOG_PAGE_SIZE = 9;
+
+// Newest posts first (by date)
 export function getAllBlogs() {
-  return loadData().blogs;
+  return [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
 export function getBlogById(id) {
-  const blogs = loadData().blogs;
-  return blogs.find((b) => String(b.id) === String(id)) || null;
+  return blogPosts.find((b) => String(b.id) === String(id)) || null;
+}
+
+export function getBlogPageCount() {
+  return Math.max(1, Math.ceil(blogPosts.length / BLOG_PAGE_SIZE));
+}
+
+// 1-indexed page of blog cards
+export function getBlogsPage(page = 1) {
+  const all = getAllBlogs();
+  const start = (page - 1) * BLOG_PAGE_SIZE;
+  return all.slice(start, start + BLOG_PAGE_SIZE);
+}
+
+// Related posts sharing a category, excluding the current one
+export function getRelatedBlogs(id, limit = 3) {
+  const current = getBlogById(id);
+  if (!current) return getAllBlogs().slice(0, limit);
+  const sameCat = getAllBlogs().filter(
+    (b) => b.id !== current.id && b.category === current.category
+  );
+  const pool = sameCat.length >= limit ? sameCat : getAllBlogs().filter((b) => b.id !== current.id);
+  return pool.slice(0, limit);
 }
 
 export function getGallery() {
