@@ -3,6 +3,7 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Awards & Recognition',
+  alternates: { canonical: '/award' },
 };
 
 export default function AwardPage() {

@@ -3,6 +3,7 @@ import { SITE_INFO } from '../../lib/data';
 
 export const metadata = {
   title: 'Contact Us',
+  alternates: { canonical: '/contact' },
 };
 
 export default function ContactPage() {

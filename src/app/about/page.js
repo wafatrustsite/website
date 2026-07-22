@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About Us',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {

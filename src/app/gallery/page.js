@@ -4,6 +4,7 @@ import { getGallery } from '../../lib/data';
 
 export const metadata = {
   title: 'Photo Gallery',
+  alternates: { canonical: '/gallery' },
 };
 
 export default function GalleryPage() {

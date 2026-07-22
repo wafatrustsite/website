@@ -3,6 +3,7 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Terms and Conditions',
+  alternates: { canonical: '/terms' },
 };
 
 export default function TermsPage() {

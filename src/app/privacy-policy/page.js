@@ -3,6 +3,7 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Privacy Policy',
+  alternates: { canonical: '/privacy-policy' },
 };
 
 export default function PrivacyPolicyPage() {

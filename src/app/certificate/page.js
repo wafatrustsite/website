@@ -3,6 +3,7 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Certificate',
+  alternates: { canonical: '/certificate' },
 };
 
 export default function CertificatePage() {

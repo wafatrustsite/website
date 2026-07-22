@@ -3,6 +3,7 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Refund Policy',
+  alternates: { canonical: '/refund-policy' },
 };
 
 export default function RefundPolicyPage() {

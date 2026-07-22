@@ -17,6 +17,7 @@ export async function generateMetadata({ params }) {
   return {
     title: service.title,
     description: `Learn more about our ${service.title} campaign.`,
+    alternates: { canonical: `/services/${resolvedParams.slug}` },
     openGraph: {
       images: [service.image],
     }

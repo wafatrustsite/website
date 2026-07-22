@@ -40,9 +40,6 @@ export const metadata = {
     description: SITE_INFO.description,
     images: ['/assets/hero.jpg'],
   },
-  alternates: {
-    canonical: '/',
-  },
 };
 
 export default function RootLayout({ children }) {

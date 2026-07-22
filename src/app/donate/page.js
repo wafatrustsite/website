@@ -4,6 +4,7 @@ import DonateForm from '../../components/DonateForm';
 
 export const metadata = {
   title: 'Donate Now',
+  alternates: { canonical: '/donate' },
 };
 
 export default function DonatePage() {
@@ -51,6 +52,9 @@ export default function DonatePage() {
             <h3>Tax Exemption Details</h3>
             <p style={{ color: 'var(--color-text-light)', maxWidth: '800px', margin: '0 auto' }}>
               All donations made to Wafa Educational And Charitable Trust are eligible for tax deduction under section 80G of the Income Tax Act, 1961. Please contact us with your PAN details to receive your 80G receipt.
+            </p>
+            <p style={{ color: 'var(--color-text)', fontWeight: 600, marginTop: '1rem' }}>
+              80G Registration No. (URN): AAATW5134DF20221
             </p>
           </div>
         </div>

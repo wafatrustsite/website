@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Our Vision',
+  alternates: { canonical: '/vision' },
 };
 
 export default function VisionPage() {

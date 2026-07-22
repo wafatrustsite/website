@@ -6,6 +6,10 @@ import BlogCard from '../components/BlogCard';
 import GalleryGrid from '../components/GalleryGrid';
 import { getCounters, getAllBlogs, getGallery } from '../lib/data';
 
+export const metadata = {
+  alternates: { canonical: '/' },
+};
+
 export default function Home() {
   const counters = getCounters();
   const blogs = getAllBlogs();
