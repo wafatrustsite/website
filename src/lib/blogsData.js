@@ -2367,4 +2367,398 @@ export const blogPosts = [
 <p>The cruellest months are coming for communities that dread them. Acting now — before the peak of summer — means clean water can be in place when it is needed most. Fund a well, a hand pump, or emergency water supply today, and become the reason a village survives the summer with dignity. Give the gift of water this season.</p>
 `,
   },
+
+  // ============================================================
+  // BATCH 5 — TAX, TRANSPARENCY & "WHY WAFA TRUST"
+  // Impact figures are the trust's own published programme counts.
+  // 80G mechanics kept general/accurate; donors told to confirm the
+  // trust's registration and keep receipts. No invented reg numbers.
+  // ============================================================
+  {
+    id: '80g-tax-benefits-for-donations-in-india-2026',
+    title: '80G Tax Benefits for Charitable Donations in India (2026)',
+    metaTitle: '80G Donation Tax Benefit India 2026 — How to Claim | Wafa Trust',
+    metaDescription:
+      'How does 80G tax deduction work in India? Understand eligible donations, the 50% rule, the financial-year deadline, and what you need on your receipt to claim your deduction.',
+    keyword: '80g donation tax benefit',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Indian',
+    image: 'assets/donate-2.jpg',
+    date: '2026-03-19',
+    readTime: '6 min read',
+    relatedServices: ['free-food-distribution', 'water-well-for-needy-place', 'medical-aid'],
+    faq: [
+      {
+        q: 'What is Section 80G?',
+        a: 'Section 80G of the Income Tax Act lets you claim a deduction on donations made to eligible registered charities, reducing your taxable income in India.',
+      },
+      {
+        q: 'How much can I deduct under 80G?',
+        a: 'For most eligible charities, 50% of the donated amount is deductible, often subject to a qualifying limit of 10% of your adjusted gross total income. Some government funds allow 100%. Keep your receipt and confirm the specifics.',
+      },
+      {
+        q: 'What do I need to claim an 80G deduction?',
+        a: 'You need a valid donation receipt showing the charity’s 80G registration details and your details, and the donation must fall within the financial year (ending 31 March) you are claiming for.',
+      },
+    ],
+    content: `
+<p>Giving is its own reward — but in India, charitable donations can also reduce your tax bill through <strong>Section 80G</strong>. If you want to give generously and claim the deduction you are entitled to, this guide explains how the <strong>80G donation tax benefit</strong> works in 2026, clearly and accurately.</p>
+
+<h2>What is Section 80G?</h2>
+<p>Section 80G of the Income Tax Act allows you to claim a deduction for donations made to eligible, registered charitable institutions. In simple terms, a qualifying donation reduces your taxable income — so a portion of what you give comes back to you in tax saved. It is the government's way of encouraging charitable giving.</p>
+
+<h2>How much can you actually deduct?</h2>
+<p>This is where many donors are misinformed. For <strong>most</strong> eligible charities, the deduction is <strong>50% of the donated amount</strong>, not 100%. In addition, for many donations there is a <strong>qualifying limit</strong>: the eligible donation is capped at 10% of your adjusted gross total income. (Certain government funds allow a full 100% deduction, but ordinary charitable donations typically fall under the 50% category.)</p>
+<p>So if you donate ₹10,000 to a 50%-eligible charity and are within the limit, you can generally claim a ₹5,000 deduction from your taxable income. The exact tax you save then depends on your income slab.</p>
+
+<h2>What you need to claim it</h2>
+<p>To claim your 80G deduction smoothly, make sure you have:</p>
+<ul>
+<li>A <strong>valid donation receipt</strong> showing the charity's name, 80G registration details, and your details</li>
+<li>The donation made <strong>within the financial year</strong> (which ends <strong>31 March</strong>) you are claiming for</li>
+<li>Payment through a traceable method (donations above the cash limit must be non-cash to qualify)</li>
+</ul>
+<p>The golden rule is simple: <strong>always keep your receipt</strong>. Wafa Educational And Charitable Trust provides receipts for your donations; if you plan to claim 80G, confirm the trust's current 80G registration details when you give, and retain the receipt for your tax return.</p>
+
+<h2>Give more by giving smart</h2>
+<p>Understanding 80G means you can plan your giving to do the most good. Some donors even increase their donation knowing part of it returns as tax saved — turning a tax benefit into extra help for those in need. Your donation can fund <a href="/services/free-food-distribution">food</a>, <a href="/services/water-well-for-needy-place">clean water</a> or <a href="/services/medical-aid">medical care</a> for families in India while easing your own tax burden.</p>
+
+<h2>A note of caution</h2>
+<p>Tax rules have conditions and change over time, and individual situations differ. This article is general guidance, not tax advice — for your specific case, confirm the current rules and the charity's registration, and consult a qualified tax advisor.</p>
+
+<h2>Give generously, claim what you're owed</h2>
+<p>Charity and tax efficiency are not in conflict — done right, they reinforce each other. Give to a cause that moves you, keep your 80G receipt, and claim the deduction you are entitled to. Make a donation today and let your generosity work twice.</p>
+`,
+  },
+  {
+    id: 'how-to-choose-a-trustworthy-zakat-charity-in-india',
+    title: 'How to Choose a Trustworthy Zakat Charity in India',
+    metaTitle: 'Best Zakat Charity India — How to Choose a Trustworthy One | Wafa Trust',
+    metaDescription:
+      'Your Zakat is an amanah. Use this 7-point checklist to choose a trustworthy Zakat charity in India that distributes correctly, works on the ground, and proves its impact.',
+    keyword: 'best zakat charity india',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Both',
+    image: 'assets/slider-31.jpg',
+    date: '2026-03-22',
+    readTime: '7 min read',
+    relatedServices: ['widows-help', 'free-food-distribution', 'water-well-for-needy-place'],
+    faq: [
+      {
+        q: 'How do I know a Zakat charity is trustworthy?',
+        a: 'Check that it distributes Zakat only to eligible recipients, works directly on the ground, keeps overheads low, provides receipts and updates, and answers your questions openly.',
+      },
+      {
+        q: 'What makes a Zakat charity "the best" for me?',
+        a: 'The best charity is one that handles Zakat correctly according to the Shariah, reaches genuine need, is transparent, and — ideally — serves communities you feel connected to.',
+      },
+      {
+        q: 'Should I give Zakat to a big organisation or a local one?',
+        a: 'Both can be valid. Local, on-the-ground charities often deliver more impact per rupee and clearer traceability, while ensuring Zakat reaches verified eligible recipients.',
+      },
+    ],
+    content: `
+<p>Your Zakat is not just a donation — it is an <em>amanah</em>, a trust, and a right owed to the poor. Giving it to the wrong organisation can mean it is misused or fails to reach eligible recipients. So how do you find the <strong>best Zakat charity in India</strong>? Use this practical 7-point checklist before you give.</p>
+
+<h2>1. Does it distribute Zakat correctly?</h2>
+<p>The most important question of all. Zakat can only go to the eight categories named in the Qur'an — chiefly the poor and needy. A trustworthy charity understands this and keeps Zakat funds separate from general funds, ensuring your Zakat reaches only eligible recipients and is not spent on ineligible costs like buildings.</p>
+
+<h2>2. Does it work directly on the ground?</h2>
+<p>Charities that work hands-on in the community — rather than passing your money through layers of intermediaries — can verify who is genuinely in need and deliver help directly. Wafa Educational And Charitable Trust operates on the ground in Akola, Maharashtra, verifying each case locally.</p>
+
+<h2>3. Are its overheads low?</h2>
+<p>Ask how much of each rupee reaches beneficiaries. A locally run charity with low administrative costs directs far more of your Zakat to actual help than a large, top-heavy organisation.</p>
+
+<h2>4. Does it provide receipts and updates?</h2>
+<p>A trustworthy charity documents your donation with a receipt and is willing to share updates on how funds were used. If an organisation is evasive about where money goes, treat that as a warning sign.</p>
+
+<h2>5. Can it show real, countable results?</h2>
+<p>Look for concrete outcomes, not vague promises. Wells installed, families fed, widows supported — measurable impact you can point to. Wafa Trust's work translates into countable results across water, food, education, medical and family programmes.</p>
+
+<h2>6. Does it answer your questions openly?</h2>
+<p>Perhaps the simplest test: ask a question and see how they respond. A charity confident in its integrity welcomes scrutiny and answers clearly. Reluctance to engage is a red flag.</p>
+
+<h2>7. Do you feel a genuine connection?</h2>
+<p>Zakat is deeply personal. Many donors find greater meaning — and often greater impact — in supporting the specific communities and causes they feel tied to, such as their home region. Giving where your heart is, through a charity that meets the criteria above, is both valid and rewarding.</p>
+
+<h2>Give your Zakat with confidence</h2>
+<p>Run any charity through this checklist and you will quickly separate the trustworthy from the questionable. Choose one that distributes correctly, works directly, proves its impact and answers openly — and your Zakat becomes exactly what it is meant to be: a right delivered to those who deserve it. Give your Zakat to <a href="/services/widows-help">verified, eligible recipients</a> in India today.</p>
+`,
+  },
+  {
+    id: 'how-to-verify-a-charity-before-you-donate',
+    title: 'How to Verify a Charity Before You Donate',
+    metaTitle: 'How to Check if a Charity Is Genuine in India | Wafa Trust',
+    metaDescription:
+      'Before you give, verify. Learn the simple, practical steps to check whether a charity in India is genuine — from registrations and receipts to proof of real, on-the-ground work.',
+    keyword: 'how to check if a charity is genuine india',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Both',
+    image: 'assets/image-1.jpg',
+    date: '2026-03-27',
+    readTime: '6 min read',
+    relatedServices: ['water-well-for-needy-place', 'free-food-distribution', 'medical-aid'],
+    faq: [
+      {
+        q: 'How can I check if a charity in India is genuine?',
+        a: 'Verify its registration details, look for real on-the-ground work and countable results, confirm it issues receipts, check that it answers questions openly, and be wary of pressure or unofficial payment links.',
+      },
+      {
+        q: 'What are warning signs of a fake charity?',
+        a: 'Red flags include refusal to share registration or receipts, vague answers about where money goes, high-pressure appeals, requests to pay via unofficial channels, and no evidence of actual projects.',
+      },
+      {
+        q: 'Is it rude to ask a charity questions before donating?',
+        a: 'Not at all. A genuine charity welcomes your questions. Verifying before you give is responsible stewardship of your charity, and good organisations respect it.',
+      },
+    ],
+    content: `
+<p>Generosity is beautiful — but it deserves to be protected. Sadly, the goodwill of donors is sometimes exploited by fake or careless organisations. The good news is that a few simple checks can tell you whether a charity is genuine. Here is <strong>how to verify a charity before you donate</strong>, so your kindness always lands where it should.</p>
+
+<h2>Why verification matters</h2>
+<p>Every rupee that goes to a fraudulent or wasteful organisation is a rupee stolen from someone who genuinely needs it. Verifying a charity is not cynicism; it is responsible stewardship of the trust — especially Zakat — that you are giving. And a genuine charity will never resent you for checking.</p>
+
+<h2>Step 1: Check its registration and details</h2>
+<p>A legitimate charity is registered and can share its official details, including registrations such as 80G (for tax deduction eligibility). Look for a real, contactable organisation with a physical presence and clear identity — not just an anonymous appeal.</p>
+
+<h2>Step 2: Look for proof of real work</h2>
+<p>Genuine charities do genuine, visible work. Look for evidence of actual projects — photographs, locations, and countable results such as wells installed or families fed. Wafa Educational And Charitable Trust, for example, works directly in Akola, Maharashtra with measurable outcomes across <a href="/services/water-well-for-needy-place">water</a>, <a href="/services/free-food-distribution">food</a> and <a href="/services/medical-aid">medical</a> programmes.</p>
+
+<h2>Step 3: Confirm it issues receipts</h2>
+<p>A trustworthy organisation documents your donation with a proper receipt. If a group is unwilling or unable to provide one, be cautious.</p>
+
+<h2>Step 4: Ask questions — and judge the answers</h2>
+<p>Contact the charity and ask how your donation will be used, who benefits, and how they verify need. The <em>quality</em> and <em>openness</em> of the response tells you a great deal. Clear, confident answers are a good sign; evasion is a red flag.</p>
+
+<h2>Warning signs to watch for</h2>
+<ul>
+<li>Refusal to share registration details or receipts</li>
+<li>Vague or shifting answers about where money goes</li>
+<li>High-pressure, urgent appeals designed to rush you</li>
+<li>Requests to pay through unofficial links or personal accounts</li>
+<li>No evidence of any real, completed projects</li>
+</ul>
+<p>When in doubt, slow down. A genuine cause will still be there tomorrow; a scam relies on you not stopping to think.</p>
+
+<h2>Give with confidence, not just hope</h2>
+<p>Verification turns giving from a leap of faith into a confident, informed act. Run your chosen charity through these steps, use only official donation channels, and keep your receipt. Then give freely — knowing your generosity reaches the people it was always meant for. Donate to a verified, on-the-ground cause in India today.</p>
+`,
+  },
+  {
+    id: 'local-charity-vs-big-ngo-where-should-your-zakat-go',
+    title: 'Local Charity vs Big NGO: Where Should Your Zakat Go?',
+    metaTitle: 'Local Charity vs Big NGO — Where Should Your Zakat Go? | Wafa Trust',
+    metaDescription:
+      'Should you give your Zakat to a large NGO or a local, on-the-ground charity? Compare impact per rupee, transparency and connection to decide where your donation does the most good.',
+    keyword: 'local charity vs big ngo zakat',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Both',
+    image: 'assets/about.jpg',
+    date: '2026-03-30',
+    readTime: '6 min read',
+    relatedServices: ['free-distribution-of-ration-kit', 'widows-help', 'water-well-for-needy-place'],
+    faq: [
+      {
+        q: 'Is it better to donate to a local charity or a big NGO?',
+        a: 'Both can do good, but local, on-the-ground charities often deliver more impact per rupee, offer clearer traceability, and let you support communities you feel connected to.',
+      },
+      {
+        q: 'Do big NGOs have higher overheads?',
+        a: 'Larger organisations often carry higher administrative, marketing and infrastructure costs, which can mean a smaller share of each donation reaches beneficiaries compared with a lean local charity.',
+      },
+      {
+        q: 'Can a local charity handle Zakat correctly?',
+        a: 'Yes. A reputable local charity distributes Zakat strictly to eligible recipients and can verify need directly in the community, which is exactly what Zakat requires.',
+      },
+    ],
+    content: `
+<p>When it is time to give your Zakat, you face a choice that quietly shapes its impact: do you give to a large, well-known NGO, or to a smaller, local, on-the-ground charity? Both have a role — but they are not the same. This honest comparison helps you decide where <strong>your Zakat</strong> does the most good.</p>
+
+<h2>Impact per rupee</h2>
+<p>The biggest difference is how much of your donation actually reaches a person in need. Large organisations often carry significant overheads — offices, salaries, marketing campaigns, layers of administration. A lean, local charity keeps costs low and works directly, so a greater share of every rupee becomes real help. If maximum impact per rupee matters to you, local giving usually wins.</p>
+
+<h2>Traceability and proof</h2>
+<p>With a local charity, the line between your donation and its outcome is short and clear. The same organisation that receives your Zakat is the one packing the <a href="/services/free-distribution-of-ration-kit">ration kit</a> or supporting the <a href="/services/widows-help">widow</a> — and it can show you the result. Large NGOs may aggregate donations into broad programmes, which can make it harder to see exactly what your specific gift achieved.</p>
+
+<h2>Verifying genuine need</h2>
+<p>Zakat must reach eligible recipients. A charity embedded in the community can verify need face to face — knowing which family truly has no earning member, which household is drowning in debt. This local knowledge is one of the strongest arguments for on-the-ground giving.</p>
+
+<h2>Connection and meaning</h2>
+<p>Giving is personal. Many donors — especially those with roots in a region — find deeper meaning in supporting the specific communities they are tied to. A local charity in Akola, Maharashtra lets you help the very streets and villages you may know, turning Zakat from an abstract transfer into a tangible connection.</p>
+
+<h2>Where big organisations still help</h2>
+<p>To be fair, large NGOs have their strengths — scale for disaster response, reach across many regions, and established systems. The point is not that big is bad, but that <em>local is often overlooked</em> despite delivering more direct impact for everyday Zakat and Sadaqah.</p>
+
+<h2>The bottom line</h2>
+<p>For your regular Zakat, a trustworthy local charity that distributes correctly, keeps overheads low, and proves its impact is hard to beat. Wafa Educational And Charitable Trust offers exactly this — direct, verified, low-overhead giving across <a href="/services/water-well-for-needy-place">water</a>, food, education and more. Give your Zakat where it goes furthest and reaches real people today.</p>
+`,
+  },
+  {
+    id: 'wafa-trust-impact-in-numbers',
+    title: 'Wafa Trust’s Impact in Numbers: Water, Food, Faith & Education',
+    metaTitle: 'Wafa Trust Impact in Numbers — Water, Food & Education | Charity India',
+    metaDescription:
+      'Numbers tell a story. See Wafa Educational And Charitable Trust’s reported impact across water, food, education, faith and family programmes in India — and how you can add to it.',
+    keyword: 'charity impact numbers india',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Both',
+    image: 'assets/hero.jpg',
+    date: '2026-04-05',
+    readTime: '6 min read',
+    relatedServices: ['water-well-for-needy-place', 'masjid-madrasa-build', 'free-food-distribution'],
+    faq: [
+      {
+        q: 'What has Wafa Trust achieved so far?',
+        a: 'Wafa Trust reports thousands of borewells and hand pumps installed, over 180 mosques and madrasas supported, more than a thousand Qurans distributed, and many thousands of meals provided, among other programmes.',
+      },
+      {
+        q: 'Where does Wafa Trust work?',
+        a: 'The trust is based in Akola, Maharashtra, and works directly on the ground there and across India in water, food, education, medical and family support programmes.',
+      },
+      {
+        q: 'How can I add to this impact?',
+        a: 'By donating to the programme of your choice — water, food, education, medical or family support — you directly add to these numbers and change real lives.',
+      },
+    ],
+    content: `
+<p>Behind every statistic is a human story — a village that finally has clean water, a child who can now read the Qur'an, a family that ate tonight. Numbers give those stories scale. Here is a look at <strong>Wafa Educational And Charitable Trust's reported impact</strong> across India, and how your donation adds to it.</p>
+
+<h2>Clean water for thousands</h2>
+<p>Water is at the heart of Wafa Trust's mission, and its water work is its largest programme. The trust reports having provided over <strong>1,160 borewells and water wells</strong> and more than <strong>820 hand pumps</strong>, alongside emergency <a href="/services/supply-of-water-to-the-needy-through-tankers">tanker water supply</a> to communities whose own sources have failed. Each is a source of life that keeps giving for years — a true Sadaqah Jariyah.</p>
+
+<h2>Faith and places of worship</h2>
+<p>The trust reports supporting the building of over <strong>180 mosques and madrasas</strong>, and constructing more than <strong>130 wazu khana</strong> (ablution) facilities — creating spaces of worship and learning in economically challenged communities. Through <a href="/services/quran-e-kareem-distribution-2">Qur'an distribution</a>, more than <strong>1,250 copies</strong> of the Holy Qur'an have reached homes and maktabs.</p>
+
+<h2>Food for those who go without</h2>
+<p>In its food programmes, Wafa Trust reports serving a remarkable <strong>15,885 food distributions</strong>, alongside more than <strong>400 ration kits</strong> and hundreds of <a href="/services/iftar-for-ramadan">iftar meals</a> during Ramadan — turning empty plates into nourishment for the poorest families.</p>
+
+<h2>Education, dignity and care</h2>
+<p>The trust's wider work spans:</p>
+<ul>
+<li><strong>645 Maktab Deeniyat</strong> — Islamic education reaching children</li>
+<li><strong>236 scholarships</strong> for higher education</li>
+<li><strong>710 blankets</strong> distributed against the winter cold</li>
+<li><strong>Tricycles, wheelchairs and medical aid</strong> restoring mobility and health</li>
+<li>Support for <strong>widows, poor families and girls' marriages</strong></li>
+</ul>
+<p>Together, these numbers describe an organisation working across nearly every dimension of human need — from a single drink of clean water to a child's entire education.</p>
+
+<h2>Numbers you can add to</h2>
+<p>The most powerful thing about these figures is that they are not finished. Every one of them grows when a donor chooses to give. Your contribution becomes the next well, the next meal, the next child in school — a new digit in a running story of relief. Support a <a href="/services/water-well-for-needy-place">Wafa Trust programme</a> today and add your name to the impact.</p>
+
+<p><em>Figures reflect the trust's reported programme totals; for the latest numbers and details of any specific programme, contact Wafa Trust directly.</em></p>
+`,
+  },
+  {
+    id: '7-questions-to-ask-before-donating-your-zakat',
+    title: '7 Questions to Ask Before Donating Your Zakat',
+    metaTitle: '7 Questions to Ask Before Donating Your Zakat | Wafa Trust India',
+    metaDescription:
+      'Before you give your Zakat, ask the right questions. These 7 questions help ensure your Zakat is valid, reaches eligible recipients, and makes the greatest possible impact.',
+    keyword: 'questions before donating zakat',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Both',
+    image: 'assets/blog2.jpg',
+    date: '2026-04-08',
+    readTime: '6 min read',
+    relatedServices: ['free-food-distribution', 'widows-help', 'water-well-for-needy-place'],
+    faq: [
+      {
+        q: 'What should I check before giving Zakat?',
+        a: 'Confirm your amount is calculated correctly, that the charity distributes Zakat only to eligible recipients, that it works transparently and directly, and that you will receive a receipt.',
+      },
+      {
+        q: 'How do I know my Zakat will reach eligible people?',
+        a: 'Ask the charity directly how it verifies recipients. A reputable, on-the-ground charity confirms need locally and keeps Zakat funds for eligible recipients only.',
+      },
+      {
+        q: 'Does it matter which charity I give my Zakat to?',
+        a: 'Very much. The validity and impact of your Zakat depend on it reaching eligible recipients through an organisation that handles it correctly. Choosing well is part of fulfilling the obligation.',
+      },
+    ],
+    content: `
+<p>Zakat is a pillar of Islam and a right owed to the poor — which means giving it thoughtfully matters. Before you hand over your Zakat, a few careful questions can ensure it is valid, reaches the right people, and does the most good. Here are the <strong>7 questions to ask before donating your Zakat</strong>.</p>
+
+<h2>1. Have I calculated my Zakat correctly?</h2>
+<p>Start with your own figure. Is it 2.5% of your qualifying wealth, held for a lunar year and above the nisab? Getting the amount right is the foundation of a valid Zakat. If unsure, work through a simple calculation before you give.</p>
+
+<h2>2. Does this charity give Zakat only to eligible recipients?</h2>
+<p>Zakat can only go to the eight categories named in the Qur'an — chiefly the poor and needy. Ask whether the charity keeps Zakat funds separate and distributes them strictly to eligible people, rather than to ineligible costs like buildings.</p>
+
+<h2>3. How does it verify who is truly in need?</h2>
+<p>Ask how recipients are identified. A charity working directly in the community — like Wafa Educational And Charitable Trust in Akola, Maharashtra — can confirm genuine need face to face, ensuring your Zakat reaches a real <a href="/services/widows-help">widow</a> or destitute family.</p>
+
+<h2>4. How much of my Zakat actually reaches people?</h2>
+<p>Overheads matter. Ask what share of donations reaches beneficiaries. A lean, local charity directs far more of your Zakat to actual help than a top-heavy organisation.</p>
+
+<h2>5. Will I receive a receipt and updates?</h2>
+<p>A trustworthy charity documents your donation and is willing to share how it was used. If you want, you can ask to see the impact of the programme you supported.</p>
+
+<h2>6. Can it show real results?</h2>
+<p>Ask about outcomes — wells installed, families fed, students supported. Concrete, countable results are the mark of a charity that truly does the work rather than merely collecting funds.</p>
+
+<h2>7. Does giving here feel meaningful to me?</h2>
+<p>Zakat is an act of worship, not just a transfer. Giving through a charity whose work and community you connect with — perhaps your home region — adds sincerity and joy to the obligation. There is great reward in giving where your heart is, provided the charity meets the criteria above.</p>
+
+<h2>Ask, then give with confidence</h2>
+<p>These seven questions take only minutes but transform your giving from hopeful to assured. Ask them, choose a charity that answers well, and fulfil your Zakat knowing it is valid, well-placed and powerful. Give your Zakat to verified, eligible recipients in India — <a href="/services/free-food-distribution">feeding families</a> and <a href="/services/water-well-for-needy-place">bringing water</a> to those who need it — today.</p>
+`,
+  },
+  {
+    id: 'why-donors-choose-wafa-educational-and-charitable-trust',
+    title: 'Why Donors Choose Wafa Educational And Charitable Trust',
+    metaTitle: 'Why Choose Wafa Trust — A Trusted Islamic Charity in India | Wafa Trust',
+    metaDescription:
+      'What makes Wafa Educational And Charitable Trust a trusted choice for Zakat and Sadaqah? Discover the direct, local, transparent model behind its work across India.',
+    keyword: 'trusted islamic charity india',
+    category: 'Tax, Transparency & Trust',
+    audience: 'Both',
+    image: 'assets/donate-7.jpg',
+    date: '2026-04-12',
+    readTime: '6 min read',
+    relatedServices: ['water-well-for-needy-place', 'free-food-distribution', 'masjid-madrasa-build'],
+    faq: [
+      {
+        q: 'What does Wafa Trust do?',
+        a: 'Wafa Educational And Charitable Trust works across water, food, education, faith, medical and family support programmes in Akola, Maharashtra and across India, helping the poor and needy with dignity.',
+      },
+      {
+        q: 'Why is Wafa Trust considered trustworthy?',
+        a: 'It works directly on the ground, keeps overheads low, distributes Zakat to eligible recipients, provides receipts, and is committed to ensuring donations reach beneficiaries.',
+      },
+      {
+        q: 'What causes can I support through Wafa Trust?',
+        a: 'You can support clean water, food and ration, widow and family help, girl marriage assistance, medical aid, Islamic and higher education, mosque and madrasa building, and more.',
+      },
+    ],
+    content: `
+<p>With so many places to give, why do donors — in India and around the world — choose <strong>Wafa Educational And Charitable Trust</strong>? The answer is not slogans, but a model: direct, local, transparent, and built to make every donation count. Here is what stands behind the trust donors place in it.</p>
+
+<h2>A direct, on-the-ground approach</h2>
+<p>Wafa Trust does not pass your donation through layers of intermediaries. The same organisation that receives your gift is the one installing the <a href="/services/water-well-for-needy-place">water well</a>, packing the ration kit, and paying the medical bill in Akola, Maharashtra and across India. This hands-on model means your generosity reaches real people, quickly and directly.</p>
+
+<h2>Committed to getting your donation to those in need</h2>
+<p>The trust is built around a simple commitment: that donations reach the beneficiaries they are intended for. By keeping overheads low and working close to the community, it directs the maximum possible share of every rupee to the cause — not to administration.</p>
+
+<h2>A complete spectrum of care</h2>
+<p>Few charities span so many dimensions of human need. Through Wafa Trust you can support:</p>
+<ul>
+<li><strong>Clean water</strong> — wells, hand pumps and tanker supply</li>
+<li><strong>Food</strong> — <a href="/services/free-food-distribution">meals</a>, ration kits and Ramadan iftar</li>
+<li><strong>Faith and education</strong> — <a href="/services/masjid-madrasa-build">mosques, madrasas</a>, Qur'an distribution and scholarships</li>
+<li><strong>Family support</strong> — widows, poor families and girls' marriages</li>
+<li><strong>Health and dignity</strong> — medical aid, wheelchairs and tricycles</li>
+</ul>
+<p>Whatever cause moves you, there is a way to give that matches your intention — including keeping your Zakat, Sadaqah and Lillah properly separated and correctly applied.</p>
+
+<h2>Rooted locally, giving globally</h2>
+<p>Being based in the community it serves gives Wafa Trust something large, distant organisations struggle to match: real knowledge of who is in need, and the ability to respond fast. For NRIs and overseas donors, that means a trusted way to give back to the communities they came from, with the confidence that help arrives where it is needed.</p>
+
+<h2>Transparency you can lean on</h2>
+<p>The trust documents donations with receipts and welcomes donors' questions about how funds are used. Its work shows up in countable results — thousands of wells and meals, hundreds of blankets and scholarships — the kind of proof that turns hope into trust.</p>
+
+<h2>Join the donors who give with confidence</h2>
+<p>Choosing where to give your Zakat and Sadaqah is a decision of the heart and the head. Wafa Educational And Charitable Trust offers both: a cause you can feel and a model you can trust. Support a programme that speaks to you today, and give with the confidence that your generosity reaches those who need it most.</p>
+`,
+  },
 ];
