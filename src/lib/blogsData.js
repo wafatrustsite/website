@@ -1911,4 +1911,460 @@ export const blogPosts = [
 <p>The reasons NRIs and foreign donors choose a local Indian charity all point the same way: more impact, more trust, more connection. If those matter to you, support a <a href="/services/free-food-distribution">Wafa Trust programme</a> today — and give back home with confidence and clarity.</p>
 `,
   },
+
+  // ============================================================
+  // BATCH 4 — SEASONAL & OCCASION-BASED GIVING
+  // ============================================================
+  {
+    id: 'ramadan-2026-best-time-for-iftar-and-zakat-donations',
+    title: 'Ramadan 2026: The Best Time for Iftar & Zakat Donations',
+    metaTitle: 'Ramadan Donation India 2026 — Iftar & Zakat Giving | Wafa Trust',
+    metaDescription:
+      'Ramadan multiplies the reward of every good deed. Discover why it is the best time to give Zakat, Sadaqah and iftar in India, and how to plan your Ramadan donations with Wafa Trust.',
+    keyword: 'ramadan donation india',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/event1.webp',
+    date: '2026-01-30',
+    readTime: '7 min read',
+    relatedServices: ['iftar-for-ramadan', 'free-distribution-of-ration-kit', 'free-food-distribution'],
+    faq: [
+      {
+        q: 'Why is Ramadan the best time to give charity?',
+        a: 'In Ramadan the reward of good deeds is multiplied, du’as are answered, and the needs of the poor are especially acute. Many Muslims also choose Ramadan to pay their annual Zakat.',
+      },
+      {
+        q: 'Should I pay my Zakat in Ramadan?',
+        a: 'Many Muslims fix their Zakat date in Ramadan to combine the obligation with the month’s multiplied reward. If your Zakat is due, Ramadan is an excellent, though not obligatory, time to pay it.',
+      },
+      {
+        q: 'What is the best Ramadan donation?',
+        a: 'Sponsoring iftar for fasting families and providing ration kits are among the most impactful and rewarding Ramadan donations, along with paying your Zakat to eligible recipients.',
+      },
+    ],
+    content: `
+<p>There is no season of giving quite like Ramadan. For thirty days, hearts soften, generosity flows, and the reward of every good deed is multiplied. If you are planning your <strong>Ramadan donations in India</strong> for 2026, this guide explains why this month is the best time to give — and how to make your giving count.</p>
+
+<h2>Why charity in Ramadan is unmatched</h2>
+<p>The Prophet Muhammad ﷺ was the most generous of people, and he was most generous of all in Ramadan. This month carries a unique weight: good deeds are multiplied, sins are forgiven, and du'as are answered. A single act of charity given now is rewarded far beyond its worth at any other time of year.</p>
+<p>There is also a practical truth. Ramadan sharpens our awareness of hunger and thirst — and reminds us that for the poor, that hunger is not a temporary act of worship but a daily reality. Fasting builds the very empathy that charity is meant to express.</p>
+
+<h2>Give iftar: feed a fasting person</h2>
+<p>One of the most beautiful and efficient acts in Ramadan is providing iftar. The Prophet ﷺ taught that whoever feeds a fasting person earns a reward equal to that of the faster, without diminishing the faster's own reward. Through Wafa Trust's <a href="/services/iftar-for-ramadan">Iftar for Ramadan</a> programme, you can ensure poor and fasting families near Akola break their fast with dignity — and share in the reward of every fast you help complete.</p>
+
+<h2>Provide ration kits for the whole month</h2>
+<p>While iftar feeds a family at sunset, a <a href="/services/free-distribution-of-ration-kit">ration kit</a> sustains them through the entire month. For a struggling household, knowing there is rice, lentils and oil in the home removes a huge burden and lets them focus on worship rather than worry. Wafa Trust's ration and <a href="/services/free-food-distribution">food distribution</a> programmes keep families nourished throughout Ramadan.</p>
+
+<h2>Pay your Zakat in Ramadan</h2>
+<p>Many Muslims deliberately set their annual Zakat date in Ramadan, combining the obligation of Zakat with the multiplied reward of the month. If your Zakat is due, paying it now to eligible families is a powerful way to fulfil a pillar of Islam and maximise its blessing at the same time. Remember that Zakat must reach eligible recipients — the poor, needy and others named in the Qur'an — which is exactly where Wafa Trust directs it.</p>
+
+<h2>Plan your Ramadan giving</h2>
+<p>A little planning makes Ramadan giving far more meaningful. Consider:</p>
+<ul>
+<li>Calculating and paying your <strong>Zakat</strong> early in the month</li>
+<li>Sponsoring <strong>iftar</strong> for a set number of people or days</li>
+<li>Providing <strong>ration kits</strong> to widows and orphans</li>
+<li>Setting aside daily <strong>Sadaqah</strong>, especially in the last ten nights</li>
+</ul>
+
+<h2>Make this Ramadan your most generous yet</h2>
+<p>Ramadan is a gift — a chance to multiply your reward and transform lives at the same time. This year, let your fasting be matched by your giving. Sponsor iftar, provide ration kits, and pay your Zakat to families in India who are waiting for exactly this help. Begin your Ramadan donations today and make this month count for eternity.</p>
+`,
+  },
+  {
+    id: 'qurbani-2026-why-choose-a-local-indian-charity',
+    title: 'Qurbani 2026: Why Choose a Local Indian Charity',
+    metaTitle: 'Qurbani Donation India 2026 — Why Give Through a Local Charity | Wafa Trust',
+    metaDescription:
+      'Performing Qurbani through a local Indian charity means your sacrifice feeds families who truly need it. Learn the virtues of Qurbani and why local giving delivers the most impact.',
+    keyword: 'qurbani donation india',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/slider-11.jpg',
+    date: '2026-04-02',
+    readTime: '6 min read',
+    relatedServices: ['free-food-distribution', 'poor-family-help', 'widows-help'],
+    faq: [
+      {
+        q: 'What is Qurbani?',
+        a: 'Qurbani (Udhiyah) is the sacrifice of an animal during Eid ul Adha, following the example of Prophet Ibrahim (AS). The meat is traditionally shared between the family, relatives and the poor.',
+      },
+      {
+        q: 'Why perform Qurbani through a local Indian charity?',
+        a: 'Giving through a local charity ensures the meat reaches poor families who rarely eat it, with your contribution going further and reaching those in genuine need in India.',
+      },
+      {
+        q: 'How can I arrange Qurbani with Wafa Trust?',
+        a: 'Wafa Trust supports poor families with food, especially during the Eid period. To arrange Qurbani specifically, contact the trust to confirm the current arrangements and options.',
+      },
+    ],
+    content: `
+<p>Each year at Eid ul Adha, Muslims around the world honour the willingness of Prophet Ibrahim (AS) to sacrifice for the sake of Allah by performing <strong>Qurbani</strong>. But where you perform it matters enormously to its impact. This guide explains the virtue of Qurbani and why choosing a <strong>local Indian charity</strong> makes your sacrifice reach those who need it most.</p>
+
+<h2>The meaning of Qurbani</h2>
+<p>Qurbani, also called Udhiyah, is the sacrifice of a permitted animal during the days of Eid ul Adha. It commemorates Prophet Ibrahim's (AS) submission to Allah's command, and it is a cherished act of worship. Traditionally, the meat is shared in three parts: for one's own family, for relatives and friends, and for the poor and needy.</p>
+<p>It is that third share — the portion for the poor — that transforms Qurbani from a personal ritual into a powerful act of charity.</p>
+
+<h2>Why the poor in India need it most</h2>
+<p>For many poor families in India, meat is a rare luxury they can seldom afford — sometimes eaten only once or twice a year, if at all. When your Qurbani reaches such a family, it is not just a religious duty fulfilled; it is a genuinely special meal, a moment of joy and nourishment for children and elders who go without protein for most of the year.</p>
+<p>This is why <em>where</em> you give matters. Qurbani meat distributed to families who already eat well achieves far less than the same meat reaching a household for whom it is a treasured event.</p>
+
+<h2>The advantage of giving locally</h2>
+<p>Choosing a local, on-the-ground charity in India means:</p>
+<ul>
+<li>Your contribution goes further, thanks to lower local costs</li>
+<li>The meat reaches genuinely poor families, verified in the community</li>
+<li>You support the very regions and people you feel connected to</li>
+<li>Less is lost to intermediaries and overheads</li>
+</ul>
+<p>Wafa Educational And Charitable Trust works directly with poor families near Akola, Maharashtra, and its <a href="/services/free-food-distribution">food distribution</a> and <a href="/services/poor-family-help">family support</a> programmes reach exactly the households for whom a good meal is precious. To arrange Qurbani specifically for the Eid period, contact the trust to confirm the current options.</p>
+
+<h2>Feed a family who rarely eats meat</h2>
+<p>Eid ul Adha is a time of sacrifice and sharing. By performing your Qurbani — or supporting food for poor families — through a local charity in India, you ensure your act of worship becomes a source of real joy for a <a href="/services/widows-help">widow</a> or a struggling family. Plan your Qurbani giving today and let your sacrifice reach those who will treasure it most.</p>
+`,
+  },
+  {
+    id: 'muharram-donations-helping-the-needy',
+    title: 'Muharram: Beginning the Islamic Year with Generosity',
+    metaTitle: 'Muharram Charity Donation — Helping the Needy | Wafa Trust India',
+    metaDescription:
+      'Muharram marks the start of the Islamic year — a meaningful time to give. Learn about the virtues of charity in Muharram and how to help needy families in India this sacred month.',
+    keyword: 'muharram charity donation',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/slider-31.jpg',
+    date: '2026-05-05',
+    readTime: '6 min read',
+    relatedServices: ['free-food-distribution', 'water-well-for-needy-place', 'widows-help'],
+    faq: [
+      {
+        q: 'Why is Muharram a good time to give charity?',
+        a: 'Muharram is one of the four sacred months and marks the start of the Islamic year. Beginning the year with charity and good deeds is a beautiful way to seek Allah’s blessings for the months ahead.',
+      },
+      {
+        q: 'What is the Day of Ashura?',
+        a: 'Ashura falls on the 10th of Muharram. It is a day of great significance, and many Muslims fast and increase in charity and good deeds around it.',
+      },
+      {
+        q: 'How can I give during Muharram?',
+        a: 'You can support food distribution, clean water and help for widows and needy families. Even a small, sincere donation to start the year carries great reward.',
+      },
+    ],
+    content: `
+<p>As the Islamic year begins, Muharram offers a fresh opportunity to renew our intentions and open the year with generosity. One of the four sacred months, Muharram is a time many Muslims choose to increase in worship and charity. This guide explores the virtue of <strong>Muharram charity</strong> and how to help those in need this month.</p>
+
+<h2>A sacred beginning</h2>
+<p>Muharram is the first month of the Islamic calendar and one of the four months Allah has designated as sacred. There is a special wisdom in starting the year as we hope to continue it — with gratitude, good deeds and care for others. Charity given at the beginning of a journey sets its tone, and beginning the Islamic year by helping the needy is a beautiful way to seek Allah's blessing over the months to come.</p>
+
+<h2>The Day of Ashura</h2>
+<p>Within Muharram falls the Day of Ashura, the tenth of the month — a day of great significance in Islamic history. Many Muslims mark it by fasting and by increasing their charity and good deeds. It is a natural focal point for generosity, a day to remember those who have far less and to act on that awareness.</p>
+
+<h2>How your Muharram giving helps</h2>
+<p>Charity in Muharram, as in any month, meets real and pressing needs across India. Your donation this month can provide:</p>
+<ul>
+<li><strong>Food</strong> for families who struggle to eat — through <a href="/services/free-food-distribution">food distribution</a></li>
+<li><strong>Clean water</strong> for communities that walk miles for it — through <a href="/services/water-well-for-needy-place">water wells</a></li>
+<li><strong>Support for widows</strong> holding their families together alone — through <a href="/services/widows-help">widow help</a></li>
+</ul>
+<p>Wafa Educational And Charitable Trust works directly with these families near Akola, Maharashtra, so your Muharram giving translates quickly into real relief.</p>
+
+<h2>Start the year as you mean to continue</h2>
+<p>The sincere intention to be generous is itself a form of worship — and Muharram is the perfect moment to renew it. Whether your gift is large or small, giving as the new Islamic year begins carries great reward and sets a beautiful tone for the months ahead. Begin your year with generosity: support a needy family in India this Muharram.</p>
+`,
+  },
+  {
+    id: 'winter-blanket-drive-2026-maharashtra',
+    title: 'Winter Blanket Drive 2026: Keep Families Warm in Maharashtra',
+    metaTitle: 'Winter Blanket Donation India 2026 — Keep Families Warm | Wafa Trust',
+    metaDescription:
+      'Before the coldest nights arrive, the 2026 winter blanket drive brings warmth to poor and homeless families across Maharashtra. Sponsor blankets and protect the vulnerable this winter.',
+    keyword: 'winter blanket donation india',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/image-2.jpg',
+    date: '2025-10-15',
+    readTime: '6 min read',
+    relatedServices: ['blankets-winter-distribution', 'poor-family-help', 'widows-help'],
+    faq: [
+      {
+        q: 'When does the winter blanket drive run?',
+        a: 'The drive runs through the coldest months, roughly October to February, so that blankets reach vulnerable families before and during the peak of winter rather than after the damage is done.',
+      },
+      {
+        q: 'Who receives the blankets?',
+        a: 'Low-income families, the elderly, children and people in remote settlements and slums where warmth and aid are scarce.',
+      },
+      {
+        q: 'Why donate blankets early?',
+        a: 'Giving before the coldest nights ensures blankets are in people’s hands when they need them most. Early donations let the trust plan and reach more families in time.',
+      },
+    ],
+    content: `
+<p>Every winter, as most of us reach for an extra layer, thousands of families across Maharashtra face the cold with almost nothing at all. The <strong>2026 winter blanket drive</strong> exists to change that — to reach the vulnerable before the coldest nights arrive. Here is why it matters and how you can be part of it.</p>
+
+<h2>The season the poor dread</h2>
+<p>Winter is a season of comfort for some and a nightly ordeal for others. In settlements, slums and remote villages, poor and homeless families sleep with only thin, worn cloth against the cold. The elderly, whose bodies struggle most to stay warm, are especially at risk, and young children fall ill. For the most exposed, a harsh cold spell can be genuinely life-threatening.</p>
+<p>These families are rarely reached by seasonal aid. They live in the places most easily overlooked — which is exactly where the winter blanket drive goes.</p>
+
+<h2>Warmth, delivered in time</h2>
+<p>Through its <a href="/services/blankets-winter-distribution">winter blanket distribution</a>, Wafa Educational And Charitable Trust brings warmth directly to those most at risk. The drive focuses on reaching:</p>
+<ul>
+<li>Low-income families, the elderly and children</li>
+<li>Settlements, slums and remote areas where aid is scarce</li>
+<li>The vulnerable <strong>before</strong> the peak of winter, not after</li>
+</ul>
+<p>Timing is everything. A blanket delivered in the depth of a cold snap is good; a blanket already in a family's hands when the cold arrives is far better. That is why early support for the drive matters so much — it lets the trust plan, prepare and reach more people in time.</p>
+
+<h2>The most affordable life-saving gift</h2>
+<p>What makes blanket donation so powerful is its ratio of cost to impact. A warm blanket is inexpensive, yet it can mean the difference between a safe night and a dangerous one. Even a small donation provides warmth for several people, and clothing the needy is richly rewarded in Islam. This drive works alongside Wafa Trust's <a href="/services/poor-family-help">poor family</a> and <a href="/services/widows-help">widow support</a> programmes to protect the most exposed households completely.</p>
+
+<h2>Sponsor warmth before winter hits</h2>
+<p>The cold is coming for families who have no way to prepare for it. Your donation now can wrap an elderly person, a child or a struggling family in warmth and dignity before the hardest nights begin. Sponsor blankets for the 2026 winter drive today — and turn a season of suffering into one of protection.</p>
+`,
+  },
+  {
+    id: 'eid-ul-adha-donation-ideas-for-maximum-reward',
+    title: 'Eid ul Adha Donation Ideas for Maximum Reward',
+    metaTitle: 'Eid ul Adha Sadaqah — Donation Ideas for Maximum Reward | Wafa Trust',
+    metaDescription:
+      'Beyond Qurbani, Eid ul Adha is a golden opportunity for Sadaqah. Discover donation ideas that maximise your reward and spread the joy of Eid to poor families across India.',
+    keyword: 'eid ul adha sadaqah',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/about.jpg',
+    date: '2026-04-20',
+    readTime: '6 min read',
+    relatedServices: ['free-food-distribution', 'water-well-for-needy-place', 'quran-e-kareem-distribution-2'],
+    faq: [
+      {
+        q: 'Is Sadaqah recommended during Eid ul Adha?',
+        a: 'Yes. The days of Dhul Hijjah and Eid ul Adha are among the most blessed of the year, and good deeds — including Sadaqah — carry great reward. Giving spreads the joy of Eid to those in need.',
+      },
+      {
+        q: 'What are good Eid ul Adha donations besides Qurbani?',
+        a: 'Beyond Qurbani, consider Sadaqah Jariyah such as a water well or Quran, food for poor families so they can celebrate, and general Sadaqah to widows and the needy.',
+      },
+      {
+        q: 'How can I make my Eid giving last?',
+        a: 'Combine a one-time gift with an ongoing charity (Sadaqah Jariyah) like a water well, so your Eid generosity keeps rewarding you long after the festival.',
+      },
+    ],
+    content: `
+<p>Eid ul Adha is a festival of sacrifice, gratitude and sharing. While Qurbani is its central act, the blessed days surrounding it offer a golden opportunity for even more reward through <strong>Sadaqah</strong>. This guide shares Eid ul Adha donation ideas that maximise your reward and spread the joy of the festival to those who have little.</p>
+
+<h2>Why give beyond Qurbani</h2>
+<p>The first ten days of Dhul Hijjah, which lead up to Eid ul Adha, are among the most beloved days to Allah for good deeds. Charity given in this window is especially rewarded. Qurbani fulfils a cherished act of worship — but there is room, and great reward, in giving more. Eid is, at its heart, about sharing your blessings; extending that sharing to the poor multiplies both their joy and your reward.</p>
+
+<h2>Idea 1: Plant a Sadaqah Jariyah</h2>
+<p>Make your Eid giving last for years by choosing an ongoing charity. A <a href="/services/water-well-for-needy-place">water well</a> or a <a href="/services/quran-e-kareem-distribution-2">Qur'an distributed</a> keeps rewarding you long after Eid has passed — every drink of water, every recitation, written in your favour. It is the gift that keeps giving.</p>
+
+<h2>Idea 2: Help a poor family celebrate</h2>
+<p>Eid can be painful for families who cannot afford to mark it. A donation towards <a href="/services/free-food-distribution">food</a> lets a struggling household share in the joy of the festival with a proper meal — turning a day of quiet hardship into one of celebration and dignity.</p>
+
+<h2>Idea 3: Give general Sadaqah to the neediest</h2>
+<p>Widows, orphans and destitute families feel the contrast of festival time most sharply. A gift of Sadaqah to them during Eid is a mercy that lifts spirits as much as it meets needs. The Prophet Muhammad ﷺ taught that the best charity is that which reaches those in greatest need.</p>
+
+<h2>Idea 4: Combine one-time and ongoing giving</h2>
+<p>The most rewarding approach blends both: an immediate gift that spreads Eid joy today, plus a Sadaqah Jariyah that keeps working for years. This way your Eid generosity has both instant impact and lasting reward.</p>
+
+<h2>Make this Eid ul Adha your most generous</h2>
+<p>The blessed days of Dhul Hijjah and Eid ul Adha are a rare chance to multiply your reward while bringing happiness to those who have so little. This Eid, go beyond the essentials: plant a lasting charity, feed a family so they can celebrate, and share your blessings with the neediest across India. Begin your Eid ul Adha giving today.</p>
+`,
+  },
+  {
+    id: 'last-10-days-of-ramadan-giving-guide',
+    title: 'The Last 10 Nights of Ramadan: A Giving Guide',
+    metaTitle: 'Laylatul Qadr Donation — Last 10 Nights of Ramadan Giving | Wafa Trust',
+    metaDescription:
+      'The last ten nights of Ramadan contain Laylatul Qadr — better than a thousand months. Learn how to maximise your giving in this precious window and multiply your reward beyond measure.',
+    keyword: 'laylatul qadr donation',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/bg-2.jpg',
+    date: '2026-03-16',
+    readTime: '6 min read',
+    relatedServices: ['water-well-for-needy-place', 'quran-e-kareem-distribution-2', 'masjid-madrasa-build'],
+    faq: [
+      {
+        q: 'What is Laylatul Qadr?',
+        a: 'Laylatul Qadr, the Night of Decree, falls in the last ten nights of Ramadan. The Qur’an describes it as better than a thousand months, so worship and charity on this night carry immense reward.',
+      },
+      {
+        q: 'How can I give across the last ten nights?',
+        a: 'Many donors split a donation across the odd nights (21st, 23rd, 25th, 27th, 29th) to be sure of catching Laylatul Qadr, or give a Sadaqah Jariyah whose reward continues every night and beyond.',
+      },
+      {
+        q: 'Why give during the last ten nights?',
+        a: 'Because a good deed on Laylatul Qadr is better than the same deed done for over eighty years. It is the single most rewarding window for charity in the entire year.',
+      },
+    ],
+    content: `
+<p>If the whole of Ramadan is a treasure, its last ten nights are the jewel at its heart. Hidden within them is <strong>Laylatul Qadr</strong> — a night the Qur'an describes as better than a thousand months. This guide shows how to make the most of this precious window and multiply your reward beyond anything else in the year.</p>
+
+<h2>A night better than a thousand months</h2>
+<p>Allah describes Laylatul Qadr, the Night of Decree, as <em>better than a thousand months</em> (Surah Al-Qadr). A single act of worship or charity performed on this night is worth more than the same act done consistently for over eighty years. There is no greater opportunity for reward in a believer's life — and it comes, hidden, within the last ten nights of Ramadan.</p>
+
+<h2>Why the last ten nights matter so much</h2>
+<p>The Prophet Muhammad ﷺ would intensify his worship in these nights, staying awake, waking his family, and seeking Laylatul Qadr. He sought it especially in the <strong>odd nights</strong> — the 21st, 23rd, 25th, 27th and 29th. Because its exact date is hidden, the wise believer treats every one of these nights as if it might be the one.</p>
+
+<h2>How to plan your last-ten-nights giving</h2>
+<p>Charity is one of the most powerful deeds to multiply in this window. Consider:</p>
+<ul>
+<li><strong>Spreading a donation across the odd nights</strong> — giving something on the 21st, 23rd, 25th, 27th and 29th, so you are certain to give on Laylatul Qadr whenever it falls.</li>
+<li><strong>Planting a Sadaqah Jariyah</strong> — a <a href="/services/water-well-for-needy-place">water well</a>, <a href="/services/quran-e-kareem-distribution-2">Qur'an</a> or share in a <a href="/services/masjid-madrasa-build">masjid</a> — whose ongoing reward means it is still "giving" on Laylatul Qadr and every night after.</li>
+<li><strong>Combining worship and charity</strong> — pairing your night prayers and du'a with a gift that could be recorded on the most valuable night of your life.</li>
+</ul>
+
+<h2>Don't let these nights pass unclaimed</h2>
+<p>Imagine giving a charity that is recorded as though you gave it for over eighty years. That is the potential of a single donation on Laylatul Qadr. It would be a profound loss to let these nights slip by without seizing them. Plan your giving across the last ten nights, plant a charity that keeps rewarding you, and make the most valuable window of the year truly count. Give in these blessed nights today.</p>
+`,
+  },
+  {
+    id: 'year-end-giving-complete-your-zakat-and-charity',
+    title: 'Year-End Giving: Complete Your Zakat & Charity',
+    metaTitle: 'Year-End Charity & Zakat Giving India — Finish the Year Strong | Wafa Trust',
+    metaDescription:
+      'As the year closes, it is the perfect moment to complete your Zakat, give year-end Sadaqah and claim 80G tax benefits. A practical guide to finishing the year with generosity.',
+    keyword: 'year end charity donation india',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/donate-4.jpg',
+    date: '2025-12-20',
+    readTime: '6 min read',
+    relatedServices: ['free-food-distribution', 'widows-help', 'medical-aid'],
+    faq: [
+      {
+        q: 'Why is year-end a good time to give?',
+        a: 'The close of the year is a natural moment to reflect, express gratitude, and complete any outstanding Zakat or charity. Year-end giving also lets you organise donation receipts for tax purposes.',
+      },
+      {
+        q: 'When is the deadline for 80G tax deductions in India?',
+        a: 'For Indian income tax, donations must be made within the financial year (which ends 31 March) to be claimed in that year’s return. Keep your 80G receipt for every eligible donation.',
+      },
+      {
+        q: 'Should I clear any missed Zakat at year-end?',
+        a: 'Yes. If any Zakat from a previous year remains unpaid, the obligation stands and should be cleared. Year-end is a good prompt to review and complete it.',
+      },
+    ],
+    content: `
+<p>The end of a year invites reflection — on what we have, what we have given, and what we still owe. It is also one of the most practical moments to complete your charitable duties. This guide to <strong>year-end giving</strong> helps you finish the year with generosity, settle any outstanding Zakat, and organise your tax benefits.</p>
+
+<h2>A natural moment for gratitude</h2>
+<p>As one year closes and another begins, most of us pause to take stock. For all our worries, those reading this are almost certainly among the more fortunate — with food, shelter and safety that millions lack. Year-end is the perfect time to turn that gratitude into action, sharing a portion of what we have been blessed with.</p>
+
+<h2>Complete any outstanding Zakat</h2>
+<p>Zakat follows the lunar year, but the close of the Western year is a useful prompt to review your obligations. Ask yourself: is any Zakat from a previous cycle still unpaid? If so, the obligation remains and should be cleared — a missed year does not disappear. Settling it now, before a new year begins, brings both spiritual relief and a clean slate. Wafa Trust directs your Zakat to eligible families across India through <a href="/services/free-food-distribution">food</a>, <a href="/services/widows-help">widow support</a> and <a href="/services/medical-aid">medical aid</a>.</p>
+
+<h2>Give year-end Sadaqah</h2>
+<p>Beyond Zakat, year-end is a wonderful time for voluntary Sadaqah — a gift of thanks for a year completed. Winter often coincides with this period, making it especially meaningful to help families facing the cold and the year's hardest months.</p>
+
+<h2>Organise your tax benefits</h2>
+<p>Year-end giving also has a practical financial dimension for Indian taxpayers. Donations to charities registered under <strong>Section 80G</strong> are eligible for deduction. For Indian income tax, remember that the financial year runs to <strong>31 March</strong> — so donations made within the year can be claimed in that year's return. The essential habit is simple: <strong>keep your receipt</strong> for every eligible donation, so claiming your deduction is effortless. (For tax in another country of residence, consult a local advisor.)</p>
+
+<h2>Finish the year strong</h2>
+<p>There is a special satisfaction in closing a year knowing you have given generously and settled what you owed. Complete your Zakat, add a gift of year-end Sadaqah, and keep your receipts in order — and step into the new year with a lighter heart and a fuller record of good. Complete your year-end giving today.</p>
+`,
+  },
+  {
+    id: 'first-10-days-of-dhul-hijjah-multiply-good-deeds',
+    title: 'The First 10 Days of Dhul Hijjah: Multiply Your Good Deeds',
+    metaTitle: 'Dhul Hijjah Charity — The Best 10 Days for Good Deeds | Wafa Trust',
+    metaDescription:
+      'The first ten days of Dhul Hijjah are the most beloved days to Allah for good deeds. Learn how to seize them with charity, Sadaqah Jariyah and worship for immense reward.',
+    keyword: 'dhul hijjah charity',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/image-1.jpg',
+    date: '2026-04-10',
+    readTime: '6 min read',
+    relatedServices: ['water-well-for-needy-place', 'quran-e-kareem-distribution-2', 'masjid-madrasa-build'],
+    faq: [
+      {
+        q: 'Why are the first ten days of Dhul Hijjah special?',
+        a: 'The Prophet ﷺ said there are no days in which righteous deeds are more beloved to Allah than these ten days. Charity, fasting, dhikr and worship in this window carry immense reward.',
+      },
+      {
+        q: 'What good deeds are recommended in Dhul Hijjah?',
+        a: 'Increase in charity and Sadaqah, fasting (especially the Day of Arafah), dhikr and takbir, reciting the Qur’an, and of course Qurbani on Eid ul Adha.',
+      },
+      {
+        q: 'How can I give charity across these ten days?',
+        a: 'Give daily Sadaqah across the ten days, or plant a Sadaqah Jariyah such as a water well whose reward continues through the days of Dhul Hijjah and long after.',
+      },
+    ],
+    content: `
+<p>There is a window each year that many Muslims overlook, yet the Prophet Muhammad ﷺ described its days as the most beloved to Allah for good deeds: the <strong>first ten days of Dhul Hijjah</strong>. This guide shows how to seize this precious season with charity and worship for reward that is hard to imagine.</p>
+
+<h2>The most beloved days</h2>
+<p>The Prophet ﷺ said that there are no days in which righteous deeds are more beloved to Allah than these ten days. That is a staggering statement — greater even, in this respect, than the last ten nights of Ramadan for certain deeds. Every act of goodness in this window is magnified, making it one of the richest opportunities for reward in the entire year.</p>
+
+<h2>How to fill these ten days</h2>
+<p>The scholars encourage increasing in a range of good deeds across Dhul Hijjah:</p>
+<ul>
+<li><strong>Charity and Sadaqah</strong> — giving generously to the poor and needy</li>
+<li><strong>Fasting</strong> — especially the Day of Arafah (the 9th), which expiates sins</li>
+<li><strong>Dhikr and takbir</strong> — remembering and glorifying Allah abundantly</li>
+<li><strong>Reciting the Qur'an</strong> and increasing in prayer</li>
+<li><strong>Qurbani</strong> — the sacrifice on Eid ul Adha</li>
+</ul>
+<p>Charity holds a special place because it can be multiplied so easily across the ten days, and because it directly relieves the suffering of others.</p>
+
+<h2>Plant a charity that spans the ten days — and beyond</h2>
+<p>One of the wisest strategies is to give a <strong>Sadaqah Jariyah</strong> at the start of Dhul Hijjah. A <a href="/services/water-well-for-needy-place">water well</a>, a set of <a href="/services/quran-e-kareem-distribution-2">Qur'ans</a>, or a share in a <a href="/services/masjid-madrasa-build">masjid</a> keeps generating reward every single day of this blessed window — and continues long after Eid. In effect, your charity is "active" on the most rewarding days of the year and every day thereafter.</p>
+<p>You can also give daily Sadaqah across the ten days, ensuring each of these beloved days is marked by an act of generosity.</p>
+
+<h2>Don't let the best days pass by</h2>
+<p>Most people know the value of Ramadan, but far fewer seize the ten days of Dhul Hijjah — which makes them a hidden opportunity for those who do. This year, fill these days with charity and worship, plant a gift that keeps rewarding you, and claim a season of reward that few remember to pursue. Begin your Dhul Hijjah giving today.</p>
+`,
+  },
+  {
+    id: 'summer-water-crisis-donate-clean-water-in-india',
+    title: 'India’s Summer Water Crisis: Donate Clean Water Before the Heat',
+    metaTitle: 'Summer Water Donation India — Clean Water Before the Heat | Wafa Trust',
+    metaDescription:
+      'Every Indian summer, dry wells and scorching heat push poor communities into a water crisis. Learn how a summer water donation brings clean water to those who need it most — and saves lives.',
+    keyword: 'summer water donation india',
+    category: 'Seasonal Giving',
+    audience: 'Both',
+    image: 'assets/donate-5.jpg',
+    date: '2026-03-25',
+    readTime: '6 min read',
+    relatedServices: ['water-well-for-needy-place', 'handpump-for-needy-place', 'supply-of-water-to-the-needy-through-tankers'],
+    faq: [
+      {
+        q: 'Why is summer the most urgent time for water donations?',
+        a: 'In the peak of summer, shallow sources dry up, water tables fall, and demand soars. Poor communities are left walking further for scarcer, often unsafe water — making summer the most critical time to give.',
+      },
+      {
+        q: 'What does a summer water donation provide?',
+        a: 'Depending on need, it can fund a borewell, a hand pump, or emergency water delivered by tanker to communities whose sources have failed — bringing immediate relief in the hottest months.',
+      },
+      {
+        q: 'Is providing water a Sadaqah Jariyah?',
+        a: 'Yes. Providing water is among the most rewarded ongoing charities. The Prophet ﷺ indicated that giving water is one of the best forms of Sadaqah.',
+      },
+    ],
+    content: `
+<p>Each year, as India's summer intensifies, a quiet emergency unfolds in its villages and settlements. Wells run dry, water tables drop, and the daily search for water becomes a desperate struggle. A <strong>summer water donation</strong> is one of the most urgent and life-saving gifts you can give — and this guide explains why.</p>
+
+<h2>When the water runs out</h2>
+<p>For much of Maharashtra's dry belt, summer is not just hot — it is a season of genuine water scarcity. Shallow ponds evaporate, hand pumps that flowed in winter fall silent, and the sources that remain are often distant and unsafe. Families who already walked far for water now walk further, and the burden falls heaviest on women and children who carry it home under a punishing sun.</p>
+<p>Contaminated summer water spreads illness precisely when bodies are already strained by heat. For the poorest and most remote communities, the failure of a single local source can turn daily life into a crisis.</p>
+
+<h2>How a summer water donation helps</h2>
+<p>Wafa Educational And Charitable Trust works where water scarcity bites hardest, and your summer donation can provide relief in several forms:</p>
+<ul>
+<li><strong>A borewell or well</strong> — a <a href="/services/water-well-for-needy-place">deeper, lasting source</a> that keeps flowing when shallow sources fail</li>
+<li><strong>A hand pump</strong> — an affordable <a href="/services/handpump-for-needy-place">source right at a settlement</a> where the water table allows</li>
+<li><strong>Emergency tanker supply</strong> — <a href="/services/supply-of-water-to-the-needy-through-tankers">water trucked in</a> to communities whose sources have completely dried up, some of whom otherwise rely on distant, saline water</li>
+</ul>
+<p>Because the trust is based locally in Akola, Maharashtra, it knows which communities are hit first and can respond quickly when the heat arrives.</p>
+
+<h2>Water: the charity the Prophet ﷺ praised</h2>
+<p>Providing water holds a special status in Islam. When asked which charity is best, the Prophet Muhammad ﷺ pointed to giving water. It is the definition of a <strong>Sadaqah Jariyah</strong> — a well or pump you fund keeps giving with every cup drawn, for years, and its reward keeps returning to you long after the summer has passed.</p>
+
+<h2>Give water before the heat peaks</h2>
+<p>The cruellest months are coming for communities that dread them. Acting now — before the peak of summer — means clean water can be in place when it is needed most. Fund a well, a hand pump, or emergency water supply today, and become the reason a village survives the summer with dignity. Give the gift of water this season.</p>
+`,
+  },
 ];
