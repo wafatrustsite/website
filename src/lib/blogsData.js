@@ -650,4 +650,764 @@ export const blogPosts = [
 <p>Once your figure is ready, you can fulfil it immediately. Wafa Educational And Charitable Trust directs your salary Zakat to eligible people across Akola, Maharashtra and India — funding <a href="/services/scholarship-for-higher-education">education</a>, <a href="/services/free-food-distribution">food</a> and <a href="/services/medical-aid">medical aid</a> for those who need it most. Purify this year's savings and let your hard-earned money become a source of relief and reward.</p>
 `,
   },
+
+  // ============================================================
+  // BATCH 2 — PROGRAM IMPACT STORIES
+  // (Representative stories based on Wafa Trust's real programmes;
+  //  individual names/details are illustrative to protect privacy.)
+  // ============================================================
+  {
+    id: 'how-one-water-well-changed-a-village-in-akola',
+    title: 'How One Water Well Changed a Village Near Akola',
+    metaTitle: 'Water Well Donation Akola — How One Well Changed a Village | Wafa Trust',
+    metaDescription:
+      'A representative story of how a single water well transformed a village near Akola, Maharashtra — and how your Sadaqah Jariyah can bring clean water to families who walk miles for it.',
+    keyword: 'water well donation Akola',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/donate-7.jpg',
+    date: '2025-11-05',
+    readTime: '7 min read',
+    relatedServices: ['water-well-for-needy-place', 'handpump-for-needy-place', 'supply-of-water-to-the-needy-through-tankers'],
+    faq: [
+      {
+        q: 'How much does it cost to sponsor a water well in India?',
+        a: 'Costs vary with depth and location, typically ranging from a modest hand-pump contribution to a larger amount for a full borewell. Wafa Trust offers water projects across budgets so you can give a share or sponsor a whole well.',
+      },
+      {
+        q: 'Is a water well a valid Sadaqah Jariyah?',
+        a: 'Yes. A water well is one of the most classic and rewarding forms of Sadaqah Jariyah, because its benefit continues every day for years as families, travellers and animals drink from it.',
+      },
+      {
+        q: 'Can I sponsor a well in memory of someone?',
+        a: 'Absolutely. Many donors sponsor a well on behalf of a deceased parent or loved one, so the continuing reward reaches them. Wafa Trust can dedicate the project accordingly.',
+      },
+    ],
+    content: `
+<p>To understand what a <strong>water well donation in Akola</strong> really means, you have to picture the mornings before it. In many villages across Maharashtra's dry belt, the day begins not with breakfast but with a walk — women and children setting out at dawn, empty vessels balanced on their hips, heading towards a distant, often unsafe water source. This is the reality a single well can end.</p>
+
+<h2>Before the well: a daily struggle</h2>
+<p>In a settlement on the outskirts of Akola — one of many like it — families once depended on a shallow, contaminated pond several kilometres away. The water was muddy in summer and worse in the monsoon. Children fell sick with stomach illness after stomach illness. Girls missed school because fetching water was their first duty of the day. And the elderly simply went without, rationing every cup.</p>
+<p>This is not an unusual picture. Across India, millions still live without a reliable, clean water source nearby. Contaminated water spreads disease, drains family incomes on medicine, and quietly steals the futures of children who spend their childhoods carrying pots instead of books.</p>
+
+<h2>The day everything changed</h2>
+<p>When Wafa Educational And Charitable Trust installed a <a href="/services/water-well-for-needy-place">water well</a> in the heart of the settlement, the change was immediate and visible. Clean water, right where people lived. No more dawn treks. No more choosing between school and survival.</p>
+<p>Within weeks, the difference rippled outward. Waterborne illness dropped. Mothers who had spent hours fetching water could now earn, cook and care for their families. Children — especially girls — returned to their classrooms. The well became the centre of the community, used for drinking, cooking, washing and ablution before prayer.</p>
+
+<h2>One well, years of benefit</h2>
+<p>This is what makes a water well such a powerful gift: it keeps giving. Wafa Trust has already helped provide over 1,160 borewells and water wells and more than 820 hand pumps across the communities it serves. Each one is not a one-time act of charity but a source of life that serves a village every single day, for years to come.</p>
+<p>In Islam, this is the essence of <strong>Sadaqah Jariyah</strong> — ongoing charity. The Prophet Muhammad ﷺ taught that even after a person passes away, the reward of their ongoing charity continues. Few gifts embody this more completely than water. Every sip taken, every meal cooked, every wudu performed with water from a well you funded is written in your favour.</p>
+
+<h2>Where clean water is needed most</h2>
+<p>The need does not stop at one village. Wafa Trust works where water scarcity is most severe — installing wells and <a href="/services/handpump-for-needy-place">hand pumps</a> near settlements, along roadsides for travellers and daily-wage workers, and even trucking in <a href="/services/supply-of-water-to-the-needy-through-tankers">water by tanker</a> to communities that have no usable source at all, where residents otherwise rely on distant, saline water.</p>
+<p>Because the trust is rooted locally in Akola, Maharashtra, it knows exactly which villages are waiting and can act quickly. Your donation does not disappear into overheads; it becomes a borewell with a family's name on the benefit.</p>
+
+<h2>Become the reason a village drinks clean water</h2>
+<p>Sponsoring a well — whether a full borewell or a share towards one — is one of the most meaningful decisions a donor can make. It is a gift you can give in your own name, in your parents' memory, or simply for the sake of Allah. And it is a gift that keeps rewarding you long after it is given.</p>
+<p>Somewhere near Akola, a village is still making that dawn walk. With your support, tomorrow morning could look completely different. Sponsor a water well today and become the reason a whole community finally has clean water at its doorstep.</p>
+`,
+  },
+  {
+    id: 'widow-support-story-a-new-beginning',
+    title: 'Widow Support Story: A New Beginning',
+    metaTitle: 'Widow Support Charity India — A Story of a New Beginning | Wafa Trust',
+    metaDescription:
+      'A representative story of how widow support in India restores dignity and independence. Learn how your Zakat and Sadaqah help widows near Akola rebuild their lives — and how to donate.',
+    keyword: 'widow support charity India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/about.jpg',
+    date: '2025-11-12',
+    readTime: '7 min read',
+    relatedServices: ['widows-help', 'poor-family-help', 'sewing-machine-distribution'],
+    faq: [
+      {
+        q: 'Are widows eligible to receive Zakat?',
+        a: 'Yes. A widow with insufficient means falls squarely within the Zakat categories of the poor and the needy, making widow support one of the most appropriate uses of your Zakat.',
+      },
+      {
+        q: 'How does Wafa Trust support widows?',
+        a: 'Support ranges from immediate financial and food aid to longer-term empowerment such as skills training and a sewing machine, helping a widow become self-sufficient rather than dependent.',
+      },
+      {
+        q: 'Can my monthly donation support a widow?',
+        a: 'Yes. Recurring gifts are especially valuable for widow support because they provide the stability of predictable monthly help for rent, food and children’s schooling.',
+      },
+    ],
+    content: `
+<p>When a family loses its sole earning member, the grief is only the beginning. For a widow in an underprivileged community, the days that follow bring a second, quieter crisis: how to feed the children, pay the rent, and hold the household together — often with no income and nowhere to turn. This is the gap that <strong>widow support charity in India</strong> exists to fill.</p>
+
+<h2>A story that repeats too often</h2>
+<p>Consider a widow we'll call Aamina — her situation mirrors that of countless women Wafa Trust serves near Akola. After her husband passed, she was left with three children, a single rented room, and no savings. Relatives helped for a while, then drifted away under their own pressures. Within months she was skipping meals so her children could eat, and the landlord's patience was running out.</p>
+<p>Stories like hers are painfully common. Widows in poor communities frequently face not just financial hardship but social stigma and isolation, making it even harder to ask for help. Many suffer in silence.</p>
+
+<h2>The first lifeline: immediate relief</h2>
+<p>The first thing a widow in crisis needs is breathing room. Through its <a href="/services/widows-help">widow support programme</a>, Wafa Educational And Charitable Trust provides essential financial and material help — a month's <a href="/services/free-distribution-of-ration-kit">ration</a>, support with rent, and assistance with children's basic needs. This immediate relief stops the freefall and restores a measure of stability and dignity.</p>
+<p>This is exactly where Zakat is meant to go. A widow without sufficient means is among the poor and needy named in the Qur'an as rightful recipients of Zakat — so your obligatory charity, given here, lands precisely where the Shariah intends.</p>
+
+<h2>The lasting gift: independence</h2>
+<p>But Wafa Trust's vision goes beyond relief. The real goal is to help a widow stand on her own feet. For a woman like Aamina, that turning point often comes through a skill and a tool — for example a <a href="/services/sewing-machine-distribution">sewing machine</a>, which lets her earn a steady income from home while caring for her children.</p>
+<p>With a way to earn, everything changes. The monthly panic fades. Children stay in school. A woman who was dependent becomes a provider — and often a source of support for other widows around her. This is empowerment, not just aid: relief today, dignity for a lifetime.</p>
+
+<h2>Why widow support matters so deeply</h2>
+<p>Caring for widows holds a special place in Islamic teaching. The Prophet Muhammad ﷺ likened the one who strives on behalf of widows and the poor to a warrior in the path of Allah, and to a person who fasts and prays without tiring. Few acts of charity carry such weight — and few needs are as genuine.</p>
+<p>Because Wafa Trust works directly in the community around Akola, Maharashtra, it can verify each widow's situation and ensure help reaches the truly deserving, quickly and without waste.</p>
+
+<h2>Help a widow begin again</h2>
+<p>Your support — whether a one-time Zakat payment or a recurring monthly gift — can be the lifeline that turns a widow's crisis into a new beginning. It can keep a roof over a family's head, put food on the table, and hand a grieving mother the tools to rebuild her future with dignity. Donate today and help another woman like Aamina write a very different next chapter.</p>
+`,
+  },
+  {
+    id: 'poor-girl-marriage-assistance-success-stories',
+    title: 'Marriage Assistance for Underprivileged Girls: Stories of Hope',
+    metaTitle: 'Girl Marriage Assistance India — Stories of Hope | Wafa Trust',
+    metaDescription:
+      'How marriage assistance helps poor families in India conduct dignified weddings for their daughters without crippling debt. Read representative stories and learn how to support the next nikah.',
+    keyword: 'girl marriage assistance India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/slider-41.jpg',
+    date: '2025-11-19',
+    readTime: '6 min read',
+    relatedServices: ['poor-girl-marriage-help', 'widows-help', 'poor-family-help'],
+    faq: [
+      {
+        q: 'Is helping a poor girl’s marriage a form of charity in Islam?',
+        a: 'Yes. Helping a poor family arrange a dignified marriage for their daughter is a highly rewarded act of Sadaqah, and where the family is genuinely needy, Zakat may also be used to help cover essential costs.',
+      },
+      {
+        q: 'What does marriage assistance actually cover?',
+        a: 'Wafa Trust helps with essential wedding expenses and basic necessities so a marriage can take place without the family falling into debt or selling assets, along with support to give the couple a stable start.',
+      },
+      {
+        q: 'How can I contribute to a girl’s marriage?',
+        a: 'You can donate any amount towards the marriage assistance programme; contributions are pooled to help deserving families conduct dignified weddings for their daughters.',
+      },
+    ],
+    content: `
+<p>In many poor households across India, the marriage of a daughter — one of life's most joyful milestones — arrives wrapped in dread. Not because of the union itself, but because of what it costs. For families already living hand to mouth, a wedding can mean crippling debt, selling what little they own, or sacrificing other essentials. <strong>Marriage assistance for underprivileged girls in India</strong> exists to turn that fear back into joy.</p>
+
+<h2>The hidden burden of a wedding</h2>
+<p>Consider a daily-wage father near Akola with a daughter of marrying age. A suitable match is found, but the modest expenses expected — clothing, a simple ceremony, basic household items for the new couple — add up to more than he earns in a year. To avoid dishonour, families in this position often borrow from moneylenders at brutal interest, entering a debt trap that can take a decade to escape and pulls the whole family deeper into poverty.</p>
+<p>This pressure is even heavier for widows raising daughters alone, and for families that have already spent everything on medical emergencies. The joy of a wedding becomes a source of sleepless nights.</p>
+
+<h2>How assistance restores dignity</h2>
+<p>Through its <a href="/services/poor-girl-marriage-help">marriage assistance programme</a>, Wafa Educational And Charitable Trust steps in so that no daughter's marriage becomes a family's ruin. The support focuses on:</p>
+<ul>
+<li><strong>Essential wedding expenses</strong> — helping cover the basic, dignified costs of the ceremony.</li>
+<li><strong>Basic necessities</strong> — ensuring the marriage can take place without the family sinking into debt.</li>
+<li><strong>A stable start</strong> — helping equip the new household so the couple can begin their life with dignity.</li>
+</ul>
+<p>The result is a wedding conducted with honour and happiness rather than shame and borrowing — and a family that steps into the future free of a debt that would have haunted them for years.</p>
+
+<h2>A joy you can share in</h2>
+<p>There is a special sweetness to this form of giving. You may never meet the family, but somewhere a father sleeps peacefully, a mother's tears turn to joy, and a young woman begins her married life with dignity intact — because a stranger, for the sake of Allah, chose to help. In Islamic tradition, helping the poor to marry and protecting their honour is deeply rewarded.</p>
+<p>Because Wafa Trust works locally around Akola, Maharashtra, it can verify which families are genuinely in need and ensure your contribution goes to a deserving daughter's marriage, not to waste.</p>
+
+<h2>Fund the next nikah</h2>
+<p>Your contribution — of any size — can become part of a family's happiest day. Pooled with others, it helps conduct a dignified wedding, keeps a poor family out of the debt trap, and sends a young couple into married life with hope. Donate towards marriage assistance today and share in the joy — and the reward — of the next nikah.</p>
+`,
+  },
+  {
+    id: 'quran-distribution-copies-reaching-homes',
+    title: 'Quran Distribution: Copies Reaching Homes and Hearts',
+    metaTitle: 'Quran Distribution India — Copies Reaching Homes | Wafa Trust',
+    metaDescription:
+      'How Quran distribution across India puts the Holy Book into the hands of students and families who cannot afford one — and why it is a Sadaqah Jariyah that rewards you with every recitation.',
+    keyword: 'quran distribution India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/blog4.jpg',
+    date: '2025-11-26',
+    readTime: '6 min read',
+    relatedServices: ['quran-e-kareem-distribution-2', 'maktab-deeniyat', 'masjid-madrasa-build'],
+    faq: [
+      {
+        q: 'Is donating a Quran a Sadaqah Jariyah?',
+        a: 'Yes. Every time someone recites from a Quran you donated, the reward returns to you — making Quran distribution a continuous charity that keeps rewarding you for years.',
+      },
+      {
+        q: 'Who receives the donated Qurans?',
+        a: 'Wafa Trust distributes copies of the Holy Quran to madrasas, maktabs and individuals in economically challenged areas who cannot afford their own copy.',
+      },
+      {
+        q: 'Can I donate Qurans in someone’s memory?',
+        a: 'Yes. Donating Qurans on behalf of a deceased loved one is a beautiful way to send them continuing reward with every recitation.',
+      },
+    ],
+    content: `
+<p>For a Muslim, owning a personal copy of the Qur'an is priceless — but for families in economically challenged areas of India, even this can be out of reach. <strong>Quran distribution in India</strong> bridges that gap, placing the Holy Book into the hands of students and worshippers who long to read it but cannot afford one.</p>
+
+<h2>The quiet shortage</h2>
+<p>Walk into a village maktab and you may find ten children sharing two or three worn copies of the Qur'an. In many homes, there is no copy at all. Parents who want their children to learn to recite, and adults who wish to read for themselves, are held back by something as simple as the cost of a book. It is a quiet shortage, easily overlooked — and easily solved.</p>
+
+<h2>A gift that enlightens</h2>
+<p>Through its <a href="/services/quran-e-kareem-distribution-2">Quran distribution programme</a>, Wafa Educational And Charitable Trust delivers copies of the Holy Qur'an to madrasas, maktabs and individuals in need. For a child, receiving their own copy is a moment of pure joy and pride. For a family, it becomes the centre of the home — read after Fajr, taught to the young, and cherished for years.</p>
+<p>The impact multiplies. A single copy in a maktab helps dozens of children learn to recite. A copy in a home shapes a family's daily spiritual life. Wafa Trust has already helped distribute well over a thousand copies of the Qur'an as part of its mission to spread the light of knowledge and faith.</p>
+
+<h2>Sadaqah Jariyah that never stops</h2>
+<p>Here is what makes this gift extraordinary. Every time a person recites even a single letter from a Qur'an you donated, reward flows back to you. As that child grows, memorises, and one day teaches their own children from the same copy, the chain of reward continues — a true <strong>Sadaqah Jariyah</strong>, an ongoing charity that keeps rewarding you long after the gift is given, even after you have passed away.</p>
+<p>The Prophet Muhammad ﷺ said the best of people are those who learn the Qur'an and teach it. By distributing copies, you become a partner in that learning and teaching, sharing in the reward of everyone who benefits.</p>
+
+<h2>More than a book</h2>
+<p>Quran distribution works hand in hand with Wafa Trust's wider educational mission — its <a href="/services/maktab-deeniyat">Maktab Deeniyat</a> classes and its support for <a href="/services/masjid-madrasa-build">mosques and madrasas</a>. Together they form a complete ecosystem of learning: a place to learn, teachers to guide, and the Book itself in every child's hands.</p>
+
+<h2>Gift the Qur'an today</h2>
+<p>For the cost of a few copies, you can light a lamp of guidance in a home or a classroom that will glow for years. Donate a set of Qur'ans today — in your own name or in memory of a loved one — and let every recitation become a source of continuing reward for you, insha'Allah.</p>
+`,
+  },
+  {
+    id: 'blanket-distribution-warmth-in-maharashtra-winter',
+    title: 'Blanket Distribution: Warmth in the Maharashtra Winter',
+    metaTitle: 'Blanket Distribution Charity — Warmth in Winter | Wafa Trust India',
+    metaDescription:
+      'Each winter, poor and homeless families face freezing nights without protection. See how blanket distribution across Maharashtra saves lives, and how you can sponsor warmth this season.',
+    keyword: 'blanket distribution charity',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/image-2.jpg',
+    date: '2025-12-03',
+    readTime: '6 min read',
+    relatedServices: ['blankets-winter-distribution', 'poor-family-help', 'widows-help'],
+    faq: [
+      {
+        q: 'When does Wafa Trust distribute blankets?',
+        a: 'Blanket distribution runs through the coldest months, roughly October to February, reaching low-income families, the elderly, children and people in remote settlements before and during peak winter.',
+      },
+      {
+        q: 'How much does it cost to donate a blanket?',
+        a: 'A warm blanket is one of the most affordable high-impact gifts you can give. Even a small donation can provide blankets for several people facing freezing nights.',
+      },
+      {
+        q: 'Can blanket donations be given as Sadaqah?',
+        a: 'Yes. Providing blankets to those in need is a rewarding act of Sadaqah, and where recipients are poor and needy it also qualifies as a valid use of Zakat.',
+      },
+    ],
+    content: `
+<p>Winter does not feel the same to everyone. For those with a warm home, it is a season of comfort. For the poor, the homeless and the elderly with no adequate shelter or clothing, it is a nightly battle for survival. <strong>Blanket distribution charity</strong> is a simple, life-saving response to that battle.</p>
+
+<h2>The cold that the comfortable never see</h2>
+<p>In settlements and slums across Maharashtra, and in remote villages where aid rarely reaches, families sleep through freezing nights with little more than thin, worn cloth between them and the cold. Elderly people, whose bodies struggle most to keep warm, are especially at risk. Young children fall ill. For some, a harsh cold snap is not just uncomfortable — it is deadly.</p>
+<p>Picture an elderly man near Akola, alone in a single room with a broken window, pulling a threadbare sheet tighter as the temperature drops. He has no one to ask and nothing to give. A single warm blanket would change his entire night — and perhaps save his life.</p>
+
+<h2>Warmth delivered where it is needed</h2>
+<p>Through its <a href="/services/blankets-winter-distribution">winter blanket distribution</a>, Wafa Educational And Charitable Trust brings warmth directly to those most at risk. The programme focuses on:</p>
+<ul>
+<li>Low-income families, elderly individuals and children</li>
+<li>Settlements, slums and remote areas where aid is scarce</li>
+<li>Reaching people before the peak of winter, not after the damage is done</li>
+</ul>
+<p>The trust has distributed hundreds of blankets across the communities it serves, going into the places most charities overlook. Each blanket is a night of protected sleep, a barrier against illness, and a message to a forgotten family that someone cares.</p>
+
+<h2>A small gift, an outsized impact</h2>
+<p>What makes blanket distribution so powerful is the ratio of cost to impact. A warm blanket is inexpensive, yet it can be the difference between a safe night and a dangerous one. Few donations offer such immediate, tangible relief — you can picture exactly what your gift does the moment the cold sets in.</p>
+<p>In Islamic teaching, clothing someone in need is richly rewarded; the Prophet Muhammad ﷺ spoke of Allah clothing on the Day of Judgement those who clothe the needy. A blanket given for the sake of Allah is charity you can feel.</p>
+
+<h2>Sponsor warmth this winter</h2>
+<p>Winter is coming for families who dread it. Before the coldest nights arrive, your donation can wrap the vulnerable in warmth and dignity. Sponsor blankets today and protect an elderly person, a child or a struggling family from the cold — and turn a season of suffering into one of relief.</p>
+`,
+  },
+  {
+    id: 'wheelchair-distribution-restoring-dignity-and-mobility',
+    title: 'Wheelchair Distribution: Restoring Dignity and Mobility',
+    metaTitle: 'Wheelchair Donation India — Restoring Dignity & Mobility | Wafa Trust',
+    metaDescription:
+      'For those who cannot walk, a wheelchair is freedom. See how wheelchair and tricycle distribution in India restores independence to the disabled and elderly — and how you can help.',
+    keyword: 'wheelchair donation India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/image-3.jpg',
+    date: '2025-12-10',
+    readTime: '6 min read',
+    relatedServices: ['wheelchair-distribution', 'tricycle-distribution', 'medical-aid'],
+    faq: [
+      {
+        q: 'Who receives the donated wheelchairs?',
+        a: 'Wheelchairs and hand-powered tricycles go to disabled, injured and elderly individuals who cannot afford mobility aids and are otherwise dependent on others for daily movement.',
+      },
+      {
+        q: 'What is the difference between a wheelchair and a tricycle here?',
+        a: 'A wheelchair aids indoor and short-distance mobility, while a hand-powered tricycle allows a person to travel further independently — often enabling them to work and rejoin community life.',
+      },
+      {
+        q: 'Is a mobility aid a good use of charity?',
+        a: 'Yes. Restoring someone’s independence and dignity is a deeply rewarded act of Sadaqah, and for those in genuine need it can also be supported through Zakat.',
+      },
+    ],
+    content: `
+<p>We rarely think about how much freedom is contained in the simple act of moving from one room to another. For millions living with disability, injury or the frailty of age, that freedom is gone — and with it, much of their independence and dignity. A <strong>wheelchair donation in India</strong> gives it back.</p>
+
+<h2>Trapped in place</h2>
+<p>Imagine a man in his forties near Akola who lost the use of his legs in an accident. Once the breadwinner, he now cannot leave his bed without being carried. He depends on family for every movement, feels like a burden, and has slowly withdrawn from the community he once belonged to. His problem is not incurable illness — it is simply that he cannot afford a wheelchair.</p>
+<p>This is the quiet tragedy of mobility poverty. Across India, countless people who could live active, contributing lives are confined to a corner of a room, not by their condition but by cost. The isolation erodes not just their bodies but their spirits.</p>
+
+<h2>Mobility means everything</h2>
+<p>Through its <a href="/services/wheelchair-distribution">wheelchair distribution</a> and <a href="/services/tricycle-distribution">hand-powered tricycle</a> programmes, Wafa Educational And Charitable Trust returns mobility — and dignity — to those who have lost it. The impact is profound:</p>
+<ul>
+<li><strong>Independence</strong> in daily activities, without relying on others for every movement</li>
+<li><strong>Opportunity</strong> to work, earn and take part in community life again</li>
+<li><strong>A renewed sense of dignity and confidence</strong></li>
+</ul>
+<p>A hand-powered tricycle in particular can be life-changing: it lets a person travel to a market, a workplace or a mosque under their own power. Wafa Trust has already distributed dozens of tricycles to individuals who now experience a freedom they thought was gone forever.</p>
+
+<h2>More than a device</h2>
+<p>When you give a wheelchair or tricycle, you are not just handing over equipment. You are telling a person that their life still matters, that they can still contribute, that they are not forgotten. For someone who has spent months or years feeling like a burden, that message can be as healing as the mobility itself. This work pairs naturally with Wafa Trust's <a href="/services/medical-aid">medical aid programme</a>, which supports the same vulnerable individuals with treatment and care.</p>
+<p>Islam places great emphasis on relieving hardship and honouring the dignity of every person. Restoring someone's ability to move through the world is exactly this kind of mercy.</p>
+
+<h2>Give the gift of movement</h2>
+<p>For the cost of a single mobility aid, you can lift a person out of dependence and back into life. You can turn a man confined to a room into someone who earns again, prays in the mosque again, and looks his family in the eye with restored pride. Sponsor a wheelchair or tricycle today and give the gift of dignity and movement.</p>
+`,
+  },
+  {
+    id: 'iftar-meal-story-feeding-families-in-ramadan',
+    title: 'Iftar Meals: Feeding Fasting Families in Ramadan',
+    metaTitle: 'Iftar Donation Akola — Feeding Fasting Families in Ramadan | Wafa Trust',
+    metaDescription:
+      'In Ramadan, no one should break their fast with nothing. See how iftar meal distribution near Akola feeds fasting families in need — and how sponsoring iftar multiplies your reward.',
+    keyword: 'iftar donation Akola',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/event1.webp',
+    date: '2025-12-17',
+    readTime: '6 min read',
+    relatedServices: ['iftar-for-ramadan', 'free-food-distribution', 'free-distribution-of-ration-kit'],
+    faq: [
+      {
+        q: 'What is the reward for providing iftar?',
+        a: 'The Prophet ﷺ said that whoever gives a fasting person food to break their fast receives a reward equal to that of the fasting person, without the fasting person’s reward being reduced at all.',
+      },
+      {
+        q: 'How does Wafa Trust distribute iftar?',
+        a: 'During Ramadan, Wafa Trust provides iftar meals and food packages to poor and fasting families in and around Akola, ensuring no one breaks their fast without a proper meal.',
+      },
+      {
+        q: 'Can I sponsor iftar for the whole of Ramadan?',
+        a: 'Yes. You can sponsor iftar for a set number of people or days, or contribute towards the full month, and your reward continues across every meal provided.',
+      },
+    ],
+    content: `
+<p>There is a particular ache to breaking a long fast with little or nothing to eat. After a day of hunger and thirst, the moment of iftar is meant to be one of gratitude and joy. For poor families, it can instead be a reminder of how little they have. <strong>Iftar donation in Akola</strong> exists so that no fasting person breaks their fast empty-handed.</p>
+
+<h2>The hardest table in Ramadan</h2>
+<p>Ramadan is a month of mercy, but for a struggling family it can also be a month of quiet anxiety. Picture a mother near Akola preparing to break the fast with her children, stretching a little rice and lentils to cover everyone, going without herself so the little ones have enough. The spirit of Ramadan is alive in her home — but the food is not.</p>
+<p>Multiply that scene across thousands of homes, and you begin to see the need. Fasting is hard enough; fasting in poverty, with no certainty of a proper iftar, is harder still.</p>
+
+<h2>A shared table, a shared blessing</h2>
+<p>Through its <a href="/services/iftar-for-ramadan">Iftar for Ramadan</a> programme, Wafa Educational And Charitable Trust spreads kindness in the blessed month by providing iftar meals to those in need. Rows of fasting people — children, elders, labourers — sit together to break their fast with a hot, dignified meal, provided by donors they will never meet. The trust has served hundreds of iftars in this way, turning anxious evenings into moments of gratitude.</p>
+<p>This work extends naturally into Wafa Trust's wider <a href="/services/free-food-distribution">food distribution</a> and <a href="/services/free-distribution-of-ration-kit">ration kit</a> programmes, so that families are supported not just at iftar but through the month and beyond.</p>
+
+<h2>The reward that doubles</h2>
+<p>No act in Ramadan is more efficiently rewarded than feeding a fasting person. The Prophet Muhammad ﷺ said that whoever feeds a fasting person will have a reward equal to that of the one who fasted — without anything being taken away from the faster's own reward. Imagine sponsoring iftar for dozens of people: you share in the reward of every single fast you helped complete.</p>
+<p>Ramadan is also the month in which good deeds are multiplied and du'as are answered. Charity given now carries a weight it does not carry at any other time of year.</p>
+
+<h2>Sponsor iftar and share the blessing</h2>
+<p>This Ramadan, you can be the reason a fasting family breaks their fast with dignity and joy. Sponsor iftar meals for a few people, for many, or for the whole month — and let the reward of every fast you help complete return to you. Give iftar today and share in the blessings of Ramadan.</p>
+`,
+  },
+  {
+    id: 'madrasa-construction-building-futures',
+    title: 'Madrasa Construction: Building Futures, Brick by Brick',
+    metaTitle: 'Madrasa Construction Donation India — Building Futures | Wafa Trust',
+    metaDescription:
+      'A madrasa is more than a building — it is where faith and knowledge take root for generations. See how madrasa construction in India shapes futures and earns you ongoing reward.',
+    keyword: 'madrasa construction donation',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/image-1.jpg',
+    date: '2025-12-24',
+    readTime: '6 min read',
+    relatedServices: ['masjid-madrasa-build', 'maktab-deeniyat', 'ustad-hafiz-sponsor'],
+    faq: [
+      {
+        q: 'Can I use Zakat for madrasa construction?',
+        a: 'The majority view is that Zakat must reach eligible individuals, so building costs are best covered by Lillah or general Sadaqah. Zakat can, however, support needy students and teachers.',
+      },
+      {
+        q: 'Is contributing to a madrasa a Sadaqah Jariyah?',
+        a: 'Yes. Every prayer offered and every lesson taught in a madrasa you helped build continues to earn you reward for as long as it stands — a lasting ongoing charity.',
+      },
+      {
+        q: 'Where does Wafa Trust build madrasas?',
+        a: 'Wafa Trust builds and supports mosques, madrasas and schools in economically challenged Muslim communities, creating centres of worship, learning and community development.',
+      },
+    ],
+    content: `
+<p>Ask where a community's future is built, and the honest answer is often a modest room where children first learn to read, to pray and to know right from wrong. A madrasa is that room. <strong>Madrasa construction donation</strong> is an investment not in bricks, but in generations.</p>
+
+<h2>Why the building matters</h2>
+<p>In many economically backward areas, children who want to learn have nowhere proper to do it. Classes are held under a tree, in a cramped rented space, or squeezed into the back of a mosque. When the monsoon comes, learning stops. Without a dedicated, dignified space, education remains fragile and inconsistent — and the community's children pay the price.</p>
+<p>A madrasa or school changes that permanently. It gives learning a home: a place that stands through every season, welcomes every child, and becomes the beating heart of the neighbourhood.</p>
+
+<h2>A holistic vision of education</h2>
+<p>Wafa Educational And Charitable Trust builds and supports <a href="/services/masjid-madrasa-build">mosques, madrasas and schools</a> with a balanced vision that integrates faith and knowledge. Its institutions aim to offer:</p>
+<ul>
+<li><strong>Islamic studies</strong> — Qur'anic teaching, Hadith, Fiqh and moral education</li>
+<li><strong>Academic excellence</strong> — science, mathematics, languages and general knowledge</li>
+<li><strong>Character building</strong> — leadership, discipline and ethical values</li>
+</ul>
+<p>The goal is not only to teach children to recite, but to raise well-rounded human beings who can thrive in this world and the next. Wafa Trust has already helped establish over 180 mosques and madrasas across the communities it serves.</p>
+
+<h2>Reward that compounds for generations</h2>
+<p>Contributing to a madrasa is one of the purest forms of <strong>Sadaqah Jariyah</strong>. Consider what your share in its construction sets in motion: every child who learns to read the Qur'an there, every lesson a teacher delivers, every prayer offered within its walls — the reward for all of it, insha'Allah, returns to those who helped build it. And when those children grow up to teach their own children, the chain continues.</p>
+<p>The building is only the beginning. It works alongside Wafa Trust's <a href="/services/maktab-deeniyat">Maktab Deeniyat</a> classes and its programme to <a href="/services/ustad-hafiz-sponsor">sponsor teachers (Ustad and Hafiz)</a>, so that the walls you help raise are filled with knowledge and guided by dedicated educators.</p>
+
+<h2>Build a future that outlasts you</h2>
+<p>Few gifts keep giving like a place of learning. Where the Muslim population is economically backward, Wafa Trust makes arrangements to construct and establish madrasas and schools — and your contribution can lay the bricks. Help build a madrasa today, and invest in a future that will keep rewarding you long after it is complete.</p>
+`,
+  },
+  {
+    id: 'sewing-machine-distribution-empowering-women',
+    title: 'Sewing Machine Distribution: Empowering Women to Earn',
+    metaTitle: 'Sewing Machine Donation India — Empowering Women | Wafa Trust',
+    metaDescription:
+      'One sewing machine can turn dependence into a dignified income. See how sewing machine distribution empowers women near Akola to support their families — and how to sponsor one.',
+    keyword: 'sewing machine donation',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/donate-2.jpg',
+    date: '2025-12-31',
+    readTime: '6 min read',
+    relatedServices: ['sewing-machine-distribution', 'widows-help', 'small-business-project'],
+    faq: [
+      {
+        q: 'Why a sewing machine specifically?',
+        a: 'A sewing machine is an affordable, durable tool that lets a woman earn a steady income from home while caring for her family — turning a one-time gift into years of self-sufficiency.',
+      },
+      {
+        q: 'Who receives the sewing machines?',
+        a: 'They go to women in underprivileged communities — often widows or the sole support of their families — who have the will to work but lack the means to start.',
+      },
+      {
+        q: 'Is this a Sadaqah Jariyah?',
+        a: 'Yes. Because a sewing machine keeps generating income and benefit for years, it is a form of ongoing charity that continues to reward the giver.',
+      },
+    ],
+    content: `
+<p>Give a woman relief, and you help her today. Give her a skill and a tool, and you help her for life. That is the simple, powerful idea behind <strong>sewing machine donation</strong> — one of the most effective ways to lift a family out of poverty for good.</p>
+
+<h2>The will to work, without the means</h2>
+<p>In underprivileged communities across India, there is no shortage of women who want to earn. What they lack is opportunity. A widow supporting three children, a wife whose husband cannot find steady work, a young mother with a talent for stitching but no equipment — each is capable and willing, held back only by the cost of a single machine.</p>
+<p>Without a way to earn, these families remain dependent on irregular charity and the whims of daily-wage labour. The potential is there; it simply has nowhere to go.</p>
+
+<h2>One machine, a lasting livelihood</h2>
+<p>Through its <a href="/services/sewing-machine-distribution">sewing machine distribution programme</a>, Wafa Educational And Charitable Trust hands women exactly the tool they need to build a sustainable livelihood. With a sewing machine at home, a woman can:</p>
+<ul>
+<li>Earn a steady income while caring for her children</li>
+<li>Stitch and sell clothes, and take in tailoring work from her community</li>
+<li>Contribute to — or fully support — her household</li>
+<li>Move from dependence to dignity and self-reliance</li>
+</ul>
+<p>Consider a widow we'll call Fatima, near Akola, who once relied entirely on neighbours' help. With a donated sewing machine, she began stitching for families in her lane. Within months she was covering her rent and her children's school costs herself — and had started teaching another woman to sew.</p>
+
+<h2>Empowerment that spreads</h2>
+<p>This is the quiet magic of empowerment: it multiplies. A woman who becomes self-sufficient often lifts others with her — training neighbours, employing a helper, inspiring daughters to aim higher. One machine can seed a small home enterprise that touches an entire community. It connects naturally to Wafa Trust's <a href="/services/small-business-project">small business support</a> and <a href="/services/widows-help">widow support</a> work, which share the same goal: independence, not just aid.</p>
+<p>Because the benefit continues year after year, a sewing machine is a genuine <strong>Sadaqah Jariyah</strong> — the reward keeps returning to you as the woman keeps earning.</p>
+
+<h2>Empower a woman today</h2>
+<p>For the cost of a single machine, you can transform a family's future — replacing dependence with dignity and charity with self-reliance. Sponsor a sewing machine today and give a woman the tool to write her own story, and her family's, for years to come.</p>
+`,
+  },
+  {
+    id: 'ration-kit-distribution-a-month-of-food',
+    title: 'Ration Kit Distribution: A Month of Food, A World of Relief',
+    metaTitle: 'Ration Kit Donation India — A Month of Food | Wafa Trust',
+    metaDescription:
+      'A single ration kit can feed a poor family for a month. See how ration distribution near Akola supports widows, orphans and struggling families — and how your Zakat can fill an empty kitchen.',
+    keyword: 'ration kit donation India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/blog1.jpg',
+    date: '2026-01-06',
+    readTime: '6 min read',
+    relatedServices: ['free-distribution-of-ration-kit', 'free-food-distribution', 'poor-family-help'],
+    faq: [
+      {
+        q: 'What is in a ration kit?',
+        a: 'A ration kit is assembled with staple food items such as rice, lentils, flour, cooking oil, sugar and other essentials — enough to support a family for a period, typically about a month.',
+      },
+      {
+        q: 'Can I give my Zakat as ration kits?',
+        a: 'Yes. Providing food to poor and needy families is a valid and highly appropriate use of Zakat, as they fall directly within the eligible categories.',
+      },
+      {
+        q: 'Who receives the ration kits?',
+        a: 'Wafa Trust prioritises the most vulnerable — widows, orphans and underprivileged families verified locally to be in genuine need.',
+      },
+    ],
+    content: `
+<p>Ask a hungry family what would change their life, and the answer is rarely complicated. It is food — reliable, sufficient food. A <strong>ration kit donation in India</strong> answers that need in the most direct way possible: a box of staples that turns an empty kitchen into a month of meals.</p>
+
+<h2>The arithmetic of hunger</h2>
+<p>For a family living on unpredictable daily wages, every day is a calculation. When work comes, they eat; when it doesn't, they don't. A single illness, a lost job, or a bad monsoon can tip a household from just-getting-by into genuine hunger. Widows and orphans are especially exposed, often with no earning member at all.</p>
+<p>Picture a grandmother near Akola raising two orphaned grandchildren. On good weeks there is dal and rice; on bad ones, the children go to bed hungry and she goes without entirely. Hers is not a rare story — it is the everyday reality of food insecurity for millions.</p>
+
+<h2>A box that changes the month</h2>
+<p>Through its <a href="/services/free-distribution-of-ration-kit">ration kit distribution</a>, Wafa Educational And Charitable Trust delivers essential sustenance to those who need it most. Each kit is carefully assembled with staples — rice, lentils, flour, cooking oil, sugar and other basics — enough to see a family through the weeks ahead.</p>
+<p>What a ration kit really delivers is not just calories, but relief. A mother who knows there is food in the house can stop panicking and start planning. Children eat regularly and can focus at the maktab. The constant, grinding stress of "what will we eat tomorrow" simply lifts.</p>
+
+<h2>Exactly where Zakat belongs</h2>
+<p>Feeding the poor is charity at its most fundamental, and it is precisely what Zakat is for. Widows, orphans and the destitute are named among the rightful recipients of Zakat, so a ration kit given as your Zakat lands exactly where the Shariah intends. It also pairs with Wafa Trust's broader <a href="/services/free-food-distribution">free food distribution</a> and <a href="/services/poor-family-help">poor family support</a>, which have together provided many thousands of meals across the community.</p>
+<p>The Prophet Muhammad ﷺ taught that a person is not a true believer if they sleep satisfied while their neighbour goes hungry. A ration kit is one of the simplest ways to honour that teaching.</p>
+
+<h2>Fill an empty kitchen today</h2>
+<p>For the cost of one kit, you can feed a family for a month — and lift from their shoulders the daily fear of hunger. Donate a ration kit today, give it as your Zakat or Sadaqah, and make a meaningful, immediate difference — one full kitchen, one relieved family, at a time.</p>
+`,
+  },
+  {
+    id: 'house-construction-for-poor-families',
+    title: 'House Construction: A Roof, A Refuge, A New Life',
+    metaTitle: 'House Construction Charity India — A Roof and a New Life | Wafa Trust',
+    metaDescription:
+      'A safe home is a basic human right, yet many families cannot afford one. See how house construction for the poor near Akola provides shelter, safety and dignity — and how you can help build one.',
+    keyword: 'house construction charity India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/blog3.jpg',
+    date: '2026-01-14',
+    readTime: '6 min read',
+    relatedServices: ['house-build', 'poor-family-help', 'widows-help'],
+    faq: [
+      {
+        q: 'Is building a home a Sadaqah Jariyah?',
+        a: 'Yes. A home shelters a family for years, even generations, so contributing to its construction is a lasting ongoing charity whose reward continues over time.',
+      },
+      {
+        q: 'How does Wafa Trust decide who receives a home?',
+        a: 'The trust identifies poor and homeless families living in unsafe or inadequate conditions and verifies their need locally before constructing a secure, dignified home for them.',
+      },
+      {
+        q: 'Can I contribute a share towards a house?',
+        a: 'Yes. Building a home is a larger project, so contributions from many donors are pooled. Any amount helps move a family closer to a safe roof over their heads.',
+      },
+    ],
+    content: `
+<p>A home is more than four walls. It is safety when the storm comes, dignity when guests arrive, and a foundation on which a family can finally build a future. Yet for many of India's poorest, that foundation is missing. <strong>House construction charity in India</strong> gives it back — one home, one family, at a time.</p>
+
+<h2>Life without a safe roof</h2>
+<p>Countless families live in shelters that barely deserve the name — walls of plastic sheeting and scrap, roofs that leak with the first rain, structures that flood in the monsoon and offer no protection from heat or cold. In these conditions, illness spreads, children cannot study, and every night carries a low hum of insecurity.</p>
+<p>Consider a widow near Akola raising her children in a crumbling single room. When it rains, they move everything to the one dry corner and wait it out. She dreams not of luxury, but simply of walls that hold and a roof that keeps her children dry. For a family with no financial means, even that modest dream is out of reach.</p>
+
+<h2>Turning dreams into brick and mortar</h2>
+<p>Through its <a href="/services/house-build">house construction programme</a>, Wafa Educational And Charitable Trust steps in for families who have nowhere else to turn. With the support of donors, the trust builds secure homes that provide:</p>
+<ul>
+<li><strong>Safe, permanent shelter</strong> for poor and homeless families</li>
+<li><strong>Dignity and stability</strong> for those in need</li>
+<li><strong>A foundation for a better future</strong>, breaking the cycle of poverty</li>
+</ul>
+<p>A proper home changes everything downstream. Children have a clean, dry place to study. Health improves. Parents, no longer consumed by the daily fight against the elements, can focus on earning and raising their family. A house is where a better life becomes possible.</p>
+
+<h2>Shelter that keeps giving</h2>
+<p>Because a home shelters a family for years and often for generations, contributing to its construction is a profound <strong>Sadaqah Jariyah</strong>. Every night a family sleeps safely, every child raised within those walls, every guest welcomed with dignity — the reward continues to flow back to those who helped build it. This work stands alongside Wafa Trust's <a href="/services/poor-family-help">poor family support</a> and <a href="/services/widows-help">widow support</a>, wrapping the most vulnerable in complete care.</p>
+
+<h2>Help build a home today</h2>
+<p>With the support of compassionate donors, a dream of safety becomes reality. Your contribution — a share or a whole home — can give a family the shelter, security and dignity they have longed for. Help construct a home today and become the reason a family finally sleeps soundly under a roof of their own.</p>
+`,
+  },
+  {
+    id: 'hafiz-sponsorship-one-childs-journey',
+    title: 'Hafiz Sponsorship: One Child’s Journey to Preserve the Quran',
+    metaTitle: 'Hafiz Sponsorship — One Child’s Journey | Wafa Trust India',
+    metaDescription:
+      'Behind every Hafiz is years of devotion — and often a sponsor who made it possible. See how Hafiz and teacher sponsorship in India preserves the Quran and earns you continuing reward.',
+    keyword: 'hafiz sponsorship',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/slider-51.jpg',
+    date: '2026-01-21',
+    readTime: '6 min read',
+    relatedServices: ['ustad-hafiz-sponsor', 'maktab-deeniyat', 'scholarship-for-higher-education'],
+    faq: [
+      {
+        q: 'What does Hafiz sponsorship involve?',
+        a: 'It involves supporting the teachers (Ustad) and Huffaz who teach in madrasas and maktabs — sustaining their livelihood so they can dedicate themselves to teaching the Quran and Islamic knowledge.',
+      },
+      {
+        q: 'What is the reward for supporting a Hafiz?',
+        a: 'Supporting those who preserve and teach the Quran is a powerful ongoing charity; you share in the reward of every verse learned and taught through your support.',
+      },
+      {
+        q: 'Can I sponsor a teacher monthly?',
+        a: 'Yes. Monthly sponsorship is ideal, as it provides teachers with stable support and allows them to focus fully on teaching without financial worry.',
+      },
+    ],
+    content: `
+<p>Every Hafiz — every person who has memorised the entire Qur'an — represents years of quiet dedication. But behind that child bent over the Book, there is almost always someone else: a devoted teacher, and often a sponsor who made the whole journey possible. <strong>Hafiz sponsorship</strong> is the chance to be that someone.</p>
+
+<h2>The teacher the community depends on</h2>
+<p>Picture an Ustad in a small maktab near Akola. Each day he sits with a circle of children, correcting pronunciation, listening to recitation, gently guiding young memories through verse after verse. He is preserving the Qur'an in the most literal way — passing it, letter-perfect, to the next generation. Yet he often earns barely enough to feed his own family, and some months not even that.</p>
+<p>When teachers like him are forced to leave for better-paying work, an entire community's children lose their path to Islamic knowledge. The chain of transmission that has carried the Qur'an for centuries depends on people willing to sustain these teachers.</p>
+
+<h2>Sustaining the guardians of knowledge</h2>
+<p>Through its <a href="/services/ustad-hafiz-sponsor">Ustad and Hafiz sponsorship programme</a>, Wafa Educational And Charitable Trust supports the teachers who make Islamic education possible. The programme aims to:</p>
+<ul>
+<li>Provide financial support to teachers in madrasas and maktabs</li>
+<li>Ensure students receive quality Islamic education</li>
+<li>Encourage the spread of Qur'anic knowledge by supporting Huffaz</li>
+<li>Strengthen the institutions that nurture the next generation of scholars</li>
+</ul>
+<p>With reliable support, a teacher can stop worrying about survival and pour himself fully into teaching. That stability flows directly to the children: more consistent lessons, more Huffaz completed, more of the Qur'an preserved.</p>
+
+<h2>A journey you help complete</h2>
+<p>Imagine a child near Akola who dreams of memorising the entire Qur'an. With a sponsored teacher guiding him day after day, he progresses — a page, a chapter, a juz at a time — until one day he completes it and becomes a Hafiz, a living carrier of the Book. Every one of those verses passed through a teacher your sponsorship kept in the classroom. You did not just fund a salary; you helped complete a journey.</p>
+<p>Because the knowledge you help preserve keeps being taught and passed on, this is a true <strong>Sadaqah Jariyah</strong>. It works hand in hand with Wafa Trust's <a href="/services/maktab-deeniyat">Maktab Deeniyat</a> and <a href="/services/scholarship-for-higher-education">scholarship</a> programmes to build a complete path of learning.</p>
+
+<h2>Sponsor a Hafiz and a teacher today</h2>
+<p>Your support can keep a teacher teaching and a child on the road to becoming a Hafiz. It is an investment in the preservation of the Qur'an itself — and in reward that continues with every verse learned. Sponsor an Ustad or Hafiz today and help carry the Book forward to the next generation.</p>
+`,
+  },
+  {
+    id: 'medical-aid-story-life-saving-help-in-akola',
+    title: 'Medical Aid: Life-Saving Help for Those Who Can’t Afford It',
+    metaTitle: 'Medical Aid Charity India — Life-Saving Help in Akola | Wafa Trust',
+    metaDescription:
+      'When a family cannot afford treatment, illness becomes a catastrophe. See how medical aid near Akola saves lives and clears medical debt — and how your Zakat can heal those in need.',
+    keyword: 'medical aid charity India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/image-3.jpg',
+    date: '2026-01-28',
+    readTime: '6 min read',
+    relatedServices: ['medical-aid', 'poor-family-help', 'widows-help'],
+    faq: [
+      {
+        q: 'Can Zakat be used for medical treatment?',
+        a: 'Yes. Supporting poor patients who cannot afford treatment, and helping those crushed by medical debt, are valid uses of Zakat, as both fall within the eligible categories.',
+      },
+      {
+        q: 'What does the medical aid programme cover?',
+        a: 'It helps low-income patients with medical expenses including hospital bills, medication, surgeries, treatments and emergency care, partnering with hospitals and professionals to reach the needy.',
+      },
+      {
+        q: 'How urgent is medical aid?',
+        a: 'Often life-or-death. Timely medical support can be the difference between recovery and tragedy, which is why medical aid donations are among the most immediately impactful gifts.',
+      },
+    ],
+    content: `
+<p>For a family with means, a serious illness is frightening. For a poor family, it is a catastrophe that can destroy everything. Treatment they cannot afford, bills that spiral into unpayable debt, and the agonising choice between a loved one's health and the family's survival. <strong>Medical aid charity in India</strong> stands in that gap between illness and ruin.</p>
+
+<h2>When health becomes a luxury</h2>
+<p>Good health should be a basic human right, not a privilege reserved for those who can pay. Yet across India, millions are forced to forgo necessary treatment simply because of cost. A daily-wage worker near Akola who needs surgery may delay it for months, working through pain, because stopping to heal means his family stops eating. A mother may watch a treatable condition worsen because the medicine is beyond her budget.</p>
+<p>And when families do seek care, the bills can bury them. Medical debt is one of the most common and cruel drivers of poverty — a single hospitalisation can wipe out years of savings and trap a household for a decade.</p>
+
+<h2>Healing and relief, together</h2>
+<p>Through its <a href="/services/medical-aid">Medical Aid programme</a>, Wafa Educational And Charitable Trust ensures that no one is denied healthcare because of economic hardship. The programme provides:</p>
+<ul>
+<li>Support with medical expenses, including hospital bills and medication</li>
+<li>Assistance for surgeries, treatments and emergency care</li>
+<li>Help for those crushed by medical debt</li>
+<li>Partnerships with hospitals and professionals to extend care to the needy</li>
+</ul>
+<p>The impact is often immediate and life-saving: a surgery made possible, a course of treatment completed, a family pulled back from the brink of both grief and financial collapse.</p>
+
+<h2>Exactly where Zakat can heal</h2>
+<p>Medical aid is a powerful use of Zakat. The poor patient who cannot afford care, and the family drowning in medical debt, are both squarely within the categories the Qur'an names as rightful recipients. Your Zakat, given here, can literally save a life. This care connects with Wafa Trust's <a href="/services/poor-family-help">poor family support</a> and <a href="/services/widows-help">widow support</a> to protect the most vulnerable completely.</p>
+<p>To save one life, the Qur'an teaches, is as though one has saved all of humanity. There are few clearer opportunities to live that verse than medical aid.</p>
+
+<h2>Save a life today</h2>
+<p>Your donation can be the treatment a mother needs, the surgery a father has delayed, the medicine a child cannot go without. Give your Zakat or Sadaqah to medical aid today and become the reason a family keeps the person they love — and is spared the ruin of a bill they could never pay.</p>
+`,
+  },
+  {
+    id: 'small-business-support-from-aid-to-independence',
+    title: 'Small Business Support: From Aid to Independence',
+    metaTitle: 'Small Business Support Charity — From Aid to Independence | Wafa Trust',
+    metaDescription:
+      'Charity feeds a family today; a small business feeds them for life. See how small business support near Akola turns dependence into self-reliance — and how you can fund a fresh start.',
+    keyword: 'small business support charity',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/bg-2.jpg',
+    date: '2026-02-04',
+    readTime: '6 min read',
+    relatedServices: ['small-business-project', 'sewing-machine-distribution', 'poor-family-help'],
+    faq: [
+      {
+        q: 'How does small business support work?',
+        a: 'Wafa Trust provides financial aid, tools, mentorship and guidance so an aspiring entrepreneur can start or sustain a small business — creating a lasting source of income rather than one-time relief.',
+      },
+      {
+        q: 'Why fund a business instead of giving cash?',
+        a: 'Direct relief helps for a day; a small business helps for years. Enabling a family to earn breaks the cycle of poverty and restores dignity and self-reliance.',
+      },
+      {
+        q: 'Who qualifies for small business support?',
+        a: 'Unemployed or struggling individuals with the will and a viable idea to earn, verified locally, who simply lack the means to get started.',
+      },
+    ],
+    content: `
+<p>There is an old wisdom in the idea that it is better to teach a person to fish than to hand them a fish. <strong>Small business support charity</strong> is that wisdom in action — moving a family from the uncertainty of depending on aid to the security of earning their own living.</p>
+
+<h2>The trap of no opportunity</h2>
+<p>Many people in poverty are not lacking in ability or willingness — they are lacking a start. A skilled worker with no capital to buy tools. A woman who could run a small shop but cannot afford the initial stock. A man full of ideas and energy, stuck in irregular daily-wage labour because he has no way to break out of it. Without that first bit of support, their potential stays locked away, and the family remains one bad week from crisis.</p>
+
+<h2>A hand up, not just a handout</h2>
+<p>Through its <a href="/services/small-business-project">Small Business Project</a>, Wafa Educational And Charitable Trust helps aspiring entrepreneurs start and sustain their own businesses. Rather than offering only temporary relief, it provides:</p>
+<ul>
+<li>Financial aid, mentorship and guidance to aspiring business owners</li>
+<li>The means to establish a sustainable, reliable source of income</li>
+<li>A path to self-sufficiency and economic stability</li>
+<li>The seeds of local job creation and community growth</li>
+</ul>
+<p>Consider a man near Akola who spent years in unpredictable labour. With support to buy a cart and initial stock, he started a small vegetable business. Within months he was earning steadily, feeding his family with dignity, and no longer needing charity at all. That is the goal: to make the help unnecessary.</p>
+
+<h2>Dignity is the real gift</h2>
+<p>What small business support restores, more than income, is dignity. There is a profound difference between waiting for someone else's generosity and standing on your own feet. A parent who earns can look their children in the eye and promise a better future — and mean it. This work connects with Wafa Trust's <a href="/services/sewing-machine-distribution">sewing machine distribution</a> and <a href="/services/poor-family-help">poor family support</a>, all aimed at the same outcome: lasting independence.</p>
+<p>Islam encourages self-reliance and honours the one who earns by their own hand. Enabling a person to do so — to become a giver rather than only a receiver — is a deeply rewarding form of charity.</p>
+
+<h2>Fund a fresh start today</h2>
+<p>Your donation can be the small capital that launches a livelihood and lifts a family out of poverty permanently. It is charity that keeps working long after it is given — replacing dependence with dignity and need with self-reliance. Support the Small Business Project today and help a family start earning their own future.</p>
+`,
+  },
+  {
+    id: 'scholarship-story-bright-student-brighter-future',
+    title: 'Scholarship Story: A Bright Student, A Brighter Future',
+    metaTitle: 'Scholarship for Poor Students India — A Brighter Future | Wafa Trust',
+    metaDescription:
+      'Talent is everywhere; opportunity is not. See how education scholarships help poor but bright students in India reach college and change their family’s destiny — and how you can sponsor one.',
+    keyword: 'scholarship for poor students India',
+    category: 'Impact Stories',
+    audience: 'Both',
+    image: 'assets/donate-4.jpg',
+    date: '2026-02-11',
+    readTime: '6 min read',
+    relatedServices: ['scholarship-for-higher-education', 'maktab-deeniyat', 'ustad-hafiz-sponsor'],
+    faq: [
+      {
+        q: 'What does the scholarship programme support?',
+        a: 'Wafa Trust’s scholarship programme provides financial assistance to deserving students pursuing higher education in colleges and universities, helping them overcome financial barriers.',
+      },
+      {
+        q: 'Is funding education a good form of charity?',
+        a: 'Yes. Supporting beneficial education is among the most impactful and lasting forms of charity, breaking the cycle of poverty for an entire family and, often, future generations.',
+      },
+      {
+        q: 'Can I sponsor a specific student’s education?',
+        a: 'You can contribute to the scholarship programme, which is directed to deserving students. Wafa Trust ensures your support reaches those with genuine need and merit.',
+      },
+    ],
+    content: `
+<p>Talent is distributed everywhere — but opportunity is not. For every doctor, engineer or teacher who rose from poverty, there are countless equally gifted children whose futures ended not for lack of ability, but for lack of a few thousand rupees. <strong>Scholarships for poor students in India</strong> exist to make sure ability, not income, decides who gets to dream.</p>
+
+<h2>The wall between talent and opportunity</h2>
+<p>Imagine a bright student near Akola who tops her class and dreams of becoming a doctor. She has the marks, the determination and the intelligence. What she does not have is a family that can afford college fees, books and travel. As her friends enrol in university, she is quietly told to look for work instead. Her talent — real, rare and needed — is left to go to waste.</p>
+<p>This scene plays out across India every year. Financial constraints, not lack of merit, are what stop most poor students from reaching higher education. And when a promising student is turned away, it is not only their loss — it is the community's and the country's.</p>
+
+<h2>Opening the door to higher education</h2>
+<p>Through its <a href="/services/scholarship-for-higher-education">Wafa Scholarship for Higher Education</a>, Wafa Educational And Charitable Trust helps deserving students access the quality education they have earned. The programme aims to:</p>
+<ul>
+<li>Provide financial assistance to deserving students pursuing higher education</li>
+<li>Encourage academic excellence and career growth</li>
+<li>Bridge the gap between talent and opportunity</li>
+<li>Support students in accessing modern education in colleges and universities</li>
+</ul>
+<p>The trust believes higher education should be a right, not a privilege. By removing the financial wall, a scholarship lets a gifted student walk through the door that would otherwise have been closed — and step onto a path that can transform their entire life.</p>
+
+<h2>One scholarship, a family transformed</h2>
+<p>The impact of educating one child ripples outward for decades. A student who becomes a doctor, teacher or engineer does not just lift themselves; they lift their parents out of poverty, educate their own children, and often give back to the community that helped them. Sponsor a scholarship, and you are not funding a single year of study — you are changing a family's destiny for generations. It complements Wafa Trust's <a href="/services/maktab-deeniyat">Maktab Deeniyat</a> and <a href="/services/ustad-hafiz-sponsor">teacher sponsorship</a> work to nurture both worldly and religious learning.</p>
+<p>The Prophet Muhammad ﷺ described the pursuit of knowledge as an obligation and a path made easy towards Paradise. Enabling that pursuit for someone who could not otherwise afford it is a gift of the highest order.</p>
+
+<h2>Sponsor a future today</h2>
+<p>Somewhere near Akola, a bright student is waiting to find out whether their dream ends or begins. Your support can be the difference. Sponsor a scholarship today and change a child's destiny — and, through them, the future of an entire family.</p>
+`,
+  },
 ];
