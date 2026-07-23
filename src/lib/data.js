@@ -168,9 +168,9 @@ export const SITE_INFO = {
   address:
     'Near Zubaida Hospital, Mohammadi Chowk, Akola, Maharashtra 444001, India',
   social: {
-    facebook: 'https://www.facebook.com/wafatrust',
-    instagram: 'https://www.instagram.com/wafa_trust/',
-    youtube: 'https://www.youtube.com/@wafatrust',
+    facebook: 'https://www.facebook.com/wafatrust.india?mibextid=ZbWKwL',
+    instagram: 'https://www.instagram.com/invites/contact/?igsh=tgm5bn6b38sp&utm_content=2jv0wdf',
+    youtube: 'https://youtube.com/@wafatrustindia?si=7Asp5Qw0XsobrO4o',
     whatsapp: 'https://wa.me/919373208864',
   },
   url: 'https://wafatrustindia.org',
