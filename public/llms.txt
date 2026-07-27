@@ -13,6 +13,7 @@ Note: The trust is not FCRA-registered, so it does not solicit foreign-source co
 - [Our Mission](https://wafatrustindia.org/mission): The trust's goals and guiding principles.
 - [Our Vision](https://wafatrustindia.org/vision): The long-term vision for uplifting communities.
 - [Donate Now](https://wafatrustindia.org/donate): Secure online donation (Razorpay), bank/UPI details, and 80G tax-exemption information.
+- [Our Projects](https://wafatrustindia.org/services): All humanitarian projects grouped by category (water, education, food, health, family).
 - [Contact](https://wafatrustindia.org/contact): Phone, email, WhatsApp and address (Village & Post Office Gulalta, Tehsil Punhana, District Nuh, Haryana 122508, India).
 - [Photo Gallery](https://wafatrustindia.org/gallery): Images of the trust's charity work.
 - [Blog](https://wafatrustindia.org/blog): 50+ guides on Zakat, Sadaqah, impact stories and donor resources.
@@ -58,5 +59,6 @@ Note: The trust is not FCRA-registered, so it does not solicit foreign-source co
 ## Contact
 
 - Email: wafatrustindia@gmail.com
-- Phone / WhatsApp: +91 98138 93744
+- Phone: +91 98138 93744, +91 98128 93744
+- WhatsApp: +91 98138 93744
 - Address: Village & Post Office Gulalta, Tehsil Punhana, District Nuh, Haryana 122508, India

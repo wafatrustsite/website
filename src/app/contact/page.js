@@ -49,6 +49,9 @@ export default function ContactPage() {
                 <div>
                   <h4>Phone Number</h4>
                   <p><a href={`tel:${SITE_INFO.phone.replace(/[^0-9+]/g, '')}`} style={{ color: 'inherit' }}>{SITE_INFO.phone}</a></p>
+                  {SITE_INFO.phone2 && (
+                    <p><a href={`tel:${SITE_INFO.phone2.replace(/[^0-9+]/g, '')}`} style={{ color: 'inherit' }}>{SITE_INFO.phone2}</a></p>
+                  )}
                 </div>
               </div>
 

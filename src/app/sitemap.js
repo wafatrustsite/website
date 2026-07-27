@@ -9,6 +9,7 @@ export default function sitemap() {
   const staticPaths = [
     { p: '', priority: 1.0, freq: 'weekly' },
     { p: '/donate', priority: 0.9, freq: 'weekly' },
+    { p: '/services', priority: 0.9, freq: 'weekly' },
     { p: '/blog', priority: 0.8, freq: 'weekly' },
     { p: '/about', priority: 0.7, freq: 'monthly' },
     { p: '/mission', priority: 0.6, freq: 'monthly' },

@@ -160,12 +160,94 @@ export function getServiceSlugs() {
   return SERVICE_SLUGS;
 }
 
+// Projects grouped into categories for the /services showcase page
+export const SERVICE_CATEGORIES = [
+  {
+    id: 'water-sanitation',
+    title: 'Water & Sanitation',
+    intro: 'Clean water and hygiene for communities that struggle for it every day.',
+    icon: 'droplet',
+    items: [
+      ['water-well-for-needy-place', 'A lasting source of clean, safe drinking water for whole communities.'],
+      ['handpump-for-needy-place', 'Bringing clean water closer to families in need.'],
+      ['supply-of-water-to-the-needy-through-tankers', 'Emergency water for drought-hit, source-less communities.'],
+      ['wazu-khana-build', 'Clean, dignified ablution (wudu) facilities for worshippers.'],
+    ],
+  },
+  {
+    id: 'religious-educational',
+    title: 'Religious & Educational',
+    intro: 'Building faith, knowledge and opportunity for the next generation.',
+    icon: 'book',
+    items: [
+      ['masjid-madrasa-build', 'Building centers of faith, knowledge and community.'],
+      ['quran-e-kareem-distribution-2', "Placing the Holy Qur'an into every willing home and maktab."],
+      ['maktab-deeniyat', 'Essential Islamic education for children, online and offline.'],
+      ['ustad-hafiz-sponsor', "Supporting the teachers who preserve the Qur'an."],
+      ['distribution-of-benches-and-mats', 'Proper seating so no child struggles to learn.'],
+      ['scholarship-for-higher-education', 'Funding deserving students toward higher education.'],
+    ],
+  },
+  {
+    id: 'food-relief',
+    title: 'Food & Relief',
+    intro: 'Meeting the most basic needs — so no one goes without food or warmth.',
+    icon: 'food',
+    items: [
+      ['free-food-distribution', 'Nutritious meals so no one has to sleep hungry.'],
+      ['free-distribution-of-ration-kit', 'A month of staple food for a struggling family.'],
+      ['iftar-for-ramadan', 'Iftar meals for fasting families in Ramadan.'],
+      ['blankets-winter-distribution', 'Warmth for the vulnerable through the harsh winter.'],
+    ],
+  },
+  {
+    id: 'health-mobility',
+    title: 'Health & Mobility',
+    intro: 'Restoring health, dignity and independence to those in need.',
+    icon: 'heart',
+    items: [
+      ['medical-aid', 'Treatment and medical-bill support for the poor.'],
+      ['wheelchair-distribution', 'Restoring mobility and dignity to the disabled.'],
+      ['tricycle-distribution', 'Hand-powered tricycles that return independence.'],
+    ],
+  },
+  {
+    id: 'family-empowerment',
+    title: 'Family & Empowerment',
+    intro: 'Lifting families out of poverty with lasting, dignified support.',
+    icon: 'people',
+    items: [
+      ['widows-help', 'Support and empowerment for widows in need.'],
+      ['support-for-orphans', 'Care, education and shelter for orphaned children.'],
+      ['poor-family-help', 'Holistic support for families breaking out of poverty.'],
+      ['poor-girl-marriage-help', 'Helping poor families marry daughters with dignity.'],
+      ['house-build', 'Safe, permanent homes for the homeless.'],
+      ['sewing-machine-distribution', 'A livelihood in a box — empowering women to earn.'],
+      ['cash-gift', 'Direct cash relief that restores hope and stability.'],
+      ['small-business-project', 'Seed support to launch a self-reliant livelihood.'],
+    ],
+  },
+];
+
+export function getServiceCategories() {
+  return SERVICE_CATEGORIES.map((cat) => ({
+    ...cat,
+    items: cat.items
+      .map(([slug, tagline]) => {
+        const s = getServiceBySlug(slug);
+        return s ? { id: slug, title: s.title, image: s.image, tagline } : null;
+      })
+      .filter(Boolean),
+  }));
+}
+
 export const SITE_INFO = {
   name: 'Wafa Educational And Charitable Trust',
   tagline: 'National and charitable institution',
   description:
     'Wafa Educational And Charitable Trust is a national charitable institution dedicated to empowering, educating, and uplifting communities across India through sustainable and compassionate initiatives.',
   phone: '+91 98138 93744',
+  phone2: '+91 98128 93744',
   email: 'wafatrustindia@gmail.com',
   address:
     'Village & Post Office Gulalta, Tehsil Punhana, District Nuh, Haryana 122508, India',
