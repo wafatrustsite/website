@@ -19,6 +19,7 @@ const services = [
   { slug: 'free-food-distribution', title: 'Free Food distribution' },
   { slug: 'free-distribution-of-ration-kit', title: 'Free distribution of ration kit' },
   { slug: 'widows-help', title: 'Widows Help' },
+  { slug: 'support-for-orphans', title: 'Support for Orphans' },
   { slug: 'poor-family-help', title: 'Poor Family Help' },
   { slug: 'poor-girl-marriage-help', title: 'Poor Girl marriage help' },
   { slug: 'house-build', title: 'House Build' },
@@ -27,7 +28,7 @@ const services = [
   { slug: 'ustad-hafiz-sponsor', title: 'Ustad & Hafiz Sponsor' },
   { slug: 'distribution-of-benches-and-mats', title: 'Distribution of benches and mats etc' },
   { slug: 'sewing-machine-distribution', title: 'Sewing Machine Distribution' },
-  { slug: 'cash-gift', title: 'Cash Gift' },
+  { slug: 'cash-gift', title: 'Gift of Happiness' },
   { slug: 'medical-aid', title: 'Medical Aid' },
   { slug: 'small-business-project', title: 'Small Business Project' },
 ];
@@ -57,13 +58,13 @@ export default function Header() {
       <div className="topbar">
         <div className="container">
           <div className="topbar-left">
-            <a href="mailto:wafatrust011@gmail.com">
+            <a href="mailto:wafatrustindia@gmail.com">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-              <span>wafatrust011@gmail.com</span>
+              <span>wafatrustindia@gmail.com</span>
             </a>
-            <a href="tel:+919373208864">
+            <a href="tel:+919813893744">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span>+91 93732 08864</span>
+              <span>+91 98138 93744</span>
             </a>
           </div>
           <div className="topbar-right topbar-social">
@@ -76,7 +77,7 @@ export default function Header() {
             <a href="https://youtube.com/@wafatrustindia?si=7Asp5Qw0XsobrO4o" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 3.2H4.4A2.4 2.4 0 0 0 2 5.6v12.8a2.4 2.4 0 0 0 2.4 2.4h15.2a2.4 2.4 0 0 0 2.4-2.4V5.6a2.4 2.4 0 0 0-2.4-2.4zM10 15.5v-7l6 3.5-6 3.5z"/></svg>
             </a>
-            <a href="https://wa.me/919373208864" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <a href="https://wa.me/919813893744" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.12 1.52 5.855L0 24l6.335-1.652A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.82a9.782 9.782 0 0 1-5.27-1.534l-.378-.224-3.917 1.022 1.046-3.815-.247-.394A9.78 9.78 0 0 1 2.18 12 9.82 9.82 0 0 1 12 2.18 9.82 9.82 0 0 1 21.82 12 9.82 9.82 0 0 1 12 21.82z"/></svg>
             </a>
           </div>

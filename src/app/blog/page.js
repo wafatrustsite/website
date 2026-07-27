@@ -6,7 +6,7 @@ import { getBlogsPage, getBlogPageCount } from '../../lib/data';
 export const metadata = {
   title: 'Zakat, Sadaqah & Charity Blog | Wafa Educational And Charitable Trust',
   description:
-    'Guides on Zakat, Sadaqah Jariyah and Islamic giving, real impact stories from Akola & across India, and how NRIs can donate — from Wafa Educational And Charitable Trust.',
+    'Guides on Zakat, Sadaqah Jariyah and Islamic giving, real impact stories from Nuh & across India, and how NRIs can donate — from Wafa Educational And Charitable Trust.',
   alternates: { canonical: '/blog' },
 };
 

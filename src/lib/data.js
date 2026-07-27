@@ -84,6 +84,7 @@ const SERVICE_SLUGS = [
   'free-food-distribution',
   'free-distribution-of-ration-kit',
   'widows-help',
+  'support-for-orphans',
   'poor-family-help',
   'poor-girl-marriage-help',
   'house-build',
@@ -117,6 +118,7 @@ const CAMPAIGN_IMAGE_MAP = {
   'free-food-distribution': '/assets/slider-11.jpg',
   'free-distribution-of-ration-kit': '/assets/blog1.jpg',
   'widows-help': '/assets/slider-31.jpg',
+  'support-for-orphans': '/assets/donate-6.jpg',
   'poor-family-help': '/assets/about.jpg',
   'poor-girl-marriage-help': '/assets/slider-41.jpg',
   'house-build': '/assets/blog3.jpg',
@@ -163,15 +165,15 @@ export const SITE_INFO = {
   tagline: 'National and charitable institution',
   description:
     'Wafa Educational And Charitable Trust is a national charitable institution dedicated to empowering, educating, and uplifting communities across India through sustainable and compassionate initiatives.',
-  phone: '+91 93732 08864',
-  email: 'wafatrust011@gmail.com',
+  phone: '+91 98138 93744',
+  email: 'wafatrustindia@gmail.com',
   address:
-    'Near Zubaida Hospital, Mohammadi Chowk, Akola, Maharashtra 444001, India',
+    'Village & Post Office Gulalta, Tehsil Punhana, District Nuh, Haryana 122508, India',
   social: {
     facebook: 'https://www.facebook.com/wafatrust.india?mibextid=ZbWKwL',
     instagram: 'https://www.instagram.com/invites/contact/?igsh=tgm5bn6b38sp&utm_content=2jv0wdf',
     youtube: 'https://youtube.com/@wafatrustindia?si=7Asp5Qw0XsobrO4o',
-    whatsapp: 'https://wa.me/919373208864',
+    whatsapp: 'https://wa.me/919813893744',
   },
   url: 'https://wafatrustindia.org',
 };

@@ -39,7 +39,7 @@ export const blogPosts = [
       },
       {
         q: 'Can I pay my Zakat online in India?',
-        a: 'Yes. You can calculate your Zakat and pay it securely online to Wafa Educational And Charitable Trust, which distributes it to eligible families in Akola, Maharashtra and across India.',
+        a: 'Yes. You can calculate your Zakat and pay it securely online to Wafa Educational And Charitable Trust, which distributes it to eligible families in Nuh, Haryana and across India.',
       },
     ],
     content: `
@@ -85,7 +85,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Where should your Zakat go?</h2>
-<p>Zakat can only be given to eight specific categories of people named in the Qur'an (Surah At-Tawbah 9:60) — chiefly the poor and the needy. This is where a trustworthy, on-the-ground charity matters. Wafa Educational And Charitable Trust works directly in Akola, Maharashtra and across India, delivering your Zakat to deserving families through <a href="/services/free-food-distribution">food and ration distribution</a>, <a href="/services/widows-help">widow support</a>, and <a href="/services/water-well-for-needy-place">clean water projects</a>. Because we operate locally, a very high proportion of every rupee reaches the beneficiary rather than being lost to overheads.</p>
+<p>Zakat can only be given to eight specific categories of people named in the Qur'an (Surah At-Tawbah 9:60) — chiefly the poor and the needy. This is where a trustworthy, on-the-ground charity matters. Wafa Educational And Charitable Trust works directly in Nuh, Haryana and across India, delivering your Zakat to deserving families through <a href="/services/free-food-distribution">food and ration distribution</a>, <a href="/services/widows-help">widow support</a>, and <a href="/services/water-well-for-needy-place">clean water projects</a>. Because we operate locally, a very high proportion of every rupee reaches the beneficiary rather than being lost to overheads.</p>
 
 <h2>Calculate, then complete your Zakat today</h2>
 <p>Zakat is an act of worship that is only complete once the wealth actually reaches those who deserve it. Once you have worked out your figure using the steps above, you can fulfil it in minutes. Give your Zakat to verified, Zakat-eligible projects and let it become a source of relief for a family that has been waiting for exactly this help.</p>
@@ -150,7 +150,7 @@ export const blogPosts = [
 <p>Zakat is obligatory and restricted to specific recipients. General Sadaqah is voluntary and flexible. Sadaqah Jariyah is a type of voluntary charity distinguished by its <em>lasting</em> impact. Many donors pay their Zakat separately and then add a Sadaqah Jariyah gift on top — planting a "tree" whose fruit they hope to enjoy in the Hereafter.</p>
 
 <h2>Start your ongoing reward with Wafa Trust</h2>
-<p>Wafa Educational And Charitable Trust specialises in exactly these lasting projects — wells, hand pumps, mosques, madrasas, Qur'an distribution and education — carried out on the ground in Akola, Maharashtra and beyond. When you give here, you are not just helping today; you are planting something that keeps giving for years. Choose a Sadaqah Jariyah project and begin an act of charity that never sleeps.</p>
+<p>Wafa Educational And Charitable Trust specialises in exactly these lasting projects — wells, hand pumps, mosques, madrasas, Qur'an distribution and education — carried out on the ground in Nuh, Haryana and beyond. When you give here, you are not just helping today; you are planting something that keeps giving for years. Choose a Sadaqah Jariyah project and begin an act of charity that never sleeps.</p>
 `,
   },
   {
@@ -211,7 +211,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Give each type correctly with Wafa Trust</h2>
-<p>Wafa Educational And Charitable Trust runs dedicated programmes for each category. Your Zakat is directed only to eligible recipients, your Lillah funds mosques and madrasas, and your Sadaqah supports water, education and food projects across Akola, Maharashtra and India. When you give, you can specify the type so your charity is applied exactly as the Shariah intends — valid, transparent and impactful.</p>
+<p>Wafa Educational And Charitable Trust runs dedicated programmes for each category. Your Zakat is directed only to eligible recipients, your Lillah funds mosques and madrasas, and your Sadaqah supports water, education and food projects across Nuh, Haryana and India. When you give, you can specify the type so your charity is applied exactly as the Shariah intends — valid, transparent and impactful.</p>
 `,
   },
   {
@@ -268,7 +268,7 @@ export const blogPosts = [
 <h2>Who is NOT eligible?</h2>
 <p>Zakat generally cannot be given to your own dependants you are already obliged to support (such as your spouse, children or parents), nor to the wealthy who are above nisab, nor — in the majority view — used to construct buildings. For families you support directly, and for mosques and madrasas, use general Sadaqah or Lillah instead.</p>
 
-<h2>Real examples from Akola, Maharashtra</h2>
+<h2>Real examples from Nuh, Haryana</h2>
 <p>On the ground, eligibility becomes very real: a <a href="/services/widows-help">widow</a> with no earning member, a family drowning in a medical <a href="/services/medical-aid">debt</a>, a labourer whose home was washed away. Wafa Educational And Charitable Trust verifies each case locally so your Zakat reaches a genuinely eligible recipient — not a middleman.</p>
 
 <h2>Give your Zakat where it qualifies</h2>
@@ -332,7 +332,7 @@ export const blogPosts = [
 <p>Many Indian families hold significant gold set aside for daughters' weddings. That gold is still Zakatable each year it is held. Interestingly, your Zakat can directly help another family facing the same milestone — Wafa's <a href="/services/poor-girl-marriage-help">marriage assistance programme</a> helps poor families conduct dignified weddings for their daughters.</p>
 
 <h2>Pay your Zakat and get a receipt</h2>
-<p>Once you have your figure, you can pay your Zakat on gold and savings quickly and securely. Wafa Educational And Charitable Trust channels it to eligible families across Akola and India through <a href="/services/widows-help">widow support</a>, <a href="/services/free-food-distribution">food distribution</a> and more — and provides a receipt for your records. Purify your gold and savings this year by giving the poor their due.</p>
+<p>Once you have your figure, you can pay your Zakat on gold and savings quickly and securely. Wafa Educational And Charitable Trust channels it to eligible families across Nuh and India through <a href="/services/widows-help">widow support</a>, <a href="/services/free-food-distribution">food distribution</a> and more — and provides a receipt for your records. Purify your gold and savings this year by giving the poor their due.</p>
 `,
   },
   {
@@ -399,7 +399,7 @@ export const blogPosts = [
 <p>Match your intention to your budget. Want the broadest daily benefit? Choose water. Want to spread knowledge? Choose education or the Qur'an. Want to empower a family permanently? Choose a sewing machine or a scholarship. There is no wrong choice — every one of these keeps working after you have moved on.</p>
 
 <h2>Plant your ongoing charity today</h2>
-<p>Wafa Educational And Charitable Trust turns each of these ideas into reality in Akola, Maharashtra and across India, with transparent updates so you can see your Sadaqah Jariyah at work. Pick a project that speaks to your heart and start an act of charity whose reward, insha'Allah, never ends.</p>
+<p>Wafa Educational And Charitable Trust turns each of these ideas into reality in Nuh, Haryana and across India, with transparent updates so you can see your Sadaqah Jariyah at work. Pick a project that speaks to your heart and start an act of charity whose reward, insha'Allah, never ends.</p>
 `,
   },
   {
@@ -457,7 +457,7 @@ export const blogPosts = [
 <p>Delaying Zakat once it is due, without a valid reason, is discouraged. A missed year still has to be paid — the obligation does not disappear. Setting a fixed date and a reminder is the easiest way to stay consistent.</p>
 
 <h2>Fulfil your Zakat with confidence</h2>
-<p>Once your due date arrives and your figure is ready, give your Zakat to verified, eligible recipients. Wafa Educational And Charitable Trust distributes it locally in Akola, Maharashtra and across India through <a href="/services/free-food-distribution">food programmes</a>, <a href="/services/poor-family-help">poor family support</a> and <a href="/services/water-well-for-needy-place">clean water projects</a> — transparently and without delay, so your obligation is fulfilled and a family's need is met.</p>
+<p>Once your due date arrives and your figure is ready, give your Zakat to verified, eligible recipients. Wafa Educational And Charitable Trust distributes it locally in Nuh, Haryana and across India through <a href="/services/free-food-distribution">food programmes</a>, <a href="/services/poor-family-help">poor family support</a> and <a href="/services/water-well-for-needy-place">clean water projects</a> — transparently and without delay, so your obligation is fulfilled and a family's need is met.</p>
 `,
   },
   {
@@ -518,7 +518,7 @@ export const blogPosts = [
 <p>Many families have a needy relative <em>and</em> want their Zakat to reach the wider community. A balanced approach is to support your close, non-obligatory needy relatives directly, and channel the rest of your Zakat through a trusted charity that reaches the poorest of the poor. That way your family bonds are honoured and your broader duty is fulfilled.</p>
 
 <h2>Where your remaining Zakat can go</h2>
-<p>Beyond your relatives, countless eligible families in India have no one to turn to — <a href="/services/widows-help">widows</a> with no earning member, <a href="/services/poor-family-help">poor families</a> living hand to mouth, and households that cannot afford a month's <a href="/services/free-distribution-of-ration-kit">ration</a>. Wafa Educational And Charitable Trust verifies each case in Akola, Maharashtra and across India so your Zakat reaches those with a genuine right to it.</p>
+<p>Beyond your relatives, countless eligible families in India have no one to turn to — <a href="/services/widows-help">widows</a> with no earning member, <a href="/services/poor-family-help">poor families</a> living hand to mouth, and households that cannot afford a month's <a href="/services/free-distribution-of-ration-kit">ration</a>. Wafa Educational And Charitable Trust verifies each case in Nuh, Haryana and across India so your Zakat reaches those with a genuine right to it.</p>
 
 <h2>Give your Zakat the right way</h2>
 <p>Fulfil your family duties from your regular wealth, give your Zakat to eligible needy relatives where appropriate, and let the rest reach the wider poor through a transparent, on-the-ground trust. It is the surest way to honour both your family and the Shariah.</p>
@@ -583,7 +583,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Give Lillah and Sadaqah with Wafa Trust</h2>
-<p>Wafa Educational And Charitable Trust keeps these funds properly separated so your intention is honoured. Your Lillah goes to mosque, madrasa and wazu khana projects; your Sadaqah supports water, food, education and family programmes across Akola, Maharashtra and India. Choose Lillah to build institutions that serve the community for generations — and see your charity turn into daily worship and learning.</p>
+<p>Wafa Educational And Charitable Trust keeps these funds properly separated so your intention is honoured. Your Lillah goes to mosque, madrasa and wazu khana projects; your Sadaqah supports water, food, education and family programmes across Nuh, Haryana and India. Choose Lillah to build institutions that serve the community for generations — and see your charity turn into daily worship and learning.</p>
 `,
   },
   {
@@ -647,7 +647,7 @@ export const blogPosts = [
 <p>Set a phone reminder for your Zakat date and keep a simple note of your balances. Salaried Zakat then takes just a few minutes each year and removes any anxiety about whether you have paid correctly.</p>
 
 <h2>Give your calculated Zakat in minutes</h2>
-<p>Once your figure is ready, you can fulfil it immediately. Wafa Educational And Charitable Trust directs your salary Zakat to eligible people across Akola, Maharashtra and India — funding <a href="/services/scholarship-for-higher-education">education</a>, <a href="/services/free-food-distribution">food</a> and <a href="/services/medical-aid">medical aid</a> for those who need it most. Purify this year's savings and let your hard-earned money become a source of relief and reward.</p>
+<p>Once your figure is ready, you can fulfil it immediately. Wafa Educational And Charitable Trust directs your salary Zakat to eligible people across Nuh, Haryana and India — funding <a href="/services/scholarship-for-higher-education">education</a>, <a href="/services/free-food-distribution">food</a> and <a href="/services/medical-aid">medical aid</a> for those who need it most. Purify this year's savings and let your hard-earned money become a source of relief and reward.</p>
 `,
   },
 
@@ -657,12 +657,12 @@ export const blogPosts = [
   //  individual names/details are illustrative to protect privacy.)
   // ============================================================
   {
-    id: 'how-one-water-well-changed-a-village-in-akola',
-    title: 'How One Water Well Changed a Village Near Akola',
-    metaTitle: 'Water Well Donation Akola — How One Well Changed a Village | Wafa Trust',
+    id: 'how-one-water-well-changed-a-village-in-nuh',
+    title: 'How One Water Well Changed a Village Near Nuh',
+    metaTitle: 'Water Well Donation Nuh — How One Well Changed a Village | Wafa Trust',
     metaDescription:
-      'A representative story of how a single water well transformed a village near Akola, Maharashtra — and how your Sadaqah Jariyah can bring clean water to families who walk miles for it.',
-    keyword: 'water well donation Akola',
+      'A representative story of how a single water well transformed a village near Nuh, Haryana — and how your Sadaqah Jariyah can bring clean water to families who walk miles for it.',
+    keyword: 'water well donation Nuh',
     category: 'Impact Stories',
     audience: 'Both',
     image: 'assets/donate-7.jpg',
@@ -684,10 +684,10 @@ export const blogPosts = [
       },
     ],
     content: `
-<p>To understand what a <strong>water well donation in Akola</strong> really means, you have to picture the mornings before it. In many villages across Maharashtra's dry belt, the day begins not with breakfast but with a walk — women and children setting out at dawn, empty vessels balanced on their hips, heading towards a distant, often unsafe water source. This is the reality a single well can end.</p>
+<p>To understand what a <strong>water well donation in Nuh</strong> really means, you have to picture the mornings before it. In many villages across Haryana's Mewat region, the day begins not with breakfast but with a walk — women and children setting out at dawn, empty vessels balanced on their hips, heading towards a distant, often unsafe water source. This is the reality a single well can end.</p>
 
 <h2>Before the well: a daily struggle</h2>
-<p>In a settlement on the outskirts of Akola — one of many like it — families once depended on a shallow, contaminated pond several kilometres away. The water was muddy in summer and worse in the monsoon. Children fell sick with stomach illness after stomach illness. Girls missed school because fetching water was their first duty of the day. And the elderly simply went without, rationing every cup.</p>
+<p>In a settlement on the outskirts of Nuh — one of many like it — families once depended on a shallow, contaminated pond several kilometres away. The water was muddy in summer and worse in the monsoon. Children fell sick with stomach illness after stomach illness. Girls missed school because fetching water was their first duty of the day. And the elderly simply went without, rationing every cup.</p>
 <p>This is not an unusual picture. Across India, millions still live without a reliable, clean water source nearby. Contaminated water spreads disease, drains family incomes on medicine, and quietly steals the futures of children who spend their childhoods carrying pots instead of books.</p>
 
 <h2>The day everything changed</h2>
@@ -700,11 +700,11 @@ export const blogPosts = [
 
 <h2>Where clean water is needed most</h2>
 <p>The need does not stop at one village. Wafa Trust works where water scarcity is most severe — installing wells and <a href="/services/handpump-for-needy-place">hand pumps</a> near settlements, along roadsides for travellers and daily-wage workers, and even trucking in <a href="/services/supply-of-water-to-the-needy-through-tankers">water by tanker</a> to communities that have no usable source at all, where residents otherwise rely on distant, saline water.</p>
-<p>Because the trust is rooted locally in Akola, Maharashtra, it knows exactly which villages are waiting and can act quickly. Your donation does not disappear into overheads; it becomes a borewell with a family's name on the benefit.</p>
+<p>Because the trust is rooted locally in Nuh, Haryana, it knows exactly which villages are waiting and can act quickly. Your donation does not disappear into overheads; it becomes a borewell with a family's name on the benefit.</p>
 
 <h2>Become the reason a village drinks clean water</h2>
 <p>Sponsoring a well — whether a full borewell or a share towards one — is one of the most meaningful decisions a donor can make. It is a gift you can give in your own name, in your parents' memory, or simply for the sake of Allah. And it is a gift that keeps rewarding you long after it is given.</p>
-<p>Somewhere near Akola, a village is still making that dawn walk. With your support, tomorrow morning could look completely different. Sponsor a water well today and become the reason a whole community finally has clean water at its doorstep.</p>
+<p>Somewhere near Nuh, a village is still making that dawn walk. With your support, tomorrow morning could look completely different. Sponsor a water well today and become the reason a whole community finally has clean water at its doorstep.</p>
 `,
   },
   {
@@ -712,7 +712,7 @@ export const blogPosts = [
     title: 'Widow Support Story: A New Beginning',
     metaTitle: 'Widow Support Charity India — A Story of a New Beginning | Wafa Trust',
     metaDescription:
-      'A representative story of how widow support in India restores dignity and independence. Learn how your Zakat and Sadaqah help widows near Akola rebuild their lives — and how to donate.',
+      'A representative story of how widow support in India restores dignity and independence. Learn how your Zakat and Sadaqah help widows near Nuh rebuild their lives — and how to donate.',
     keyword: 'widow support charity India',
     category: 'Impact Stories',
     audience: 'Both',
@@ -738,7 +738,7 @@ export const blogPosts = [
 <p>When a family loses its sole earning member, the grief is only the beginning. For a widow in an underprivileged community, the days that follow bring a second, quieter crisis: how to feed the children, pay the rent, and hold the household together — often with no income and nowhere to turn. This is the gap that <strong>widow support charity in India</strong> exists to fill.</p>
 
 <h2>A story that repeats too often</h2>
-<p>Consider a widow we'll call Aamina — her situation mirrors that of countless women Wafa Trust serves near Akola. After her husband passed, she was left with three children, a single rented room, and no savings. Relatives helped for a while, then drifted away under their own pressures. Within months she was skipping meals so her children could eat, and the landlord's patience was running out.</p>
+<p>Consider a widow we'll call Aamina — her situation mirrors that of countless women Wafa Trust serves near Nuh. After her husband passed, she was left with three children, a single rented room, and no savings. Relatives helped for a while, then drifted away under their own pressures. Within months she was skipping meals so her children could eat, and the landlord's patience was running out.</p>
 <p>Stories like hers are painfully common. Widows in poor communities frequently face not just financial hardship but social stigma and isolation, making it even harder to ask for help. Many suffer in silence.</p>
 
 <h2>The first lifeline: immediate relief</h2>
@@ -751,7 +751,7 @@ export const blogPosts = [
 
 <h2>Why widow support matters so deeply</h2>
 <p>Caring for widows holds a special place in Islamic teaching. The Prophet Muhammad ﷺ likened the one who strives on behalf of widows and the poor to a warrior in the path of Allah, and to a person who fasts and prays without tiring. Few acts of charity carry such weight — and few needs are as genuine.</p>
-<p>Because Wafa Trust works directly in the community around Akola, Maharashtra, it can verify each widow's situation and ensure help reaches the truly deserving, quickly and without waste.</p>
+<p>Because Wafa Trust works directly in the community around Nuh, Haryana, it can verify each widow's situation and ensure help reaches the truly deserving, quickly and without waste.</p>
 
 <h2>Help a widow begin again</h2>
 <p>Your support — whether a one-time Zakat payment or a recurring monthly gift — can be the lifeline that turns a widow's crisis into a new beginning. It can keep a roof over a family's head, put food on the table, and hand a grieving mother the tools to rebuild her future with dignity. Donate today and help another woman like Aamina write a very different next chapter.</p>
@@ -788,7 +788,7 @@ export const blogPosts = [
 <p>In many poor households across India, the marriage of a daughter — one of life's most joyful milestones — arrives wrapped in dread. Not because of the union itself, but because of what it costs. For families already living hand to mouth, a wedding can mean crippling debt, selling what little they own, or sacrificing other essentials. <strong>Marriage assistance for underprivileged girls in India</strong> exists to turn that fear back into joy.</p>
 
 <h2>The hidden burden of a wedding</h2>
-<p>Consider a daily-wage father near Akola with a daughter of marrying age. A suitable match is found, but the modest expenses expected — clothing, a simple ceremony, basic household items for the new couple — add up to more than he earns in a year. To avoid dishonour, families in this position often borrow from moneylenders at brutal interest, entering a debt trap that can take a decade to escape and pulls the whole family deeper into poverty.</p>
+<p>Consider a daily-wage father near Nuh with a daughter of marrying age. A suitable match is found, but the modest expenses expected — clothing, a simple ceremony, basic household items for the new couple — add up to more than he earns in a year. To avoid dishonour, families in this position often borrow from moneylenders at brutal interest, entering a debt trap that can take a decade to escape and pulls the whole family deeper into poverty.</p>
 <p>This pressure is even heavier for widows raising daughters alone, and for families that have already spent everything on medical emergencies. The joy of a wedding becomes a source of sleepless nights.</p>
 
 <h2>How assistance restores dignity</h2>
@@ -802,7 +802,7 @@ export const blogPosts = [
 
 <h2>A joy you can share in</h2>
 <p>There is a special sweetness to this form of giving. You may never meet the family, but somewhere a father sleeps peacefully, a mother's tears turn to joy, and a young woman begins her married life with dignity intact — because a stranger, for the sake of Allah, chose to help. In Islamic tradition, helping the poor to marry and protecting their honour is deeply rewarded.</p>
-<p>Because Wafa Trust works locally around Akola, Maharashtra, it can verify which families are genuinely in need and ensure your contribution goes to a deserving daughter's marriage, not to waste.</p>
+<p>Because Wafa Trust works locally around Nuh, Haryana, it can verify which families are genuinely in need and ensure your contribution goes to a deserving daughter's marriage, not to waste.</p>
 
 <h2>Fund the next nikah</h2>
 <p>Your contribution — of any size — can become part of a family's happiest day. Pooled with others, it helps conduct a dignified wedding, keeps a poor family out of the debt trap, and sends a young couple into married life with hope. Donate towards marriage assistance today and share in the joy — and the reward — of the next nikah.</p>
@@ -858,10 +858,10 @@ export const blogPosts = [
   },
   {
     id: 'blanket-distribution-warmth-in-maharashtra-winter',
-    title: 'Blanket Distribution: Warmth in the Maharashtra Winter',
+    title: 'Blanket Distribution: Warmth in the Haryana Winter',
     metaTitle: 'Blanket Distribution Charity — Warmth in Winter | Wafa Trust India',
     metaDescription:
-      'Each winter, poor and homeless families face freezing nights without protection. See how blanket distribution across Maharashtra saves lives, and how you can sponsor warmth this season.',
+      'Each winter, poor and homeless families face freezing nights without protection. See how blanket distribution across Haryana saves lives, and how you can sponsor warmth this season.',
     keyword: 'blanket distribution charity',
     category: 'Impact Stories',
     audience: 'Both',
@@ -887,8 +887,8 @@ export const blogPosts = [
 <p>Winter does not feel the same to everyone. For those with a warm home, it is a season of comfort. For the poor, the homeless and the elderly with no adequate shelter or clothing, it is a nightly battle for survival. <strong>Blanket distribution charity</strong> is a simple, life-saving response to that battle.</p>
 
 <h2>The cold that the comfortable never see</h2>
-<p>In settlements and slums across Maharashtra, and in remote villages where aid rarely reaches, families sleep through freezing nights with little more than thin, worn cloth between them and the cold. Elderly people, whose bodies struggle most to keep warm, are especially at risk. Young children fall ill. For some, a harsh cold snap is not just uncomfortable — it is deadly.</p>
-<p>Picture an elderly man near Akola, alone in a single room with a broken window, pulling a threadbare sheet tighter as the temperature drops. He has no one to ask and nothing to give. A single warm blanket would change his entire night — and perhaps save his life.</p>
+<p>In settlements and slums across Haryana, and in remote villages where aid rarely reaches, families sleep through freezing nights with little more than thin, worn cloth between them and the cold. Elderly people, whose bodies struggle most to keep warm, are especially at risk. Young children fall ill. For some, a harsh cold snap is not just uncomfortable — it is deadly.</p>
+<p>Picture an elderly man near Nuh, alone in a single room with a broken window, pulling a threadbare sheet tighter as the temperature drops. He has no one to ask and nothing to give. A single warm blanket would change his entire night — and perhaps save his life.</p>
 
 <h2>Warmth delivered where it is needed</h2>
 <p>Through its <a href="/services/blankets-winter-distribution">winter blanket distribution</a>, Wafa Educational And Charitable Trust brings warmth directly to those most at risk. The programme focuses on:</p>
@@ -938,7 +938,7 @@ export const blogPosts = [
 <p>We rarely think about how much freedom is contained in the simple act of moving from one room to another. For millions living with disability, injury or the frailty of age, that freedom is gone — and with it, much of their independence and dignity. A <strong>wheelchair donation in India</strong> gives it back.</p>
 
 <h2>Trapped in place</h2>
-<p>Imagine a man in his forties near Akola who lost the use of his legs in an accident. Once the breadwinner, he now cannot leave his bed without being carried. He depends on family for every movement, feels like a burden, and has slowly withdrawn from the community he once belonged to. His problem is not incurable illness — it is simply that he cannot afford a wheelchair.</p>
+<p>Imagine a man in his forties near Nuh who lost the use of his legs in an accident. Once the breadwinner, he now cannot leave his bed without being carried. He depends on family for every movement, feels like a burden, and has slowly withdrawn from the community he once belonged to. His problem is not incurable illness — it is simply that he cannot afford a wheelchair.</p>
 <p>This is the quiet tragedy of mobility poverty. Across India, countless people who could live active, contributing lives are confined to a corner of a room, not by their condition but by cost. The isolation erodes not just their bodies but their spirits.</p>
 
 <h2>Mobility means everything</h2>
@@ -961,10 +961,10 @@ export const blogPosts = [
   {
     id: 'iftar-meal-story-feeding-families-in-ramadan',
     title: 'Iftar Meals: Feeding Fasting Families in Ramadan',
-    metaTitle: 'Iftar Donation Akola — Feeding Fasting Families in Ramadan | Wafa Trust',
+    metaTitle: 'Iftar Donation Nuh — Feeding Fasting Families in Ramadan | Wafa Trust',
     metaDescription:
-      'In Ramadan, no one should break their fast with nothing. See how iftar meal distribution near Akola feeds fasting families in need — and how sponsoring iftar multiplies your reward.',
-    keyword: 'iftar donation Akola',
+      'In Ramadan, no one should break their fast with nothing. See how iftar meal distribution near Nuh feeds fasting families in need — and how sponsoring iftar multiplies your reward.',
+    keyword: 'iftar donation Nuh',
     category: 'Impact Stories',
     audience: 'Both',
     image: 'assets/event1.webp',
@@ -978,7 +978,7 @@ export const blogPosts = [
       },
       {
         q: 'How does Wafa Trust distribute iftar?',
-        a: 'During Ramadan, Wafa Trust provides iftar meals and food packages to poor and fasting families in and around Akola, ensuring no one breaks their fast without a proper meal.',
+        a: 'During Ramadan, Wafa Trust provides iftar meals and food packages to poor and fasting families in and around Nuh, ensuring no one breaks their fast without a proper meal.',
       },
       {
         q: 'Can I sponsor iftar for the whole of Ramadan?',
@@ -986,10 +986,10 @@ export const blogPosts = [
       },
     ],
     content: `
-<p>There is a particular ache to breaking a long fast with little or nothing to eat. After a day of hunger and thirst, the moment of iftar is meant to be one of gratitude and joy. For poor families, it can instead be a reminder of how little they have. <strong>Iftar donation in Akola</strong> exists so that no fasting person breaks their fast empty-handed.</p>
+<p>There is a particular ache to breaking a long fast with little or nothing to eat. After a day of hunger and thirst, the moment of iftar is meant to be one of gratitude and joy. For poor families, it can instead be a reminder of how little they have. <strong>Iftar donation in Nuh</strong> exists so that no fasting person breaks their fast empty-handed.</p>
 
 <h2>The hardest table in Ramadan</h2>
-<p>Ramadan is a month of mercy, but for a struggling family it can also be a month of quiet anxiety. Picture a mother near Akola preparing to break the fast with her children, stretching a little rice and lentils to cover everyone, going without herself so the little ones have enough. The spirit of Ramadan is alive in her home — but the food is not.</p>
+<p>Ramadan is a month of mercy, but for a struggling family it can also be a month of quiet anxiety. Picture a mother near Nuh preparing to break the fast with her children, stretching a little rice and lentils to cover everyone, going without herself so the little ones have enough. The spirit of Ramadan is alive in her home — but the food is not.</p>
 <p>Multiply that scene across thousands of homes, and you begin to see the need. Fasting is hard enough; fasting in poverty, with no certainty of a proper iftar, is harder still.</p>
 
 <h2>A shared table, a shared blessing</h2>
@@ -1060,7 +1060,7 @@ export const blogPosts = [
     title: 'Sewing Machine Distribution: Empowering Women to Earn',
     metaTitle: 'Sewing Machine Donation India — Empowering Women | Wafa Trust',
     metaDescription:
-      'One sewing machine can turn dependence into a dignified income. See how sewing machine distribution empowers women near Akola to support their families — and how to sponsor one.',
+      'One sewing machine can turn dependence into a dignified income. See how sewing machine distribution empowers women near Nuh to support their families — and how to sponsor one.',
     keyword: 'sewing machine donation',
     category: 'Impact Stories',
     audience: 'Both',
@@ -1097,7 +1097,7 @@ export const blogPosts = [
 <li>Contribute to — or fully support — her household</li>
 <li>Move from dependence to dignity and self-reliance</li>
 </ul>
-<p>Consider a widow we'll call Fatima, near Akola, who once relied entirely on neighbours' help. With a donated sewing machine, she began stitching for families in her lane. Within months she was covering her rent and her children's school costs herself — and had started teaching another woman to sew.</p>
+<p>Consider a widow we'll call Fatima, near Nuh, who once relied entirely on neighbours' help. With a donated sewing machine, she began stitching for families in her lane. Within months she was covering her rent and her children's school costs herself — and had started teaching another woman to sew.</p>
 
 <h2>Empowerment that spreads</h2>
 <p>This is the quiet magic of empowerment: it multiplies. A woman who becomes self-sufficient often lifts others with her — training neighbours, employing a helper, inspiring daughters to aim higher. One machine can seed a small home enterprise that touches an entire community. It connects naturally to Wafa Trust's <a href="/services/small-business-project">small business support</a> and <a href="/services/widows-help">widow support</a> work, which share the same goal: independence, not just aid.</p>
@@ -1112,7 +1112,7 @@ export const blogPosts = [
     title: 'Ration Kit Distribution: A Month of Food, A World of Relief',
     metaTitle: 'Ration Kit Donation India — A Month of Food | Wafa Trust',
     metaDescription:
-      'A single ration kit can feed a poor family for a month. See how ration distribution near Akola supports widows, orphans and struggling families — and how your Zakat can fill an empty kitchen.',
+      'A single ration kit can feed a poor family for a month. See how ration distribution near Nuh supports widows, orphans and struggling families — and how your Zakat can fill an empty kitchen.',
     keyword: 'ration kit donation India',
     category: 'Impact Stories',
     audience: 'Both',
@@ -1139,7 +1139,7 @@ export const blogPosts = [
 
 <h2>The arithmetic of hunger</h2>
 <p>For a family living on unpredictable daily wages, every day is a calculation. When work comes, they eat; when it doesn't, they don't. A single illness, a lost job, or a bad monsoon can tip a household from just-getting-by into genuine hunger. Widows and orphans are especially exposed, often with no earning member at all.</p>
-<p>Picture a grandmother near Akola raising two orphaned grandchildren. On good weeks there is dal and rice; on bad ones, the children go to bed hungry and she goes without entirely. Hers is not a rare story — it is the everyday reality of food insecurity for millions.</p>
+<p>Picture a grandmother near Nuh raising two orphaned grandchildren. On good weeks there is dal and rice; on bad ones, the children go to bed hungry and she goes without entirely. Hers is not a rare story — it is the everyday reality of food insecurity for millions.</p>
 
 <h2>A box that changes the month</h2>
 <p>Through its <a href="/services/free-distribution-of-ration-kit">ration kit distribution</a>, Wafa Educational And Charitable Trust delivers essential sustenance to those who need it most. Each kit is carefully assembled with staples — rice, lentils, flour, cooking oil, sugar and other basics — enough to see a family through the weeks ahead.</p>
@@ -1158,7 +1158,7 @@ export const blogPosts = [
     title: 'House Construction: A Roof, A Refuge, A New Life',
     metaTitle: 'House Construction Charity India — A Roof and a New Life | Wafa Trust',
     metaDescription:
-      'A safe home is a basic human right, yet many families cannot afford one. See how house construction for the poor near Akola provides shelter, safety and dignity — and how you can help build one.',
+      'A safe home is a basic human right, yet many families cannot afford one. See how house construction for the poor near Nuh provides shelter, safety and dignity — and how you can help build one.',
     keyword: 'house construction charity India',
     category: 'Impact Stories',
     audience: 'Both',
@@ -1185,7 +1185,7 @@ export const blogPosts = [
 
 <h2>Life without a safe roof</h2>
 <p>Countless families live in shelters that barely deserve the name — walls of plastic sheeting and scrap, roofs that leak with the first rain, structures that flood in the monsoon and offer no protection from heat or cold. In these conditions, illness spreads, children cannot study, and every night carries a low hum of insecurity.</p>
-<p>Consider a widow near Akola raising her children in a crumbling single room. When it rains, they move everything to the one dry corner and wait it out. She dreams not of luxury, but simply of walls that hold and a roof that keeps her children dry. For a family with no financial means, even that modest dream is out of reach.</p>
+<p>Consider a widow near Nuh raising her children in a crumbling single room. When it rains, they move everything to the one dry corner and wait it out. She dreams not of luxury, but simply of walls that hold and a roof that keeps her children dry. For a family with no financial means, even that modest dream is out of reach.</p>
 
 <h2>Turning dreams into brick and mortar</h2>
 <p>Through its <a href="/services/house-build">house construction programme</a>, Wafa Educational And Charitable Trust steps in for families who have nowhere else to turn. With the support of donors, the trust builds secure homes that provide:</p>
@@ -1234,7 +1234,7 @@ export const blogPosts = [
 <p>Every Hafiz — every person who has memorised the entire Qur'an — represents years of quiet dedication. But behind that child bent over the Book, there is almost always someone else: a devoted teacher, and often a sponsor who made the whole journey possible. <strong>Hafiz sponsorship</strong> is the chance to be that someone.</p>
 
 <h2>The teacher the community depends on</h2>
-<p>Picture an Ustad in a small maktab near Akola. Each day he sits with a circle of children, correcting pronunciation, listening to recitation, gently guiding young memories through verse after verse. He is preserving the Qur'an in the most literal way — passing it, letter-perfect, to the next generation. Yet he often earns barely enough to feed his own family, and some months not even that.</p>
+<p>Picture an Ustad in a small maktab near Nuh. Each day he sits with a circle of children, correcting pronunciation, listening to recitation, gently guiding young memories through verse after verse. He is preserving the Qur'an in the most literal way — passing it, letter-perfect, to the next generation. Yet he often earns barely enough to feed his own family, and some months not even that.</p>
 <p>When teachers like him are forced to leave for better-paying work, an entire community's children lose their path to Islamic knowledge. The chain of transmission that has carried the Qur'an for centuries depends on people willing to sustain these teachers.</p>
 
 <h2>Sustaining the guardians of knowledge</h2>
@@ -1248,7 +1248,7 @@ export const blogPosts = [
 <p>With reliable support, a teacher can stop worrying about survival and pour himself fully into teaching. That stability flows directly to the children: more consistent lessons, more Huffaz completed, more of the Qur'an preserved.</p>
 
 <h2>A journey you help complete</h2>
-<p>Imagine a child near Akola who dreams of memorising the entire Qur'an. With a sponsored teacher guiding him day after day, he progresses — a page, a chapter, a juz at a time — until one day he completes it and becomes a Hafiz, a living carrier of the Book. Every one of those verses passed through a teacher your sponsorship kept in the classroom. You did not just fund a salary; you helped complete a journey.</p>
+<p>Imagine a child near Nuh who dreams of memorising the entire Qur'an. With a sponsored teacher guiding him day after day, he progresses — a page, a chapter, a juz at a time — until one day he completes it and becomes a Hafiz, a living carrier of the Book. Every one of those verses passed through a teacher your sponsorship kept in the classroom. You did not just fund a salary; you helped complete a journey.</p>
 <p>Because the knowledge you help preserve keeps being taught and passed on, this is a true <strong>Sadaqah Jariyah</strong>. It works hand in hand with Wafa Trust's <a href="/services/maktab-deeniyat">Maktab Deeniyat</a> and <a href="/services/scholarship-for-higher-education">scholarship</a> programmes to build a complete path of learning.</p>
 
 <h2>Sponsor a Hafiz and a teacher today</h2>
@@ -1256,11 +1256,11 @@ export const blogPosts = [
 `,
   },
   {
-    id: 'medical-aid-story-life-saving-help-in-akola',
+    id: 'medical-aid-story-life-saving-help-in-nuh',
     title: 'Medical Aid: Life-Saving Help for Those Who Can’t Afford It',
-    metaTitle: 'Medical Aid Charity India — Life-Saving Help in Akola | Wafa Trust',
+    metaTitle: 'Medical Aid Charity India — Life-Saving Help in Nuh | Wafa Trust',
     metaDescription:
-      'When a family cannot afford treatment, illness becomes a catastrophe. See how medical aid near Akola saves lives and clears medical debt — and how your Zakat can heal those in need.',
+      'When a family cannot afford treatment, illness becomes a catastrophe. See how medical aid near Nuh saves lives and clears medical debt — and how your Zakat can heal those in need.',
     keyword: 'medical aid charity India',
     category: 'Impact Stories',
     audience: 'Both',
@@ -1286,7 +1286,7 @@ export const blogPosts = [
 <p>For a family with means, a serious illness is frightening. For a poor family, it is a catastrophe that can destroy everything. Treatment they cannot afford, bills that spiral into unpayable debt, and the agonising choice between a loved one's health and the family's survival. <strong>Medical aid charity in India</strong> stands in that gap between illness and ruin.</p>
 
 <h2>When health becomes a luxury</h2>
-<p>Good health should be a basic human right, not a privilege reserved for those who can pay. Yet across India, millions are forced to forgo necessary treatment simply because of cost. A daily-wage worker near Akola who needs surgery may delay it for months, working through pain, because stopping to heal means his family stops eating. A mother may watch a treatable condition worsen because the medicine is beyond her budget.</p>
+<p>Good health should be a basic human right, not a privilege reserved for those who can pay. Yet across India, millions are forced to forgo necessary treatment simply because of cost. A daily-wage worker near Nuh who needs surgery may delay it for months, working through pain, because stopping to heal means his family stops eating. A mother may watch a treatable condition worsen because the medicine is beyond her budget.</p>
 <p>And when families do seek care, the bills can bury them. Medical debt is one of the most common and cruel drivers of poverty — a single hospitalisation can wipe out years of savings and trap a household for a decade.</p>
 
 <h2>Healing and relief, together</h2>
@@ -1312,7 +1312,7 @@ export const blogPosts = [
     title: 'Small Business Support: From Aid to Independence',
     metaTitle: 'Small Business Support Charity — From Aid to Independence | Wafa Trust',
     metaDescription:
-      'Charity feeds a family today; a small business feeds them for life. See how small business support near Akola turns dependence into self-reliance — and how you can fund a fresh start.',
+      'Charity feeds a family today; a small business feeds them for life. See how small business support near Nuh turns dependence into self-reliance — and how you can fund a fresh start.',
     keyword: 'small business support charity',
     category: 'Impact Stories',
     audience: 'Both',
@@ -1348,7 +1348,7 @@ export const blogPosts = [
 <li>A path to self-sufficiency and economic stability</li>
 <li>The seeds of local job creation and community growth</li>
 </ul>
-<p>Consider a man near Akola who spent years in unpredictable labour. With support to buy a cart and initial stock, he started a small vegetable business. Within months he was earning steadily, feeding his family with dignity, and no longer needing charity at all. That is the goal: to make the help unnecessary.</p>
+<p>Consider a man near Nuh who spent years in unpredictable labour. With support to buy a cart and initial stock, he started a small vegetable business. Within months he was earning steadily, feeding his family with dignity, and no longer needing charity at all. That is the goal: to make the help unnecessary.</p>
 
 <h2>Dignity is the real gift</h2>
 <p>What small business support restores, more than income, is dignity. There is a profound difference between waiting for someone else's generosity and standing on your own feet. A parent who earns can look their children in the eye and promise a better future — and mean it. This work connects with Wafa Trust's <a href="/services/sewing-machine-distribution">sewing machine distribution</a> and <a href="/services/poor-family-help">poor family support</a>, all aimed at the same outcome: lasting independence.</p>
@@ -1389,7 +1389,7 @@ export const blogPosts = [
 <p>Talent is distributed everywhere — but opportunity is not. For every doctor, engineer or teacher who rose from poverty, there are countless equally gifted children whose futures ended not for lack of ability, but for lack of a few thousand rupees. <strong>Scholarships for poor students in India</strong> exist to make sure ability, not income, decides who gets to dream.</p>
 
 <h2>The wall between talent and opportunity</h2>
-<p>Imagine a bright student near Akola who tops her class and dreams of becoming a doctor. She has the marks, the determination and the intelligence. What she does not have is a family that can afford college fees, books and travel. As her friends enrol in university, she is quietly told to look for work instead. Her talent — real, rare and needed — is left to go to waste.</p>
+<p>Imagine a bright student near Nuh who tops her class and dreams of becoming a doctor. She has the marks, the determination and the intelligence. What she does not have is a family that can afford college fees, books and travel. As her friends enrol in university, she is quietly told to look for work instead. Her talent — real, rare and needed — is left to go to waste.</p>
 <p>This scene plays out across India every year. Financial constraints, not lack of merit, are what stop most poor students from reaching higher education. And when a promising student is turned away, it is not only their loss — it is the community's and the country's.</p>
 
 <h2>Opening the door to higher education</h2>
@@ -1407,7 +1407,7 @@ export const blogPosts = [
 <p>The Prophet Muhammad ﷺ described the pursuit of knowledge as an obligation and a path made easy towards Paradise. Enabling that pursuit for someone who could not otherwise afford it is a gift of the highest order.</p>
 
 <h2>Sponsor a future today</h2>
-<p>Somewhere near Akola, a bright student is waiting to find out whether their dream ends or begins. Your support can be the difference. Sponsor a scholarship today and change a child's destiny — and, through them, the future of an entire family.</p>
+<p>Somewhere near Nuh, a bright student is waiting to find out whether their dream ends or begins. Your support can be the difference. Sponsor a scholarship today and change a child's destiny — and, through them, the future of an entire family.</p>
 `,
   },
 
@@ -1465,7 +1465,7 @@ export const blogPosts = [
 <p>The most important thing is to keep a proper receipt for every donation. Wafa Trust provides receipts so your giving is documented.</p>
 
 <h2>Give where your money does the most</h2>
-<p>One of the joys of giving to India is seeing how far your contribution goes. Your donation can fund a <a href="/services/water-well-for-needy-place">clean water well</a> that serves a village for years, provide <a href="/services/free-food-distribution">nutritious food</a> to families who go without, or support a <a href="/services/widows-help">widow</a> rebuilding her life. Because Wafa Trust operates directly on the ground in Akola, Maharashtra, your gift reaches real people with very little lost to overheads.</p>
+<p>One of the joys of giving to India is seeing how far your contribution goes. Your donation can fund a <a href="/services/water-well-for-needy-place">clean water well</a> that serves a village for years, provide <a href="/services/free-food-distribution">nutritious food</a> to families who go without, or support a <a href="/services/widows-help">widow</a> rebuilding her life. Because Wafa Trust operates directly on the ground in Nuh, Haryana, your gift reaches real people with very little lost to overheads.</p>
 
 <h2>Give from abroad today</h2>
 <p>Wherever you are in the world, your connection to home can become someone's lifeline. Confirm the best method for you, keep your receipt, and give your Zakat or Sadaqah to verified projects in India. Start your donation today and let your generosity travel back home to exactly where it is needed.</p>
@@ -1495,14 +1495,14 @@ export const blogPosts = [
       },
       {
         q: 'How do I know my Zakat reached the right people?',
-        a: 'Choose an established charity that works directly on the ground and provides receipts and updates. Wafa Trust operates locally in Akola and can share how your Zakat was used.',
+        a: 'Choose an established charity that works directly on the ground and provides receipts and updates. Wafa Trust operates locally in Nuh and can share how your Zakat was used.',
       },
     ],
     content: `
 <p>The Gulf is home to a vast community of Indian expatriates, many of whom want to fulfil their <strong>Zakat</strong> by helping the communities they left behind. If you are in the UAE, Saudi Arabia, Qatar, Kuwait, Oman or Bahrain and want to send <strong>Zakat from the Gulf to India</strong>, this guide explains how to do it thoughtfully and securely.</p>
 
 <h2>Why Gulf donors send Zakat home</h2>
-<p>For an Indian professional or worker in the Gulf, sending Zakat to India is often the most meaningful use of it. You know the areas of real need, you may have family and roots there, and the impact of your giving is magnified. An amount that is manageable in dirhams or riyals can transform lives in a village near Akola — funding water, food, education or medical care.</p>
+<p>For an Indian professional or worker in the Gulf, sending Zakat to India is often the most meaningful use of it. You know the areas of real need, you may have family and roots there, and the impact of your giving is magnified. An amount that is manageable in dirhams or riyals can transform lives in a village near Nuh — funding water, food, education or medical care.</p>
 
 <h2>Step 1: Calculate your Zakat</h2>
 <p>Before you send anything, work out your Zakat correctly: 2.5% of your qualifying wealth (cash, savings, gold and trade goods) held for one lunar year, provided it exceeds the nisab. Getting the figure right ensures your obligation is fully discharged. If you are unsure, a quick calculation using the nisab value of 85g gold or 595g silver will give you your threshold.</p>
@@ -1515,7 +1515,7 @@ export const blogPosts = [
 <li>Provides receipts and updates on how funds are used</li>
 <li>Keeps overheads low so more of your Zakat reaches people</li>
 </ul>
-<p>Wafa Educational And Charitable Trust meets these criteria, working hands-on in Akola, Maharashtra across water, food, widow support, education and medical programmes.</p>
+<p>Wafa Educational And Charitable Trust meets these criteria, working hands-on in Nuh, Haryana across water, food, widow support, education and medical programmes.</p>
 
 <h2>Step 3: Confirm the compliant way to send</h2>
 <p>Because transfers from abroad to Indian organisations are subject to regulations (such as India's FCRA framework), the cleanest approach is to <strong>contact the trust and confirm the current accepted method</strong> for a Gulf-based donor before sending. This ensures your Zakat is transferred correctly and reaches its destination without complication. Never rush an overseas transfer through an unverified channel.</p>
@@ -1578,7 +1578,7 @@ export const blogPosts = [
 <li>Keep your donation receipt as a record</li>
 <li>Contact the team directly for any details you need before or after giving</li>
 </ul>
-<p>Because the trust works directly on the ground in Akola, Maharashtra — installing the wells, distributing the <a href="/services/free-food-distribution">food</a>, funding the <a href="/services/medical-aid">medical care</a> — there is a clear, traceable line between your donation and a real outcome.</p>
+<p>Because the trust works directly on the ground in Nuh, Haryana — installing the wells, distributing the <a href="/services/free-food-distribution">food</a>, funding the <a href="/services/medical-aid">medical care</a> — there is a clear, traceable line between your donation and a real outcome.</p>
 
 <h2>Give where you can see the difference</h2>
 <p>Trust is earned through openness, not slogans. When a charity invites you to verify its work, supports its claims with real projects, and keeps you updated, you can give with genuine peace of mind. Support a <a href="/services/water-well-for-needy-place">Wafa Trust project</a> today, ask to see the impact, and donate knowing exactly where your generosity goes.</p>
@@ -1625,7 +1625,7 @@ export const blogPosts = [
 </ul>
 
 <h2>Why local operation means more reaches people</h2>
-<p>A great deal of donated money in the charity world is lost before it ever reaches a beneficiary — to layers of intermediaries, high administrative costs, and expensive overseas operations. Wafa Trust's model is deliberately different. It works <strong>directly in the community</strong> around Akola, Maharashtra: the same organisation that receives your donation is the one installing the pump, packing the ration kit and paying the medical bill.</p>
+<p>A great deal of donated money in the charity world is lost before it ever reaches a beneficiary — to layers of intermediaries, high administrative costs, and expensive overseas operations. Wafa Trust's model is deliberately different. It works <strong>directly in the community</strong> around Nuh, Haryana: the same organisation that receives your donation is the one installing the pump, packing the ration kit and paying the medical bill.</p>
 <p>This hands-on, low-overhead approach means the large majority of every donation is spent on the actual cause, not on administration. It is a core part of the trust's commitment — to ensure that donations reach the beneficiaries they are intended for.</p>
 
 <h2>You choose the cause</h2>
@@ -1677,7 +1677,7 @@ export const blogPosts = [
 <p>There is also the matter of impact. Because of the exchange rate and lower costs, your Zakat stretches remarkably far in India — often several times further than it would in a high-cost country.</p>
 
 <h2>The key: ensuring recipients qualify</h2>
-<p>The one thing you must be sure of is that your Zakat actually reaches <em>eligible</em> recipients. This is where a reputable, on-the-ground charity is essential. Wafa Educational And Charitable Trust verifies each case locally in Akola, Maharashtra, ensuring your Zakat is distributed only to those who qualify — <a href="/services/widows-help">widows</a> in genuine need, poor families requiring <a href="/services/free-food-distribution">food</a>, the indebted and the destitute.</p>
+<p>The one thing you must be sure of is that your Zakat actually reaches <em>eligible</em> recipients. This is where a reputable, on-the-ground charity is essential. Wafa Educational And Charitable Trust verifies each case locally in Nuh, Haryana, ensuring your Zakat is distributed only to those who qualify — <a href="/services/widows-help">widows</a> in genuine need, poor families requiring <a href="/services/free-food-distribution">food</a>, the indebted and the destitute.</p>
 <p>Programmes like <a href="/services/quran-e-kareem-distribution-2">Qur'an distribution</a> and Islamic education are also supported through appropriate funds, so your obligatory Zakat and your voluntary Sadaqah can each be applied correctly.</p>
 
 <h2>Give your Zakat to India with confidence</h2>
@@ -1725,7 +1725,7 @@ export const blogPosts = [
 <li><strong>Provides receipts and updates</strong> so you can verify your impact</li>
 <li><strong>Keeps overheads low</strong>, so the majority of your gift reaches people</li>
 </ul>
-<p>Wafa Educational And Charitable Trust fits this profile, operating hands-on in Akola, Maharashtra across water, food, education, medical and construction programmes.</p>
+<p>Wafa Educational And Charitable Trust fits this profile, operating hands-on in Nuh, Haryana across water, food, education, medical and construction programmes.</p>
 
 <h2>How to give securely from abroad</h2>
 <p>To donate safely from the UK, US, Canada or Australia:</p>
@@ -1892,7 +1892,7 @@ export const blogPosts = [
 <p>Distant donors value being able to <em>see</em> what their money did. A charity that works directly in the community can point to a specific completed project — a well in a named village, a madrasa built, families fed. That traceability builds a confidence that glossy appeals never can. Donors want proof, and local operation makes proof possible.</p>
 
 <h2>Reason 3: A genuine connection to home</h2>
-<p>For NRIs especially, giving is personal. Many feel a deep pull to support the very regions and communities they came from. A local charity in a place like Akola, Maharashtra lets a donor in Dubai or Toronto stay connected to home — funding a <a href="/services/masjid-madrasa-build">mosque or madrasa</a>, feeding families in the streets they remember, and knowing their success is being shared with those they left behind.</p>
+<p>For NRIs especially, giving is personal. Many feel a deep pull to support the very regions and communities they came from. A local charity in a place like Nuh, Haryana lets a donor in Dubai or Toronto stay connected to home — funding a <a href="/services/masjid-madrasa-build">mosque or madrasa</a>, feeding families in the streets they remember, and knowing their success is being shared with those they left behind.</p>
 
 <h2>Reason 4: Trust through openness</h2>
 <p>Finally, donors choose organisations that welcome their questions. The willingness to share updates, provide receipts, and explain how funds are used is what separates a charity you trust from one you merely hope about. Wafa Educational And Charitable Trust is built around this openness.</p>
@@ -1950,7 +1950,7 @@ export const blogPosts = [
 <p>There is also a practical truth. Ramadan sharpens our awareness of hunger and thirst — and reminds us that for the poor, that hunger is not a temporary act of worship but a daily reality. Fasting builds the very empathy that charity is meant to express.</p>
 
 <h2>Give iftar: feed a fasting person</h2>
-<p>One of the most beautiful and efficient acts in Ramadan is providing iftar. The Prophet ﷺ taught that whoever feeds a fasting person earns a reward equal to that of the faster, without diminishing the faster's own reward. Through Wafa Trust's <a href="/services/iftar-for-ramadan">Iftar for Ramadan</a> programme, you can ensure poor and fasting families near Akola break their fast with dignity — and share in the reward of every fast you help complete.</p>
+<p>One of the most beautiful and efficient acts in Ramadan is providing iftar. The Prophet ﷺ taught that whoever feeds a fasting person earns a reward equal to that of the faster, without diminishing the faster's own reward. Through Wafa Trust's <a href="/services/iftar-for-ramadan">Iftar for Ramadan</a> programme, you can ensure poor and fasting families near Nuh break their fast with dignity — and share in the reward of every fast you help complete.</p>
 
 <h2>Provide ration kits for the whole month</h2>
 <p>While iftar feeds a family at sunset, a <a href="/services/free-distribution-of-ration-kit">ration kit</a> sustains them through the entire month. For a struggling household, knowing there is rice, lentils and oil in the home removes a huge burden and lets them focus on worship rather than worry. Wafa Trust's ration and <a href="/services/free-food-distribution">food distribution</a> programmes keep families nourished throughout Ramadan.</p>
@@ -2017,7 +2017,7 @@ export const blogPosts = [
 <li>You support the very regions and people you feel connected to</li>
 <li>Less is lost to intermediaries and overheads</li>
 </ul>
-<p>Wafa Educational And Charitable Trust works directly with poor families near Akola, Maharashtra, and its <a href="/services/free-food-distribution">food distribution</a> and <a href="/services/poor-family-help">family support</a> programmes reach exactly the households for whom a good meal is precious. To arrange Qurbani specifically for the Eid period, contact the trust to confirm the current options.</p>
+<p>Wafa Educational And Charitable Trust works directly with poor families near Nuh, Haryana, and its <a href="/services/free-food-distribution">food distribution</a> and <a href="/services/poor-family-help">family support</a> programmes reach exactly the households for whom a good meal is precious. To arrange Qurbani specifically for the Eid period, contact the trust to confirm the current options.</p>
 
 <h2>Feed a family who rarely eats meat</h2>
 <p>Eid ul Adha is a time of sacrifice and sharing. By performing your Qurbani — or supporting food for poor families — through a local charity in India, you ensure your act of worship becomes a source of real joy for a <a href="/services/widows-help">widow</a> or a struggling family. Plan your Qurbani giving today and let your sacrifice reach those who will treasure it most.</p>
@@ -2066,7 +2066,7 @@ export const blogPosts = [
 <li><strong>Clean water</strong> for communities that walk miles for it — through <a href="/services/water-well-for-needy-place">water wells</a></li>
 <li><strong>Support for widows</strong> holding their families together alone — through <a href="/services/widows-help">widow help</a></li>
 </ul>
-<p>Wafa Educational And Charitable Trust works directly with these families near Akola, Maharashtra, so your Muharram giving translates quickly into real relief.</p>
+<p>Wafa Educational And Charitable Trust works directly with these families near Nuh, Haryana, so your Muharram giving translates quickly into real relief.</p>
 
 <h2>Start the year as you mean to continue</h2>
 <p>The sincere intention to be generous is itself a form of worship — and Muharram is the perfect moment to renew it. Whether your gift is large or small, giving as the new Islamic year begins carries great reward and sets a beautiful tone for the months ahead. Begin your year with generosity: support a needy family in India this Muharram.</p>
@@ -2074,10 +2074,10 @@ export const blogPosts = [
   },
   {
     id: 'winter-blanket-drive-2026-maharashtra',
-    title: 'Winter Blanket Drive 2026: Keep Families Warm in Maharashtra',
+    title: 'Winter Blanket Drive 2026: Keep Families Warm in Haryana',
     metaTitle: 'Winter Blanket Donation India 2026 — Keep Families Warm | Wafa Trust',
     metaDescription:
-      'Before the coldest nights arrive, the 2026 winter blanket drive brings warmth to poor and homeless families across Maharashtra. Sponsor blankets and protect the vulnerable this winter.',
+      'Before the coldest nights arrive, the 2026 winter blanket drive brings warmth to poor and homeless families across Haryana. Sponsor blankets and protect the vulnerable this winter.',
     keyword: 'winter blanket donation india',
     category: 'Seasonal Giving',
     audience: 'Both',
@@ -2100,7 +2100,7 @@ export const blogPosts = [
       },
     ],
     content: `
-<p>Every winter, as most of us reach for an extra layer, thousands of families across Maharashtra face the cold with almost nothing at all. The <strong>2026 winter blanket drive</strong> exists to change that — to reach the vulnerable before the coldest nights arrive. Here is why it matters and how you can be part of it.</p>
+<p>Every winter, as most of us reach for an extra layer, thousands of families across Haryana face the cold with almost nothing at all. The <strong>2026 winter blanket drive</strong> exists to change that — to reach the vulnerable before the coldest nights arrive. Here is why it matters and how you can be part of it.</p>
 
 <h2>The season the poor dread</h2>
 <p>Winter is a season of comfort for some and a nightly ordeal for others. In settlements, slums and remote villages, poor and homeless families sleep with only thin, worn cloth against the cold. The elderly, whose bodies struggle most to stay warm, are especially at risk, and young children fall ill. For the most exposed, a harsh cold spell can be genuinely life-threatening.</p>
@@ -2348,7 +2348,7 @@ export const blogPosts = [
 <p>Each year, as India's summer intensifies, a quiet emergency unfolds in its villages and settlements. Wells run dry, water tables drop, and the daily search for water becomes a desperate struggle. A <strong>summer water donation</strong> is one of the most urgent and life-saving gifts you can give — and this guide explains why.</p>
 
 <h2>When the water runs out</h2>
-<p>For much of Maharashtra's dry belt, summer is not just hot — it is a season of genuine water scarcity. Shallow ponds evaporate, hand pumps that flowed in winter fall silent, and the sources that remain are often distant and unsafe. Families who already walked far for water now walk further, and the burden falls heaviest on women and children who carry it home under a punishing sun.</p>
+<p>For much of Haryana's Mewat region, summer is not just hot — it is a season of genuine water scarcity. Shallow ponds evaporate, hand pumps that flowed in winter fall silent, and the sources that remain are often distant and unsafe. Families who already walked far for water now walk further, and the burden falls heaviest on women and children who carry it home under a punishing sun.</p>
 <p>Contaminated summer water spreads illness precisely when bodies are already strained by heat. For the poorest and most remote communities, the failure of a single local source can turn daily life into a crisis.</p>
 
 <h2>How a summer water donation helps</h2>
@@ -2358,7 +2358,7 @@ export const blogPosts = [
 <li><strong>A hand pump</strong> — an affordable <a href="/services/handpump-for-needy-place">source right at a settlement</a> where the water table allows</li>
 <li><strong>Emergency tanker supply</strong> — <a href="/services/supply-of-water-to-the-needy-through-tankers">water trucked in</a> to communities whose sources have completely dried up, some of whom otherwise rely on distant, saline water</li>
 </ul>
-<p>Because the trust is based locally in Akola, Maharashtra, it knows which communities are hit first and can respond quickly when the heat arrives.</p>
+<p>Because the trust is based locally in Nuh, Haryana, it knows which communities are hit first and can respond quickly when the heat arrives.</p>
 
 <h2>Water: the charity the Prophet ﷺ praised</h2>
 <p>Providing water holds a special status in Islam. When asked which charity is best, the Prophet Muhammad ﷺ pointed to giving water. It is the definition of a <strong>Sadaqah Jariyah</strong> — a well or pump you fund keeps giving with every cup drawn, for years, and its reward keeps returning to you long after the summer has passed.</p>
@@ -2464,7 +2464,7 @@ export const blogPosts = [
 <p>The most important question of all. Zakat can only go to the eight categories named in the Qur'an — chiefly the poor and needy. A trustworthy charity understands this and keeps Zakat funds separate from general funds, ensuring your Zakat reaches only eligible recipients and is not spent on ineligible costs like buildings.</p>
 
 <h2>2. Does it work directly on the ground?</h2>
-<p>Charities that work hands-on in the community — rather than passing your money through layers of intermediaries — can verify who is genuinely in need and deliver help directly. Wafa Educational And Charitable Trust operates on the ground in Akola, Maharashtra, verifying each case locally.</p>
+<p>Charities that work hands-on in the community — rather than passing your money through layers of intermediaries — can verify who is genuinely in need and deliver help directly. Wafa Educational And Charitable Trust operates on the ground in Nuh, Haryana, verifying each case locally.</p>
 
 <h2>3. Are its overheads low?</h2>
 <p>Ask how much of each rupee reaches beneficiaries. A locally run charity with low administrative costs directs far more of your Zakat to actual help than a large, top-heavy organisation.</p>
@@ -2522,7 +2522,7 @@ export const blogPosts = [
 <p>A legitimate charity is registered and can share its official details, including registrations such as 80G (for tax deduction eligibility). Look for a real, contactable organisation with a physical presence and clear identity — not just an anonymous appeal.</p>
 
 <h2>Step 2: Look for proof of real work</h2>
-<p>Genuine charities do genuine, visible work. Look for evidence of actual projects — photographs, locations, and countable results such as wells installed or families fed. Wafa Educational And Charitable Trust, for example, works directly in Akola, Maharashtra with measurable outcomes across <a href="/services/water-well-for-needy-place">water</a>, <a href="/services/free-food-distribution">food</a> and <a href="/services/medical-aid">medical</a> programmes.</p>
+<p>Genuine charities do genuine, visible work. Look for evidence of actual projects — photographs, locations, and countable results such as wells installed or families fed. Wafa Educational And Charitable Trust, for example, works directly in Nuh, Haryana with measurable outcomes across <a href="/services/water-well-for-needy-place">water</a>, <a href="/services/free-food-distribution">food</a> and <a href="/services/medical-aid">medical</a> programmes.</p>
 
 <h2>Step 3: Confirm it issues receipts</h2>
 <p>A trustworthy organisation documents your donation with a proper receipt. If a group is unwilling or unable to provide one, be cautious.</p>
@@ -2584,7 +2584,7 @@ export const blogPosts = [
 <p>Zakat must reach eligible recipients. A charity embedded in the community can verify need face to face — knowing which family truly has no earning member, which household is drowning in debt. This local knowledge is one of the strongest arguments for on-the-ground giving.</p>
 
 <h2>Connection and meaning</h2>
-<p>Giving is personal. Many donors — especially those with roots in a region — find deeper meaning in supporting the specific communities they are tied to. A local charity in Akola, Maharashtra lets you help the very streets and villages you may know, turning Zakat from an abstract transfer into a tangible connection.</p>
+<p>Giving is personal. Many donors — especially those with roots in a region — find deeper meaning in supporting the specific communities they are tied to. A local charity in Nuh, Haryana lets you help the very streets and villages you may know, turning Zakat from an abstract transfer into a tangible connection.</p>
 
 <h2>Where big organisations still help</h2>
 <p>To be fair, large NGOs have their strengths — scale for disaster response, reach across many regions, and established systems. The point is not that big is bad, but that <em>local is often overlooked</em> despite delivering more direct impact for everyday Zakat and Sadaqah.</p>
@@ -2613,7 +2613,7 @@ export const blogPosts = [
       },
       {
         q: 'Where does Wafa Trust work?',
-        a: 'The trust is based in Akola, Maharashtra, and works directly on the ground there and across India in water, food, education, medical and family support programmes.',
+        a: 'The trust is based in Nuh, Haryana, and works directly on the ground there and across India in water, food, education, medical and family support programmes.',
       },
       {
         q: 'How can I add to this impact?',
@@ -2686,7 +2686,7 @@ export const blogPosts = [
 <p>Zakat can only go to the eight categories named in the Qur'an — chiefly the poor and needy. Ask whether the charity keeps Zakat funds separate and distributes them strictly to eligible people, rather than to ineligible costs like buildings.</p>
 
 <h2>3. How does it verify who is truly in need?</h2>
-<p>Ask how recipients are identified. A charity working directly in the community — like Wafa Educational And Charitable Trust in Akola, Maharashtra — can confirm genuine need face to face, ensuring your Zakat reaches a real <a href="/services/widows-help">widow</a> or destitute family.</p>
+<p>Ask how recipients are identified. A charity working directly in the community — like Wafa Educational And Charitable Trust in Nuh, Haryana — can confirm genuine need face to face, ensuring your Zakat reaches a real <a href="/services/widows-help">widow</a> or destitute family.</p>
 
 <h2>4. How much of my Zakat actually reaches people?</h2>
 <p>Overheads matter. Ask what share of donations reaches beneficiaries. A lean, local charity directs far more of your Zakat to actual help than a top-heavy organisation.</p>
@@ -2720,7 +2720,7 @@ export const blogPosts = [
     faq: [
       {
         q: 'What does Wafa Trust do?',
-        a: 'Wafa Educational And Charitable Trust works across water, food, education, faith, medical and family support programmes in Akola, Maharashtra and across India, helping the poor and needy with dignity.',
+        a: 'Wafa Educational And Charitable Trust works across water, food, education, faith, medical and family support programmes in Nuh, Haryana and across India, helping the poor and needy with dignity.',
       },
       {
         q: 'Why is Wafa Trust considered trustworthy?',
@@ -2735,7 +2735,7 @@ export const blogPosts = [
 <p>With so many places to give, why do donors — in India and around the world — choose <strong>Wafa Educational And Charitable Trust</strong>? The answer is not slogans, but a model: direct, local, transparent, and built to make every donation count. Here is what stands behind the trust donors place in it.</p>
 
 <h2>A direct, on-the-ground approach</h2>
-<p>Wafa Trust does not pass your donation through layers of intermediaries. The same organisation that receives your gift is the one installing the <a href="/services/water-well-for-needy-place">water well</a>, packing the ration kit, and paying the medical bill in Akola, Maharashtra and across India. This hands-on model means your generosity reaches real people, quickly and directly.</p>
+<p>Wafa Trust does not pass your donation through layers of intermediaries. The same organisation that receives your gift is the one installing the <a href="/services/water-well-for-needy-place">water well</a>, packing the ration kit, and paying the medical bill in Nuh, Haryana and across India. This hands-on model means your generosity reaches real people, quickly and directly.</p>
 
 <h2>Committed to getting your donation to those in need</h2>
 <p>The trust is built around a simple commitment: that donations reach the beneficiaries they are intended for. By keeping overheads low and working close to the community, it directs the maximum possible share of every rupee to the cause — not to administration.</p>

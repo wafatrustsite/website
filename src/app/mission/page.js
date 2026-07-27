@@ -22,7 +22,7 @@ export default function MissionPage() {
           <div className="content-body">
             <h2>Our Mission</h2>
             <p>
-              At Wafa Educational & Charitable Trust, our mission is to empower, educate, and uplift communities across our nation through holistic, sustainable, and compassionate initiatives. We are committed to making a meaningful and lasting impact on the lives of the underprivileged, marginalized, and underserved.
+              At Wafa Educational &amp; Charitable Trust, our mission is to empower, educate, and uplift communities across our nation through holistic, sustainable, and compassionate initiatives. We are committed to making a meaningful and lasting impact on the lives of the underprivileged, marginalized, and underserved, while promoting equality, education, and overall well-being. Our unwavering dedication to creating positive change stems from a belief in the inherent potential and dignity of every individual. We envision a future where every person has the opportunity to thrive and contribute to the betterment of society.
             </p>
             <img src="/assets/bg-2.jpg" alt="Our Mission" style={{ borderRadius: '16px', margin: '2rem 0' }} />
             <p>

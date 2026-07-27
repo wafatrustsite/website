@@ -156,7 +156,7 @@ export default async function BlogPostPage({ params }) {
               <div className="blog-cta">
                 <h3>Turn this into action</h3>
                 <p>
-                  Your Zakat, Sadaqah or Lillah reaches verified families in Akola, Maharashtra and across
+                  Your Zakat, Sadaqah or Lillah reaches verified families in Nuh, Haryana and across
                   India — quickly, transparently and with a receipt. Give today and become the reason for
                   someone&apos;s relief.
                 </p>
