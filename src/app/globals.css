@@ -1769,20 +1769,14 @@ button {
     border-bottom: 1px solid var(--color-border-light);
   }
 
+  /* On mobile, tapping "Services" navigates straight to the /services
+     projects page, so the desktop hover dropdown is hidden entirely. */
   .nav-item .nav-dropdown {
-    position: static;
-    transform: none;
-    box-shadow: none;
-    padding: 0 0 0 var(--space-md);
-    opacity: 1;
-    visibility: visible;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height var(--transition-base);
+    display: none;
   }
 
-  .nav-item.open .nav-dropdown {
-    max-height: 1400px;
+  .nav-caret {
+    display: none;
   }
 
   .nav-donate {

@@ -35,7 +35,6 @@ const services = [
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -102,23 +101,16 @@ export default function Header() {
             <Link href="/" className="nav-link" onClick={() => setMobileOpen(false)}>Home</Link>
             <Link href="/about" className="nav-link" onClick={() => setMobileOpen(false)}>About</Link>
 
-            <div className={`nav-item ${servicesOpen ? 'open' : ''}`}>
-              <button
-                className="nav-link"
-                onClick={() => setServicesOpen(!servicesOpen)}
-                onMouseEnter={() => { if (window.innerWidth > 768) setServicesOpen(true); }}
-              >
-                Services ▾
-              </button>
-              <div
-                className="nav-dropdown"
-                onMouseLeave={() => { if (window.innerWidth > 768) setServicesOpen(false); }}
-              >
-                <Link href="/services" onClick={() => { setMobileOpen(false); setServicesOpen(false); }} style={{ fontWeight: 700, color: 'var(--color-primary)' }}>
+            <div className="nav-item">
+              <Link href="/services" className="nav-link" onClick={() => setMobileOpen(false)}>
+                Services <span className="nav-caret">▾</span>
+              </Link>
+              <div className="nav-dropdown">
+                <Link href="/services" onClick={() => setMobileOpen(false)} style={{ fontWeight: 700, color: 'var(--color-primary)' }}>
                   All Projects »
                 </Link>
                 {services.map((s) => (
-                  <Link key={s.slug} href={`/services/${s.slug}`} onClick={() => { setMobileOpen(false); setServicesOpen(false); }}>
+                  <Link key={s.slug} href={`/services/${s.slug}`} onClick={() => setMobileOpen(false)}>
                     {s.title}
                   </Link>
                 ))}
