@@ -149,7 +149,7 @@ export default function Header() {
             position: 'fixed',
             inset: 0,
             background: 'rgba(0,0,0,0.4)',
-            zIndex: 1040,
+            zIndex: 990,
           }}
           onClick={() => setMobileOpen(false)}
         />
