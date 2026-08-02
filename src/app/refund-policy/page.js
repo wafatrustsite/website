@@ -3,6 +3,8 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Refund Policy',
+  description:
+    'The donation refund and cancellation policy of Wafa Educational And Charitable Trust. Learn how refunds are handled for online contributions.',
   alternates: { canonical: '/refund-policy' },
 };
 

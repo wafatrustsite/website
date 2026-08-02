@@ -3,6 +3,8 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Awards & Recognition',
+  description:
+    'Awards and recognition earned by Wafa Educational And Charitable Trust for its humanitarian and charitable work serving underprivileged communities across Nuh, Haryana and India.',
   alternates: { canonical: '/award' },
 };
 

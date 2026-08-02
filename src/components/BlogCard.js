@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 function formatDate(d) {
   const date = new Date(d);
@@ -17,7 +18,7 @@ export default function BlogCard({ blog }) {
   return (
     <article className="blog-card">
       <Link href={`/blog/${blog.id}`} className="blog-card-image">
-        <img src={`/${blog.image}`} alt={blog.title} loading="lazy" />
+        <Image src={`/${blog.image}`} alt={blog.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw" style={{ objectFit: 'cover' }} />
         {blog.category && <span className="blog-card-tag">{blog.category}</span>}
       </Link>
       <div className="blog-card-body">

@@ -3,6 +3,8 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Certificate',
+  description:
+    'Wafa Educational And Charitable Trust is a registered charity. View our official registration and tax-exemption certificates confirming transparent, compliant charitable work in India.',
   alternates: { canonical: '/certificate' },
 };
 

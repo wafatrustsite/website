@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getServiceCategories } from '../../lib/data';
 
 export const metadata = {
@@ -69,7 +70,7 @@ export default function ServicesIndexPage() {
                 {cat.items.map((s) => (
                   <Link key={s.id} href={`/services/${s.id}`} className="project-card">
                     <div className="project-card-img">
-                      <img src={s.image} alt={s.title} loading="lazy" />
+                      <Image src={s.image} alt={s.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
                     </div>
                     <div className="project-card-body">
                       <h3>{s.title}</h3>

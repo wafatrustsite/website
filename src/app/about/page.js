@@ -1,7 +1,10 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'About Us',
+  description:
+    'Wafa Educational And Charitable Trust is a national charity based in Nuh, Haryana, serving communities across India with water, education, food, healthcare and family support. Learn our story.',
   alternates: { canonical: '/about' },
 };
 
@@ -27,7 +30,9 @@ export default function AboutPage() {
             <p>
               Founded on the principles of empathy, integrity, and solidarity, we believe that everyone deserves the opportunity to thrive and reach their full potential. Through our various programs and projects, we strive to address pressing social, economic, and environmental challenges, fostering positive change from the ground up.
             </p>
-            <img src="/assets/about.jpg" alt="About Us" />
+            <div style={{ position: 'relative', width: '100%', aspectRatio: '3 / 2', borderRadius: '16px', overflow: 'hidden', margin: '2rem 0' }}>
+              <Image src="/assets/about.jpg" alt="Wafa Educational And Charitable Trust charity work" fill sizes="(max-width: 1024px) 100vw, 900px" style={{ objectFit: 'cover' }} />
+            </div>
             
             <h3>What We Do</h3>
             <p>

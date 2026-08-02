@@ -3,6 +3,8 @@ import { SITE_INFO } from '../../lib/data';
 
 export const metadata = {
   title: 'Contact Us',
+  description:
+    'Get in touch with Wafa Educational And Charitable Trust in Nuh, Haryana. Call, email or message us on WhatsApp to donate, volunteer or learn about our work across India.',
   alternates: { canonical: '/contact' },
 };
 

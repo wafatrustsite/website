@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import HeroSlider from '../components/HeroSlider';
 import FeatureCards from '../components/FeatureCards';
 import CounterSection from '../components/CounterSection';
@@ -30,7 +31,7 @@ export default function Home() {
         <div className="container">
           <div className="about-section">
             <div className="about-image animate-fade-in">
-              <img src="/assets/image-1.jpg" alt="Wafa Trust charity work" />
+              <Image src="/assets/image-1.jpg" alt="Wafa Trust charity work in India" fill sizes="(max-width: 992px) 100vw, 560px" style={{ objectFit: 'cover', objectPosition: 'center top' }} />
             </div>
             <div className="about-text animate-fade-in-up">
               <span className="subtitle" style={{ color: 'var(--color-primary)', fontWeight: 600, letterSpacing: '2px', textTransform: 'uppercase' }}>About Us</span>

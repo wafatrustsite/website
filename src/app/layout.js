@@ -42,12 +42,68 @@ export const metadata = {
   },
 };
 
+// ----- Site-wide structured data (Organization/NGO + WebSite) -----
+const organizationLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NGO',
+  '@id': `${SITE_INFO.url}/#organization`,
+  name: SITE_INFO.name,
+  alternateName: 'Wafa Trust India',
+  url: SITE_INFO.url,
+  logo: `${SITE_INFO.url}/assets/logo.png`,
+  image: `${SITE_INFO.url}/assets/hero.jpg`,
+  description: SITE_INFO.description,
+  email: SITE_INFO.email,
+  telephone: SITE_INFO.phone,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Village & Post Office Gulalta, Tehsil Punhana, District Nuh',
+    addressLocality: 'Punhana',
+    addressRegion: 'Haryana',
+    postalCode: '122508',
+    addressCountry: 'IN',
+  },
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      telephone: SITE_INFO.phone,
+      contactType: 'customer service',
+      areaServed: 'IN',
+      availableLanguage: ['en', 'hi', 'ur'],
+    },
+  ],
+  sameAs: [
+    SITE_INFO.social.facebook,
+    SITE_INFO.social.instagram,
+    SITE_INFO.social.youtube,
+  ].filter(Boolean),
+};
+
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${SITE_INFO.url}/#website`,
+  url: SITE_INFO.url,
+  name: SITE_INFO.name,
+  description: SITE_INFO.description,
+  publisher: { '@id': `${SITE_INFO.url}/#organization` },
+  inLanguage: 'en',
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <link rel="icon" href="/assets/logo.png" sizes="any" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteLd) }}
+        />
       </head>
       <body className={`${inter.variable} ${poppins.variable}`}>
         <Header />

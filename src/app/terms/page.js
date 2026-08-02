@@ -3,6 +3,8 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Terms and Conditions',
+  description:
+    'The terms and conditions governing use of the Wafa Educational And Charitable Trust website and online donations. Please read before donating.',
   alternates: { canonical: '/terms' },
 };
 

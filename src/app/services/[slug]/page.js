@@ -1,6 +1,9 @@
 import Link from 'next/link';
-import { getServiceBySlug, getServiceSlugs, getAllServices } from '../../../lib/data';
+import Image from 'next/image';
+import { getServiceBySlug, getServiceSlugs, getAllServices, SITE_INFO } from '../../../lib/data';
 import { notFound } from 'next/navigation';
+
+const SITE_URL = SITE_INFO.url || 'https://wafatrustindia.org';
 
 export async function generateStaticParams() {
   const slugs = getServiceSlugs();
@@ -13,14 +16,25 @@ export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const service = getServiceBySlug(resolvedParams.slug);
   if (!service) return { title: 'Not Found' };
-  
+
+  const url = `${SITE_URL}/services/${resolvedParams.slug}`;
   return {
     title: service.title,
-    description: `Learn more about our ${service.title} campaign.`,
+    description: service.metaDescription,
     alternates: { canonical: `/services/${resolvedParams.slug}` },
     openGraph: {
+      title: service.title,
+      description: service.metaDescription,
+      url,
+      type: 'website',
       images: [service.image],
-    }
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: service.title,
+      description: service.metaDescription,
+      images: [service.image],
+    },
   };
 }
 
@@ -33,10 +47,23 @@ export default async function ServicePage({ params }) {
     notFound();
   }
 
+  const url = `${SITE_URL}/services/${resolvedParams.slug}`;
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Projects', item: `${SITE_URL}/services` },
+      { '@type': 'ListItem', position: 3, name: service.title, item: url },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+
       <div className="service-hero">
-        <img src="/assets/bg-4.jpg" alt="Service Header Background" />
+        <Image src="/assets/bg-4.jpg" alt="" fill sizes="100vw" preload style={{ objectFit: 'cover' }} />
         <div className="service-hero-overlay">
           <div className="container">
             <h1>{service.title}</h1>
@@ -59,7 +86,7 @@ export default async function ServicePage({ params }) {
                 <li key={s.id}>
                   <Link 
                     href={`/services/${s.id}`}
-                    className={s.id === params.slug ? 'active' : ''}
+                    className={s.id === resolvedParams.slug ? 'active' : ''}
                   >
                     {s.title}
                   </Link>
@@ -80,11 +107,15 @@ export default async function ServicePage({ params }) {
 
           {/* Main Content */}
           <div className="page-content" style={{ padding: '0' }}>
-            <img
-              src={service.image}
-              alt={service.title}
-              style={{ width: '100%', borderRadius: 'var(--radius-lg)', marginBottom: '2rem', maxHeight: '450px', objectFit: 'cover', boxShadow: 'var(--shadow-sm)' }}
-            />
+            <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', borderRadius: 'var(--radius-lg)', overflow: 'hidden', marginBottom: '2rem', boxShadow: 'var(--shadow-sm)' }}>
+              <Image
+                src={service.image}
+                alt={service.title}
+                fill
+                sizes="(max-width: 1024px) 100vw, 720px"
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
             {service.count && (
               <div className="service-count-badge">
                 <div>

@@ -4,6 +4,8 @@ import DonateForm from '../../components/DonateForm';
 
 export const metadata = {
   title: 'Donate Now',
+  description:
+    'Donate to Wafa Educational And Charitable Trust and give your Zakat, Sadaqah or Lillah securely online. 100% reaches verified needy families across Nuh, Haryana and India.',
   alternates: { canonical: '/donate' },
 };
 

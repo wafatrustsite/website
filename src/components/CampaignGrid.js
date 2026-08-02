@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CampaignGrid({ campaigns }) {
   if (!campaigns || campaigns.length === 0) return null;
@@ -8,7 +9,7 @@ export default function CampaignGrid({ campaigns }) {
       {campaigns.map((campaign) => (
         <div key={campaign.id} className="campaign-card">
           <Link href={`/services/${campaign.id}`} className="campaign-card-image">
-            <img src={campaign.image} alt={campaign.title} />
+            <Image src={campaign.image} alt={campaign.title} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" style={{ objectFit: 'cover' }} />
             <div className="campaign-card-overlay" />
           </Link>
           <div className="campaign-card-body">

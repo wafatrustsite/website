@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getBlogById, getAllBlogs, getRelatedBlogs, getServiceBySlug, SITE_INFO } from '../../../lib/data';
 
@@ -114,11 +115,16 @@ export default async function BlogPostPage({ params }) {
           {/* Main article */}
           <article className="page-content" style={{ padding: '0', order: 1 }}>
             <div className="content-body" style={{ maxWidth: '100%', margin: 0 }}>
-              <img
-                src={`/${blog.image}`}
-                alt={blog.title}
-                style={{ width: '100%', borderRadius: '16px', marginBottom: '2rem' }}
-              />
+              <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 9', borderRadius: '16px', overflow: 'hidden', marginBottom: '2rem' }}>
+                <Image
+                  src={`/${blog.image}`}
+                  alt={blog.title}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 760px"
+                  preload
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
 
               <div className="blog-post-meta">
                 <span>
@@ -175,7 +181,7 @@ export default async function BlogPostPage({ params }) {
                   <div className="blog-related-grid">
                     {relatedServices.map((s) => (
                       <Link key={s.id} href={`/services/${s.id}`} className="blog-related-card">
-                        <img src={s.image} alt={s.title} loading="lazy" />
+                        <Image src={s.image} alt={s.title} fill sizes="(max-width: 768px) 50vw, 220px" style={{ objectFit: 'cover' }} />
                         <span>{s.title}</span>
                       </Link>
                     ))}
@@ -197,7 +203,7 @@ export default async function BlogPostPage({ params }) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {related.map((b) => (
                 <div key={b.id} style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                  <img src={`/${b.image}`} alt={b.title} loading="lazy" style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                  <Image src={`/${b.image}`} alt={b.title} width={80} height={80} style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                   <h5 style={{ fontSize: '0.9rem', margin: 0, lineHeight: '1.3' }}>
                     <Link href={`/blog/${b.id}`} style={{ color: 'var(--color-text)' }}>{b.title}</Link>
                   </h5>

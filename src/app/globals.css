@@ -858,6 +858,7 @@ button {
 }
 
 .blog-card-image {
+  position: relative;
   height: 200px;
   overflow: hidden;
 }
@@ -2403,6 +2404,7 @@ button {
 }
 
 .project-card-img {
+  position: relative;
   height: 170px;
   overflow: hidden;
 }

@@ -3,6 +3,8 @@ import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
   title: 'Privacy Policy',
+  description:
+    'How Wafa Educational And Charitable Trust collects, uses and protects the personal information of donors and visitors. Read our privacy policy.',
   alternates: { canonical: '/privacy-policy' },
 };
 

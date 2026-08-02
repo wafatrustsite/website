@@ -4,6 +4,8 @@ import { getGallery } from '../../lib/data';
 
 export const metadata = {
   title: 'Photo Gallery',
+  description:
+    'See the work of Wafa Educational And Charitable Trust in pictures — water projects, ration and food distribution, medical camps, education and relief across Nuh, Haryana and India.',
   alternates: { canonical: '/gallery' },
 };
 

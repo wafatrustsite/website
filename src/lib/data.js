@@ -134,6 +134,43 @@ const CAMPAIGN_IMAGE_MAP = {
   'wafa-international-school': '/assets/donate-4.jpg',
 };
 
+// Unique, keyword-rich meta descriptions per service (SEO). These replace the
+// old templated "Learn more about our X campaign." so each donation/money page
+// has its own snippet. Kept ~150-160 chars for full SERP display.
+const SERVICE_META = {
+  'water-well-for-needy-place': "Fund a clean-water well for a needy village in India. Your Sadaqah or Lillah gives whole communities a lasting, safe source of drinking water. Donate today.",
+  'masjid-madrasa-build': 'Help build a masjid or madrasa in India — a lasting centre of faith, learning and community. Give your Lillah, Sadaqah Jariyah or Zakat with Wafa Trust.',
+  'handpump-for-needy-place': 'Install a hand pump for a poor community in India and bring clean water closer to families. An ongoing-reward Sadaqah Jariyah. Donate with Wafa Trust.',
+  'supply-of-water-to-the-needy-through-tankers': 'Provide emergency water by tanker to drought-hit, source-less communities in India. Your Sadaqah delivers safe drinking water fast. Donate with Wafa Trust.',
+  'wazu-khana-build': 'Help build clean, dignified wudu (ablution) facilities for worshippers in India — a Sadaqah Jariyah rewarded with every prayer. Donate with Wafa Trust.',
+  'quran-e-kareem-distribution-2': "Place the Holy Qur'an into willing homes and maktabs across India. A Sadaqah Jariyah that keeps rewarding with every letter recited. Donate with Wafa Trust.",
+  'blankets-winter-distribution': 'Donate blankets to vulnerable families and the homeless across India this winter — a simple, life-saving Sadaqah. Give warmth today with Wafa Trust.',
+  'tricycle-distribution': 'Gift a hand-powered tricycle and restore independence to a disabled person in India. A dignity-giving Sadaqah. Donate with Wafa Educational & Charitable Trust.',
+  'wheelchair-distribution': 'Donate a wheelchair and restore mobility and dignity to a disabled person in India. A deeply rewarding act of Sadaqah. Give today with Wafa Trust.',
+  'iftar-for-ramadan': 'Provide iftar meals to fasting families in India this Ramadan. Share the reward of the fast with your Sadaqah or Zakat. Donate with Wafa Trust.',
+  'free-food-distribution': 'Feed a hungry family in India with nutritious meals so no one sleeps hungry. Your Sadaqah reaches verified families in Nuh and beyond. Donate with Wafa Trust.',
+  'free-distribution-of-ration-kit': "Sponsor a month's ration kit of staple food for a struggling family in India. A practical, high-impact Sadaqah or Zakat. Donate with Wafa Trust.",
+  'widows-help': 'Support a widow in India with food, income and dignity — a highly rewarded act of Zakat and Sadaqah that rebuilds a whole family. Donate with Wafa Trust.',
+  'support-for-orphans': "Sponsor an orphan's care, food, shelter and education in India — among the most beloved acts of charity in Islam. Donate Zakat or Sadaqah with Wafa Trust.",
+  'poor-family-help': 'Give holistic support to a poor family in India breaking out of poverty. Your Zakat and Sadaqah restores hope and stability. Donate with Wafa Trust.',
+  'poor-girl-marriage-help': 'Help a poor family in India marry their daughter with dignity by covering essential wedding costs through your Zakat or Sadaqah. Donate with Wafa Trust.',
+  'house-build': 'Help build a safe, permanent home for a homeless family in India — a lasting Sadaqah Jariyah that shelters a family for years. Donate with Wafa Trust.',
+  'maktab-deeniyat': 'Fund essential Islamic education for children in India, online and offline — a Sadaqah Jariyah that keeps rewarding as they learn. Donate with Wafa Trust.',
+  'scholarship-for-higher-education': 'Fund a deserving student in India toward higher education and a brighter future. A transformative Sadaqah or Zakat. Donate with Wafa Trust.',
+  'ustad-hafiz-sponsor': "Sponsor an ustad or hafiz who preserves and teaches the Qur'an in India. Support the teachers behind every student. Donate Sadaqah with Wafa Trust.",
+  'distribution-of-benches-and-mats': 'Provide benches and mats so no child in India studies on the floor — a practical Sadaqah Jariyah for schools and maktabs. Donate with Wafa Trust.',
+  'sewing-machine-distribution': 'Gift a sewing machine — a livelihood in a box — to empower a woman in India to earn with dignity. A lasting Sadaqah. Donate with Wafa Trust.',
+  'cash-gift': 'Give direct cash relief to a struggling family in India, restoring hope and stability fast. Distribute your Zakat or Sadaqah. Donate with Wafa Trust.',
+  'medical-aid': 'Fund treatment and medical bills for poor patients in India who cannot afford care — an urgent, often life-saving Sadaqah or Zakat. Donate with Wafa Trust.',
+  'small-business-project': 'Give seed support to launch a self-reliant small business for a poor family in India — a Sadaqah that ends dependence for good. Donate with Wafa Trust.',
+  'madrasa-anwar-e-hira-lilbanat': "Support Madrasa Anwar-e-Hira Lilbanat, Wafa Trust's girls' madrasa in India providing Islamic education. A Sadaqah Jariyah. Donate today.",
+  'wafa-international-school': 'Support Wafa International School, providing quality education to children in Nuh, Haryana, India. Invest in the next generation. Donate today.',
+};
+
+function serviceDescription(slug, title) {
+  return SERVICE_META[slug] || `Support our ${title} programme in India with Wafa Educational And Charitable Trust. Donate your Zakat, Sadaqah or Lillah today.`;
+}
+
 export function getAllServices() {
   const pages = loadData().pages;
   return SERVICE_SLUGS.map((slug) => {
@@ -152,6 +189,7 @@ export function getServiceBySlug(slug) {
   return {
     ...page,
     image: CAMPAIGN_IMAGE_MAP[slug] || '/assets/hero.jpg',
+    metaDescription: serviceDescription(slug, page.title),
     isService: SERVICE_SLUGS.includes(slug),
   };
 }

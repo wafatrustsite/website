@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const slides = [
   { 
@@ -29,7 +30,15 @@ export default function HeroSlider() {
           key={index}
           className={`hero-slide ${index === currentSlide ? 'active' : ''}`}
         >
-          <img src={slide.image} alt={slide.title} />
+          <Image
+            src={slide.image}
+            alt={slide.title}
+            fill
+            sizes="100vw"
+            quality={75}
+            preload={index === 0}
+            style={{ objectFit: 'cover' }}
+          />
           
           {/* Premium Gradient Overlay */}
           <div className="hero-overlay-premium"></div>
