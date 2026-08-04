@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getPageBySlug } from '../../lib/data';
 
 export const metadata = {
@@ -25,6 +26,15 @@ export default function AwardPage() {
       <section className="page-content">
         <div className="container">
           <div className="content-body" style={{ textAlign: 'center' }}>
+            <div style={{ position: 'relative', width: '100%', maxWidth: '820px', margin: '0 auto 2rem', aspectRatio: '3 / 2', borderRadius: '16px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>
+              <Image
+                src="/assets/real-award.jpg"
+                alt="Wafa Educational And Charitable Trust receiving an award of recognition"
+                fill
+                sizes="(max-width: 900px) 100vw, 820px"
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
             {pageData && pageData.content ? (
               <div dangerouslySetInnerHTML={{ __html: pageData.content }} />
             ) : (
