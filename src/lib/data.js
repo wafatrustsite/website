@@ -48,14 +48,18 @@ export function getRelatedBlogs(id, limit = 3) {
 
 export function getGallery() {
   return [
-    'assets/image-1.jpg',
-    'assets/image-2.jpg',
-    'assets/image-3.jpg',
-    'assets/donate-2.jpg',
-    'assets/donate-4.jpg',
-    'assets/donate-5.jpg',
-    'assets/donate-6.jpg',
-    'assets/donate-7.jpg'
+    'assets/real-water-well.jpg',
+    'assets/real-quran.jpg',
+    'assets/real-ration-kit.jpg',
+    'assets/real-free-food.jpg',
+    'assets/real-handpump.jpg',
+    'assets/real-wheelchair.jpg',
+    'assets/real-house.jpg',
+    'assets/real-iftar.jpg',
+    'assets/real-scholarship.jpg',
+    'assets/real-water-tanker.jpg',
+    'assets/real-maktab.jpg',
+    'assets/real-small-business.jpg'
   ];
 }
 
@@ -100,38 +104,38 @@ const SERVICE_SLUGS = [
   'wafa-international-school',
 ];
 
-// Card images per service. IMPORTANT: never use campaign_*.jpeg here — those
-// files are phone screenshots of web pages, not photos. Real trust photos:
-// blog1-4, image-1, event1.webp, hero.jpg. The rest are the theme's stock
-// photos, matched by subject.
+// Card images per service. `real-*.jpg` are genuine, Wafa-branded field photos
+// supplied by the trust (Aug 2026). A few programmes without a clean real photo
+// keep a matched stock image (noted inline). Never use campaign_*.jpeg here —
+// those are phone screenshots of the old site, not photos.
 const CAMPAIGN_IMAGE_MAP = {
-  'water-well-for-needy-place': '/assets/donate-7.jpg',
-  'masjid-madrasa-build': '/assets/image-1.jpg',
-  'handpump-for-needy-place': '/assets/blog2.jpg',
-  'supply-of-water-to-the-needy-through-tankers': '/assets/donate-5.jpg',
-  'wazu-khana-build': '/assets/image-1.jpg',
-  'quran-e-kareem-distribution-2': '/assets/blog4.jpg',
-  'blankets-winter-distribution': '/assets/image-2.jpg',
-  'tricycle-distribution': '/assets/donate-6.jpg',
-  'wheelchair-distribution': '/assets/slider-21.jpg',
-  'iftar-for-ramadan': '/assets/event1.webp',
-  'free-food-distribution': '/assets/slider-11.jpg',
-  'free-distribution-of-ration-kit': '/assets/blog1.jpg',
-  'widows-help': '/assets/slider-31.jpg',
-  'support-for-orphans': '/assets/donate-6.jpg',
-  'poor-family-help': '/assets/about.jpg',
-  'poor-girl-marriage-help': '/assets/slider-41.jpg',
-  'house-build': '/assets/blog3.jpg',
-  'maktab-deeniyat': '/assets/slider-51.jpg',
-  'scholarship-for-higher-education': '/assets/donate-4.jpg',
-  'ustad-hafiz-sponsor': '/assets/mosques.jpg',
-  'distribution-of-benches-and-mats': '/assets/slider-71.jpg',
-  'sewing-machine-distribution': '/assets/donate-2.jpg',
-  'cash-gift': '/assets/bg-2.jpg',
-  'medical-aid': '/assets/image-3.jpg',
-  'small-business-project': '/assets/donate-2.jpg',
-  'madrasa-anwar-e-hira-lilbanat': '/assets/blog4.jpg',
-  'wafa-international-school': '/assets/donate-4.jpg',
+  'water-well-for-needy-place': '/assets/real-water-well.jpg',
+  'masjid-madrasa-build': '/assets/real-masjid.jpg',
+  'handpump-for-needy-place': '/assets/real-handpump.jpg',
+  'supply-of-water-to-the-needy-through-tankers': '/assets/real-water-tanker.jpg',
+  'wazu-khana-build': '/assets/real-wazu-khana.jpg',
+  'quran-e-kareem-distribution-2': '/assets/real-quran.jpg',
+  'blankets-winter-distribution': '/assets/image-2.jpg', // no clean real photo yet
+  'tricycle-distribution': '/assets/real-tricycle.jpg',
+  'wheelchair-distribution': '/assets/real-wheelchair.jpg',
+  'iftar-for-ramadan': '/assets/real-iftar.jpg',
+  'free-food-distribution': '/assets/real-free-food.jpg',
+  'free-distribution-of-ration-kit': '/assets/real-ration-kit.jpg',
+  'widows-help': '/assets/real-widows.jpg',
+  'support-for-orphans': '/assets/real-orphans.jpg',
+  'poor-family-help': '/assets/about.jpg', // no dedicated real photo yet
+  'poor-girl-marriage-help': '/assets/slider-41.jpg', // no real photo yet
+  'house-build': '/assets/real-house.jpg',
+  'maktab-deeniyat': '/assets/real-maktab.jpg',
+  'scholarship-for-higher-education': '/assets/real-scholarship.jpg',
+  'ustad-hafiz-sponsor': '/assets/mosques.jpg', // no dedicated real photo yet
+  'distribution-of-benches-and-mats': '/assets/real-benches-mats.jpg',
+  'sewing-machine-distribution': '/assets/donate-2.jpg', // no real photo yet
+  'cash-gift': '/assets/bg-2.jpg', // no real photo (only stock was supplied)
+  'medical-aid': '/assets/real-medical-aid.jpg',
+  'small-business-project': '/assets/real-small-business.jpg',
+  'madrasa-anwar-e-hira-lilbanat': '/assets/real-girls-madrasa.jpg',
+  'wafa-international-school': '/assets/donate-4.jpg', // no real school photo yet
 };
 
 // Unique, keyword-rich meta descriptions per service (SEO). These replace the

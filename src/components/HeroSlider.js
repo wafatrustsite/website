@@ -5,11 +5,29 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const slides = [
-  { 
-    image: '/assets/hero.jpg', 
+  {
+    image: '/assets/real-water-well.jpg',
     subtitle: 'Wafa Educational And Charitable Trust',
     title: 'Be A Voice For Poor People',
-    desc: 'We are here to support you every step of the way.'
+    desc: 'Clean water, food, shelter and education for those who need it most.'
+  },
+  {
+    image: '/assets/real-quran.jpg',
+    subtitle: 'Wafa Educational And Charitable Trust',
+    title: 'Spreading The Light Of Knowledge',
+    desc: "Qur'an distribution, maktabs and schools across India."
+  },
+  {
+    image: '/assets/real-ration-kit.jpg',
+    subtitle: 'Wafa Educational And Charitable Trust',
+    title: 'Feeding Families With Dignity',
+    desc: 'Ration kits and warm meals for struggling households.'
+  },
+  {
+    image: '/assets/real-scholarship.jpg',
+    subtitle: 'Wafa Educational And Charitable Trust',
+    title: 'Empowering The Next Generation',
+    desc: 'Scholarships and livelihood support that change lives.'
   }
 ];
 
