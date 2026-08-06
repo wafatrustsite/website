@@ -429,11 +429,24 @@ button {
 .nav-link {
   font-family: var(--font-heading);
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--color-text);
-  padding: 0.5rem 0.85rem;
+  padding: 0.5rem 0.6rem;
   position: relative;
+  white-space: nowrap;
   transition: color var(--transition-fast);
+}
+
+/* Tighten further on smaller desktops so all 10 items fit before the
+   mobile drawer kicks in at 768px. */
+@media (max-width: 1150px) and (min-width: 769px) {
+  .nav-link {
+    padding: 0.5rem 0.45rem;
+    font-size: 0.8rem;
+  }
+  .nav-caret {
+    display: none;
+  }
 }
 
 .nav-link:hover,

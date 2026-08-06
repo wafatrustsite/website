@@ -33,6 +33,44 @@ const services = [
   { slug: 'small-business-project', title: 'Small Business Project' },
 ];
 
+// Primary navigation — mirrors the client's requested menu structure.
+// On mobile the dropdowns are hidden (see globals.css); tapping the parent
+// navigates to its `href`, so every parent points to a real page.
+const menu = [
+  { label: 'Home', href: '/', children: [
+    { href: '/mission', label: 'Our Mission' },
+    { href: '/vision', label: 'Our Vision' },
+  ] },
+  { label: 'About Us', href: '/about', children: [
+    { href: '/chairman-message', label: "Chairman's Message" },
+  ] },
+  { label: 'Gallery', href: '/gallery', children: [
+    { href: '/gallery', label: 'Photo Gallery' },
+    { href: '/videos', label: 'Video Gallery' },
+  ] },
+  { label: 'Our Projects', href: '/services',
+    children: services.map((s) => ({ href: `/services/${s.slug}`, label: s.title })) },
+  { label: 'Certificate', href: '/certificate' },
+  { label: 'Award', href: '/award' },
+  { label: 'Wafa Board', href: '/wafa-board', children: [
+    { href: '/wafa-board#trustees', label: 'Trustee & Staff' },
+    { href: '/wafa-board#mentors', label: 'Mentors' },
+    { href: '/wafa-board#volunteers', label: 'Volunteers' },
+  ] },
+  { label: 'Events', href: '/events' },
+  { label: 'Education', href: '/education', children: [
+    { href: '/services/scholarship-for-higher-education', label: 'Higher Education' },
+    { href: '/services/wafa-international-school', label: 'Wafa Global School' },
+    { href: '/services/madrasa-anwar-e-hira-lilbanat', label: 'Madrasa Anwar-e-Hira Lil Banat' },
+  ] },
+  { label: 'Donation', href: '/donate', children: [
+    { href: '/donate?fund=zakat', label: 'Zakat' },
+    { href: '/donate?fund=sadaqah', label: 'Sadaqah' },
+    { href: '/donate?fund=sadaqah-jariyah', label: 'Sadaqah e Jariyah' },
+    { href: '/donate?fund=lillah', label: 'Lillah' },
+  ] },
+];
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -98,29 +136,26 @@ export default function Header() {
           </Link>
 
           <nav className={`nav ${mobileOpen ? 'open' : ''}`}>
-            <Link href="/" className="nav-link" onClick={() => setMobileOpen(false)}>Home</Link>
-            <Link href="/about" className="nav-link" onClick={() => setMobileOpen(false)}>About</Link>
-
-            <div className="nav-item">
-              <Link href="/services" className="nav-link" onClick={() => setMobileOpen(false)}>
-                Services <span className="nav-caret">▾</span>
-              </Link>
-              <div className="nav-dropdown">
-                <Link href="/services" onClick={() => setMobileOpen(false)} style={{ fontWeight: 700, color: 'var(--color-primary)' }}>
-                  All Projects »
-                </Link>
-                {services.map((s) => (
-                  <Link key={s.slug} href={`/services/${s.slug}`} onClick={() => setMobileOpen(false)}>
-                    {s.title}
+            {menu.map((item) =>
+              item.children ? (
+                <div className="nav-item" key={item.label}>
+                  <Link href={item.href} className="nav-link" onClick={() => setMobileOpen(false)}>
+                    {item.label} <span className="nav-caret">▾</span>
                   </Link>
-                ))}
-              </div>
-            </div>
-
-            <Link href="/gallery" className="nav-link" onClick={() => setMobileOpen(false)}>Gallery</Link>
-            <Link href="/blog" className="nav-link" onClick={() => setMobileOpen(false)}>Blog</Link>
-            <Link href="/certificate" className="nav-link" onClick={() => setMobileOpen(false)}>Certificate</Link>
-            <Link href="/contact" className="nav-link" onClick={() => setMobileOpen(false)}>Contact</Link>
+                  <div className="nav-dropdown">
+                    {item.children.map((c) => (
+                      <Link key={c.label} href={c.href} onClick={() => setMobileOpen(false)}>
+                        {c.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link key={item.label} href={item.href} className="nav-link" onClick={() => setMobileOpen(false)}>
+                  {item.label}
+                </Link>
+              )
+            )}
 
             <div className="nav-donate">
               <Link href="/donate" className="btn btn-primary btn-sm" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }} onClick={() => setMobileOpen(false)}>
