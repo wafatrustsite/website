@@ -1,15 +1,42 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Script from 'next/script';
 
+// Donation categories the trust accepts. `id` matches the `?fund=` value used
+// in the header menu links; `label` is what the donor and the trust both see.
+const FUND_OPTIONS = [
+  { id: 'general', label: 'General Donation' },
+  { id: 'zakat', label: 'Zakat' },
+  { id: 'sadaqah', label: 'Sadaqah' },
+  { id: 'sadaqah-jariyah', label: 'Sadaqah e Jariyah' },
+  { id: 'lillah', label: 'Lillah' },
+  { id: 'fidya', label: 'Fidya' },
+  { id: 'kaffarah', label: 'Kaffarah' },
+  { id: 'fitrana', label: 'Fitrana' },
+  { id: 'interest-money', label: 'Interest Money' },
+];
+
+function fundLabel(id) {
+  return (FUND_OPTIONS.find((f) => f.id === id) || FUND_OPTIONS[0]).label;
+}
 
 export default function DonateForm() {
   const [amount, setAmount] = useState('');
+  const [fund, setFund] = useState('general');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const predefinedAmounts = [500, 1000, 2000, 5000, 10000];
+
+  // Preselect the fund from the URL (e.g. /donate?fund=zakat from the menu).
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const requested = params.get('fund');
+    if (requested && FUND_OPTIONS.some((f) => f.id === requested)) {
+      setFund(requested);
+    }
+  }, []);
 
   const handlePayment = async () => {
     if (!amount || isNaN(amount) || amount <= 0) {
@@ -40,9 +67,12 @@ export default function DonateForm() {
         amount: order.amount,
         currency: order.currency,
         name: "Wafa Educational And Charitable Trust",
-        description: 'Donation to Wafa Trust',
+        description: `${fundLabel(fund)} — Donation to Wafa Trust`,
         image: '/assets/logo.png', // Assuming this is available
         order_id: order.id,
+        notes: {
+          fund: fundLabel(fund),
+        },
         handler: function (response) {
           // You could optionally verify the signature here by calling another API route
           alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
@@ -73,7 +103,21 @@ export default function DonateForm() {
   return (
     <div className="donate-form-wrapper" style={{ maxWidth: '500px', margin: '0 auto', background: '#fff', padding: '2rem', borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)' }}>
       <Script src="https://checkout.razorpay.com/v1/checkout.js" />
-      
+
+      <div style={{ marginBottom: '1.5rem' }}>
+        <label htmlFor="donation-fund" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 600 }}>Donation Type</label>
+        <select
+          id="donation-fund"
+          value={fund}
+          onChange={(e) => setFund(e.target.value)}
+          style={{ width: '100%', padding: '0.75rem', borderRadius: '6px', border: '1px solid #ddd', fontSize: '1.05rem', background: '#fff' }}
+        >
+          {FUND_OPTIONS.map((f) => (
+            <option key={f.id} value={f.id}>{f.label}</option>
+          ))}
+        </select>
+      </div>
+
       <h3 style={{ marginBottom: '1.5rem', textAlign: 'center' }}>Choose an Amount</h3>
       
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px', marginBottom: '1.5rem' }}>

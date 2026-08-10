@@ -358,6 +358,129 @@ button {
   transform: scale(1.1);
 }
 
+.topbar-right {
+  gap: var(--space-lg);
+}
+
+/* ===== DEVELOPER CREDIT (visible backlink) ===== */
+.dev-credit {
+  text-align: center;
+  padding: 1.25rem 1rem;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
+.dev-credit a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.dev-credit a:hover {
+  text-decoration: underline;
+}
+
+/* ===== FLOATING SOCIAL BAR (right edge) ===== */
+.floating-social {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 950;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.floating-social-btn {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 12px 0 0 12px;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.18);
+  transition: transform var(--transition-fast), width var(--transition-fast);
+}
+
+.floating-social-btn:hover {
+  transform: translateX(-4px);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .floating-social-btn {
+    width: 44px;
+    height: 44px;
+  }
+  .floating-social-btn svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* ===== LANGUAGE SWITCHER (Google Translate driven) ===== */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.lang-switcher-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-switcher-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--radius-full);
+  padding: 3px 26px 3px 10px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: 1.4;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 9px center;
+  transition: all var(--transition-fast);
+}
+
+.lang-switcher-select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lang-switcher-select option {
+  color: #111;
+  background: #fff;
+}
+
+/* Google Translate keeps a hidden gadget in the DOM but we drive it from our
+   own <select>, so hide Google's own UI and its injected top banner. */
+#google_translate_element {
+  display: none !important;
+}
+
+.goog-te-banner-frame,
+.goog-te-gadget-icon,
+.skiptranslate iframe {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+/* Keep our topbar switcher in the flow even after Google mutates the DOM */
+.goog-te-gadget {
+  font-size: 0 !important;
+}
+
 /* ===== HEADER ===== */
 .header {
   background: #fff;
@@ -1298,6 +1421,39 @@ button {
 .service-hero-overlay h1 {
   color: #fff;
   font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.service-hero-subtitle {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-weight: 500;
+  margin-top: 0.75rem;
+  max-width: 760px;
+  line-height: 1.5;
+}
+
+/* Single-column service body (sidebar removed) */
+.service-body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-4xl) 0;
+}
+
+.service-donate-cta {
+  margin-top: var(--space-3xl);
+  padding: var(--space-2xl);
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.service-donate-cta h3 {
+  margin-bottom: var(--space-xs);
+}
+
+.service-donate-cta p {
+  color: var(--color-text-light);
+  margin-bottom: var(--space-lg);
 }
 
 .service-sidebar {

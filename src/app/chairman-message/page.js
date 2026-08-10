@@ -22,31 +22,49 @@ export default function ChairmanMessagePage() {
       <section className="page-content">
         <div className="container">
           <div className="content-body">
+            <p style={{ fontWeight: 600 }}>
+              Dear Friends, Respected Supporters, Donors and Well-wishers,
+            </p>
             <p style={{ fontSize: '1.15rem', fontWeight: 600, color: 'var(--color-primary)' }}>
-              Assalamu Alaikum and warm greetings,
+              Assalamu Alaikum, Rahmatullahi Wa Barakatuh!
             </p>
             <p>
-              It is my honour to welcome you to Wafa Educational And Charitable Trust. What began as a
-              simple intention — to stand beside the poorest families in our region — has, by the grace
-              of Allah and the generosity of our donors, grown into a trust that reaches thousands of
-              lives across Nuh, Haryana and beyond.
+              It is a matter of great joy and honour for us that Wafa Educational and Charitable Trust
+              continues its services for the betterment of society. Our goal is to bring positive
+              changes in the fields of education, health, and welfare so that every individual can live
+              a dignified life.
             </p>
             <p>
-              We believe every human being deserves clean water, a meal, an education, healthcare and
-              the dignity of standing on their own feet. Whether it is a hand pump for a village, a
-              ration kit for a struggling household, a wheelchair for the disabled, or a scholarship for
-              a bright student, our promise remains the same: your trust is an <em>amanah</em>, and every
-              contribution reaches those who need it most — directly, transparently and with a receipt.
+              Alhamdulillah, so far hundreds of orphans and needy children have been provided with
+              educational opportunities, widows and deserving families are being supported, and youth
+              are being provided with employment opportunities through technical training. We are
+              determined to further expand the scope of these services and reach every needy person.
             </p>
             <p>
-              To our donors and well-wishers around the world: thank you. You are the reason a mother
-              can feed her children, a widow can earn with dignity, and a child can learn to read. May
-              Allah accept your giving and multiply it for you.
+              Since our inception, we have achieved many notable milestones — including the educational
+              sponsorship of orphans and needy children, financial assistance to widows and deserving
+              families, and the provision of facilities in the health sector. Through our training
+              programmes, we are equipping the youth with skills so they can become independent and
+              live with dignity.
             </p>
+            <p>
+              We are proud that, despite our limited resources, with the grace and mercy of Allah and
+              the help of philanthropists like you, we have adorned hundreds of orphans and needy
+              children with the jewel of education, sponsored widows and destitute families, and
+              provided health and employment opportunities. We are determined to expand these services
+              further and reach every needy person.
+            </p>
+            <p>
+              All these achievements are the result of your cooperation and prayers. I request you all
+              to stay with us in this mission and make it more successful through your prayers,
+              cooperation, and financial assistance. May Allah grant us more success in serving the
+              people. Ameen.
+            </p>
+            <p style={{ fontWeight: 600 }}>And peace,</p>
             <p style={{ marginTop: '2rem', fontWeight: 700 }}>
-              — Chairman<br />
+              Mohammad Shakir Wafa<br />
               <span style={{ fontWeight: 500, color: 'var(--color-text-light)' }}>
-                Wafa Educational And Charitable Trust
+                Founder &amp; Chairman, Wafa Educational and Charitable Trust
               </span>
             </p>
 

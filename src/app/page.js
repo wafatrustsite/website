@@ -5,6 +5,7 @@ import FeatureCards from '../components/FeatureCards';
 import CounterSection from '../components/CounterSection';
 import BlogCard from '../components/BlogCard';
 import GalleryGrid from '../components/GalleryGrid';
+import DevCredit from '../components/DevCredit';
 import { getCounters, getAllBlogs, getGallery } from '../lib/data';
 
 export const metadata = {
@@ -154,6 +155,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <DevCredit />
     </>
   );
 }

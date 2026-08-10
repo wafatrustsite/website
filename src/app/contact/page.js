@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { SITE_INFO } from '../../lib/data';
+import DevCredit from '../../components/DevCredit';
 
 export const metadata = {
   title: 'Contact Us',
@@ -127,6 +128,8 @@ export default function ContactPage() {
               title="Wafa Educational And Charitable Trust location — Gulalta, Punhana, Nuh, Haryana"
             ></iframe>
           </div>
+
+          <DevCredit />
         </div>
       </section>
     </>

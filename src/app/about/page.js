@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import DevCredit from '../../components/DevCredit';
 
 export const metadata = {
   title: 'About Us',
@@ -54,6 +55,8 @@ export default function AboutPage() {
               </Link>
             </div>
           </div>
+
+          <DevCredit />
         </div>
       </section>
     </>
