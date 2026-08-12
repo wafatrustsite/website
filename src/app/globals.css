@@ -628,6 +628,29 @@ body {
   width: 70%;
 }
 
+/* Events nav item rendered as a pill button with an icon */
+.nav-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+}
+
+.nav-link-btn:hover,
+.nav-link-btn.active {
+  background: var(--color-primary-dark);
+  color: #fff;
+}
+
+/* No underline swipe on the button variant */
+.nav-link-btn::after {
+  display: none;
+}
+
 /* Dropdown */
 .nav-item {
   position: relative;
