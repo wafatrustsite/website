@@ -60,13 +60,25 @@ export default function ChairmanMessagePage() {
               cooperation, and financial assistance. May Allah grant us more success in serving the
               people. Ameen.
             </p>
-            <p style={{ fontWeight: 600 }}>And peace,</p>
-            <p style={{ marginTop: '2rem', fontWeight: 700 }}>
-              Mohammad Shakir Wafa<br />
-              <span style={{ fontWeight: 500, color: 'var(--color-text-light)' }}>
-                Founder &amp; Chairman, Wafa Educational and Charitable Trust
-              </span>
-            </p>
+            <div className="chairman-signoff">
+              <div className="chairman-signoff-text">
+                <p style={{ fontWeight: 600 }}>And peace,</p>
+                <p style={{ marginTop: '2rem', fontWeight: 700 }}>
+                  Mohammad Shakir Wafa<br />
+                  <span style={{ fontWeight: 500, color: 'var(--color-text-light)' }}>
+                    Founder &amp; Chairman, Wafa Educational and Charitable Trust
+                  </span>
+                </p>
+              </div>
+              <figure className="chairman-photo">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/assets/chairman-shakir-wafa.jpg"
+                  alt="Mohammad Shakir Wafa, Founder & Chairman of Wafa Educational and Charitable Trust"
+                />
+                <figcaption>Mohammad Shakir Wafa</figcaption>
+              </figure>
+            </div>
 
             <div style={{ marginTop: '3rem', textAlign: 'center' }}>
               <Link href="/donate" className="btn btn-primary" style={{ marginRight: '1rem' }}>

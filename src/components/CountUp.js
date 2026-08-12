@@ -77,8 +77,16 @@ export default function CountUp({ value, suffix = '', duration = 1600, className
     };
   }, [target, duration]);
 
+  // `notranslate` / translate="no" keeps Google Translate from rewriting the
+  // number's text node — that rewrite collides with the count-up animation
+  // (freezing it after a language switch) and would convert digits to other
+  // numeral systems. Numbers read the same in every language, so skip them.
   return (
-    <span ref={ref} className={className}>
+    <span
+      ref={ref}
+      className={className ? `${className} notranslate` : 'notranslate'}
+      translate="no"
+    >
       {display.toLocaleString('en-US')}
       {suffix}
     </span>
