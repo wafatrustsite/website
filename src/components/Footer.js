@@ -45,7 +45,7 @@ export default function Footer() {
               <a href="https://www.youtube.com/@wafatrust" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 3.2H4.4A2.4 2.4 0 0 0 2 5.6v12.8a2.4 2.4 0 0 0 2.4 2.4h15.2a2.4 2.4 0 0 0 2.4-2.4V5.6a2.4 2.4 0 0 0-2.4-2.4zM10 15.5v-7l6 3.5-6 3.5z"/></svg>
               </a>
-              <a href="https://wa.me/919373208864" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <a href="https://wa.me/919813893744" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.12 1.52 5.855L0 24l6.335-1.652A11.943 11.943 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.82a9.782 9.782 0 0 1-5.27-1.534l-.378-.224-3.917 1.022 1.046-3.815-.247-.394A9.78 9.78 0 0 1 2.18 12 9.82 9.82 0 0 1 12 2.18 9.82 9.82 0 0 1 21.82 12 9.82 9.82 0 0 1 12 21.82z"/></svg>
               </a>
             </div>
@@ -82,19 +82,19 @@ export default function Footer() {
               <li>
                 <span className="icon">📍</span>
                 <div>
-                  <p>Near Zubaida Hospital, Mohammadi Chowk, Akola, Maharashtra 444001, India</p>
+                  <p>Village &amp; Post Office Gulalta, Tehsil Punhana, District Nuh, Haryana - 122508</p>
                 </div>
               </li>
               <li>
                 <span className="icon">📞</span>
                 <div>
-                  <p><a href="tel:+919373208864" style={{ color: 'inherit' }}>+91 93732 08864</a></p>
+                  <p><a href="tel:+919813893744" style={{ color: 'inherit' }}>+91 98138 93744</a></p>
                 </div>
               </li>
               <li>
                 <span className="icon">✉️</span>
                 <div>
-                  <p><a href="mailto:wafatrust011@gmail.com" style={{ color: 'inherit' }}>wafatrust011@gmail.com</a></p>
+                  <p><a href="mailto:wafatrustindia@gmail.com" style={{ color: 'inherit' }}>wafatrustindia@gmail.com</a></p>
                 </div>
               </li>
             </ul>

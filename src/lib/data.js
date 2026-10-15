@@ -130,15 +130,15 @@ export const SITE_INFO = {
   tagline: 'National and charitable institution',
   description:
     'Wafa Educational And Charitable Trust is a national charitable institution dedicated to empowering, educating, and uplifting communities across India through sustainable and compassionate initiatives.',
-  phone: '+91 93732 08864',
-  email: 'wafatrust011@gmail.com',
+  phone: '+91 98138 93744',
+  email: 'wafatrustindia@gmail.com',
   address:
-    'Near Zubaida Hospital, Mohammadi Chowk, Akola, Maharashtra 444001, India',
+    'Village & Post Office Gulalta, Tehsil Punhana, District Nuh, Haryana - 122508',
   social: {
     facebook: 'https://www.facebook.com/wafatrust',
     instagram: 'https://www.instagram.com/wafa_trust/',
     youtube: 'https://www.youtube.com/@wafatrust',
-    whatsapp: 'https://wa.me/919373208864',
+    whatsapp: 'https://wa.me/919813893744',
   },
   url: 'https://wafatrustindia.org',
 };

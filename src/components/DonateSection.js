@@ -41,7 +41,7 @@ export default function DonateSection() {
 
   const amount = customAmount || selectedAmount || '1000';
   const upiId = 'wafatrust011@okaxis';
-  const cleanPhone = '919373208864';
+  const cleanPhone = '919813893744';
 
   const activeCauseObj = CAUSES.find((c) => c.id === selectedCause) || CAUSES[0];
 
@@ -333,9 +333,9 @@ export default function DonateSection() {
             Please send your PAN card and donation screenshot on WhatsApp to receive your official 80G receipt.
           </p>
           <div style={{ display: 'inline-flex', gap: '1.5rem', fontSize: '0.9rem', color: 'var(--color-text)', fontWeight: 600 }}>
-            <span>📞 Helpline: +91 93732 08864</span>
-            <span>✉️ Email: wafatrust011@gmail.com</span>
-            <span>📍 Akola, Maharashtra</span>
+            <span>📞 Helpline: +91 98138 93744</span>
+            <span>✉️ Email: wafatrustindia@gmail.com</span>
+            <span>📍 Punhana, Nuh, Haryana</span>
           </div>
         </div>
       </div>

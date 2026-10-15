@@ -41,18 +41,18 @@ export default function Header() {
       <div className="topbar">
         <div className="container">
           <div className="topbar-left">
-            <a href="mailto:wafatrust011@gmail.com">
-              <span>✉</span> wafatrust011@gmail.com
+            <a href="mailto:wafatrustindia@gmail.com">
+              <span>✉</span> wafatrustindia@gmail.com
             </a>
-            <a href="tel:+919373208864">
-              <span>📞</span> +91 93732 08864
+            <a href="tel:+919813893744">
+              <span>📞</span> +91 98138 93744
             </a>
           </div>
           <div className="topbar-right topbar-social">
             <a href="https://www.facebook.com/wafatrust" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
             <a href="https://www.instagram.com/wafa_trust/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">ig</a>
             <a href="https://www.youtube.com/@wafatrust" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
-            <a href="https://wa.me/919373208864" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
+            <a href="https://wa.me/919813893744" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">wa</a>
           </div>
         </div>
       </div>

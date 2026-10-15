@@ -95,8 +95,8 @@ export default function ProjectShowcase() {
 
   const amount = customAmount || selectedAmount || '1000';
   const upiId = 'wafatrust011@okaxis';
-  const phone = '+919373208864';
-  const cleanPhone = '919373208864';
+  const phone = '+919813893744';
+  const cleanPhone = '919813893744';
 
   const upiPayUrl = activeProject
     ? `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20And%20Charitable%20Trust&am=${amount}&cu=INR&tn=${encodeURIComponent('Donation for ' + activeProject.title)}`
