@@ -43,6 +43,11 @@ export const metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: '/assets/logo.jpeg',
+    shortcut: '/assets/logo.jpeg',
+    apple: '/assets/logo.jpeg',
+  },
 };
 
 export const viewport = {
@@ -58,7 +63,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=1200, initial-scale=0.35, minimum-scale=0.25, maximum-scale=5, user-scalable=yes" />
-        <link rel="icon" href="/assets/logo.png" sizes="any" />
+        <link rel="icon" type="image/jpeg" href="/assets/logo.jpeg" />
+        <link rel="shortcut icon" href="/assets/logo.jpeg" />
+        <link rel="apple-touch-icon" href="/assets/logo.jpeg" />
       </head>
       <body className={`${inter.variable} ${poppins.variable}`}>
         <Header />

@@ -12,7 +12,6 @@ export const PROJECTS = [
     image: '/assets/project-water-well.jpg',
     description: 'Constructing community borewells and water facilities providing clean, sustainable drinking water to drought-affected villages.',
     serviceSlug: 'water-well-for-needy-place',
-    target: '₹45,000 / Well',
   },
   {
     id: 'hand-pump-water-for-life',
@@ -22,7 +21,6 @@ export const PROJECTS = [
     image: '/assets/project-hand-pump.jpg',
     description: 'Installing deep hand pumps directly in front of underserved rural communities to alleviate daily struggles for water.',
     serviceSlug: 'water-well-for-needy-place',
-    target: '₹25,000 / Pump',
   },
   {
     id: 'wazu-khana-build',
@@ -32,7 +30,6 @@ export const PROJECTS = [
     image: '/assets/project-wazu-khana.jpg',
     description: 'Building clean, tiled wazu khana facilities with multiple taps and water supply for worshipers in remote masjids.',
     serviceSlug: 'wazu-khana-build',
-    target: '₹35,000 / Station',
   },
   {
     id: 'free-distribution-of-ration-kit',
@@ -42,7 +39,6 @@ export const PROJECTS = [
     image: '/assets/project-ration-kit.jpg',
     description: 'Supplying comprehensive food kits (wheat, rice, pulses, oil, spices) to impoverished families, widows, and laborers.',
     serviceSlug: 'free-distribution-of-ration-kit',
-    target: '₹1,500 / Kit',
   },
   {
     id: 'free-food-distribution',
@@ -52,7 +48,6 @@ export const PROJECTS = [
     image: '/assets/project-food-aid.jpg',
     description: 'Providing daily wholesome, nutritious meals for residential madrasa students, orphan children, and destitute youth.',
     serviceSlug: 'free-food-distribution',
-    target: '₹5,000 / Day Meal',
   },
   {
     id: 'quran-e-kareem-distribution-2',
@@ -62,7 +57,6 @@ export const PROJECTS = [
     image: '/assets/project-quran-dist.jpg',
     description: 'Printing and distributing authentic copies of Quran-e-Kareem and learning kits to madrasas and rural students.',
     serviceSlug: 'quran-e-kareem-distribution-2',
-    target: '₹300 / Copy',
   },
   {
     id: 'water-tanker-relief',
@@ -72,7 +66,6 @@ export const PROJECTS = [
     image: '/assets/project-water-tanker.jpg',
     description: 'Deploying dedicated water tankers delivering hundreds of liters of drinking water directly to villages facing water shortage.',
     serviceSlug: 'water-well-for-needy-place',
-    target: '₹2,500 / Tanker',
   },
   {
     id: 'house-build',
@@ -82,7 +75,6 @@ export const PROJECTS = [
     image: '/assets/project-house-build.jpg',
     description: 'Building strong pucca homes with sanitation for destitute families living in dilapidated huts or without roof.',
     serviceSlug: 'house-build',
-    target: '₹1,50,000 / Home',
   },
 ];
 
@@ -162,9 +154,6 @@ export default function ProjectShowcase() {
               </div>
 
               <div className="project-body">
-                <div className="project-meta">
-                  <span className="project-target-tag">{project.target}</span>
-                </div>
                 <h3 className="project-title">
                   <Link href={`/services/${project.serviceSlug}`}>
                     {project.title}
