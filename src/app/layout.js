@@ -51,10 +51,7 @@ export const metadata = {
 };
 
 export const viewport = {
-  width: 1200,
-  initialScale: 0.35,
-  minimumScale: 0.25,
-  maximumScale: 5,
+  width: 1240,
   userScalable: true,
 };
 
@@ -62,7 +59,29 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=1200, initial-scale=0.35, minimum-scale=0.25, maximum-scale=5, user-scalable=yes" />
+        <meta
+          name="viewport"
+          content="width=1240, user-scalable=yes"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var targetWidth = 1240;
+                  var screenW = window.screen.width || window.innerWidth;
+                  if (screenW && screenW < targetWidth) {
+                    var scale = screenW / targetWidth;
+                    var meta = document.querySelector('meta[name="viewport"]');
+                    if (meta) {
+                      meta.setAttribute('content', 'width=' + targetWidth + ', initial-scale=' + scale + ', minimum-scale=' + (scale * 0.8) + ', maximum-scale=5, user-scalable=yes');
+                    }
+                  }
+                } catch(e) {}
+              })();
+            `,
+          }}
+        />
         <link rel="icon" type="image/jpeg" href="/assets/logo.jpeg" />
         <link rel="shortcut icon" href="/assets/logo.jpeg" />
         <link rel="apple-touch-icon" href="/assets/logo.jpeg" />
