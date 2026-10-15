@@ -2167,5 +2167,109 @@ button {
   color: var(--color-accent);
 }
 
+/* ===== FEATURE BLUE CARDS (REFERENCE DESIGN) ===== */
+.feature-blue-card {
+  background: #008ece;
+  padding: 42px 20px 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0, 142, 206, 0.2);
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feature-blue-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 142, 206, 0.32);
+}
+
+.feature-gold-badge {
+  width: 68px;
+  height: 68px;
+  background: #f59e0b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.45);
+  border: 3px solid #ffffff;
+}
+
+.feature-blue-title {
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-family: var(--font-heading);
+}
+
+.feature-blue-desc {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* ===== WHITE IMPACT COUNTER SECTION (REFERENCE DESIGN) ===== */
+.counters-white {
+  background: #ffffff;
+  padding: 55px 0 45px;
+  position: relative;
+}
+
+.counters-white-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xl);
+  text-align: center;
+  align-items: flex-start;
+}
+
+.counter-white-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.counter-white-icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+.counter-white-number {
+  font-family: var(--font-heading);
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #008ece;
+  line-height: 1.2;
+  margin-bottom: 6px;
+  white-space: nowrap;
+}
+
+.counter-white-label {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #008ece;
+  line-height: 1.3;
+}
+
+
 
 
