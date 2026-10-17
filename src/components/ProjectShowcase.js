@@ -94,7 +94,7 @@ export default function ProjectShowcase() {
   };
 
   const amount = customAmount || selectedAmount || '1000';
-  const upiId = '9813893744@cnrb';
+  const upiId = 'wafatrust011@oksbi';
   const phone = '+919813893744';
   const cleanPhone = '919813893744';
 
@@ -249,7 +249,11 @@ export default function ProjectShowcase() {
                     <strong>Scan &amp; Pay via UPI</strong>
                   </div>
                   <div className="qr-container">
-                    <img src="/assets/wafa-qr.png" alt="Wafa Trust UPI QR Code" width={160} height={160} />
+                    <img
+                      src="/assets/wafa-qr.png"
+                      alt="Wafa Trust Official Google Pay QR Code"
+                      style={{ width: '100%', maxWidth: '200px', height: 'auto', display: 'inline-block' }}
+                    />
                     <span className="qr-caption">Scan with GPay, PhonePe, Paytm, or BHIM</span>
                   </div>
                   <div className="upi-id-box">

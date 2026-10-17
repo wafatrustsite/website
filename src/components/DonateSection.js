@@ -40,7 +40,7 @@ export default function DonateSection() {
   }, [searchParams]);
 
   const amount = customAmount || selectedAmount || '1000';
-  const upiId = '9813893744@cnrb';
+  const upiId = 'wafatrust011@oksbi';
   const cleanPhone = '919813893744';
 
   const activeCauseObj = CAUSES.find((c) => c.id === selectedCause) || CAUSES[0];
@@ -174,15 +174,13 @@ export default function DonateSection() {
             <h3>Instant UPI / QR Code</h3>
             <p>Scan with any UPI app to donate ₹{amount} instantly.</p>
 
-            <div className="qr-container" style={{ textAlign: 'center', margin: '1rem 0' }}>
+            <div className="qr-container" style={{ textAlign: 'center', margin: '0.75rem 0' }}>
               <img
                 src="/assets/wafa-qr.png"
-                alt="Wafa Trust QR Code"
-                width={170}
-                height={170}
-                style={{ borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border-light)', margin: '0 auto' }}
+                alt="Wafa Trust Official Google Pay QR Code"
+                style={{ width: '100%', maxWidth: '210px', height: 'auto', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border-light)', margin: '0 auto', display: 'block' }}
               />
-              <span style={{ display: 'block', fontSize: '0.78rem', color: 'var(--color-text-muted)', marginTop: '6px' }}>
+              <span style={{ display: 'block', fontSize: '0.78rem', color: 'var(--color-text-muted)', marginTop: '8px' }}>
                 Google Pay, PhonePe, Paytm, BHIM, Cred
               </span>
             </div>
