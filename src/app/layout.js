@@ -44,10 +44,18 @@ export const metadata = {
     canonical: '/',
   },
   icons: {
-    icon: '/assets/logo.jpeg',
-    shortcut: '/assets/logo.jpeg',
-    apple: '/assets/logo.jpeg',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/icon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/icon-192x192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
+  manifest: '/site.webmanifest',
 };
 
 export const viewport = {
@@ -82,9 +90,33 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        <link rel="icon" type="image/jpeg" href="/assets/logo.jpeg" />
-        <link rel="shortcut icon" href="/assets/logo.jpeg" />
-        <link rel="apple-touch-icon" href="/assets/logo.jpeg" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/icon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'NGO',
+              name: SITE_INFO.name,
+              url: SITE_INFO.url,
+              logo: `${SITE_INFO.url}/icon-512x512.png`,
+              image: `${SITE_INFO.url}/assets/hero.jpg`,
+              description: SITE_INFO.description,
+              telephone: SITE_INFO.phone,
+              email: SITE_INFO.email,
+              address: {
+                '@type': 'PostalAddress',
+                streetAddress: SITE_INFO.address,
+                addressCountry: 'IN',
+              },
+            }),
+          }}
+        />
       </head>
       <body className={`${inter.variable} ${poppins.variable}`}>
         <Header />
