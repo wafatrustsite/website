@@ -94,13 +94,13 @@ export default function ProjectShowcase() {
   };
 
   const amount = customAmount || selectedAmount || '1000';
-  const upiId = 'wafatrust011@okaxis';
+  const upiId = '9813893744@cnrb';
   const phone = '+919813893744';
   const cleanPhone = '919813893744';
 
   const upiPayUrl = activeProject
-    ? `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20And%20Charitable%20Trust&am=${amount}&cu=INR&tn=${encodeURIComponent('Donation for ' + activeProject.title)}`
-    : `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20And%20Charitable%20Trust&am=${amount}&cu=INR&tn=Donation`;
+    ? `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20and%20Charitable%20Trust&am=${amount}&cu=INR&tn=${encodeURIComponent('Donation for ' + activeProject.title)}`
+    : `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20and%20Charitable%20Trust&am=${amount}&cu=INR&tn=Donation`;
 
   const whatsappDonateUrl = activeProject
     ? `https://wa.me/${cleanPhone}?text=${encodeURIComponent(
@@ -258,6 +258,9 @@ export default function ProjectShowcase() {
                       {copied ? 'Copied ✓' : 'Copy'}
                     </button>
                   </div>
+                  <div style={{ fontSize: '0.8rem', color: 'var(--color-text-light)', marginTop: '0.35rem', textAlign: 'center' }}>
+                    Paytm / PhonePe / GPay: <strong>9813893744</strong>
+                  </div>
                   <a
                     href={upiPayUrl}
                     className="btn btn-primary"
@@ -276,19 +279,19 @@ export default function ProjectShowcase() {
                   <div className="bank-info-list">
                     <div className="bank-info-row">
                       <span>Account Name:</span>
-                      <strong>WAFA EDUCATIONAL AND CHARITABLE TRUST</strong>
+                      <strong>Wafa Educational and Charitable Trust</strong>
                     </div>
                     <div className="bank-info-row">
                       <span>Account No:</span>
-                      <strong>923020055118432</strong>
+                      <strong>2053101065464</strong>
                     </div>
                     <div className="bank-info-row">
                       <span>IFSC Code:</span>
-                      <strong>UTIB0000000</strong>
+                      <strong>CNRB0002053</strong>
                     </div>
                     <div className="bank-info-row">
                       <span>Bank / Branch:</span>
-                      <strong>Akola, Maharashtra</strong>
+                      <strong>Canara Bank (Punhana)</strong>
                     </div>
                   </div>
 

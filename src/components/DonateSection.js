@@ -40,19 +40,19 @@ export default function DonateSection() {
   }, [searchParams]);
 
   const amount = customAmount || selectedAmount || '1000';
-  const upiId = 'wafatrust011@okaxis';
+  const upiId = '9813893744@cnrb';
   const cleanPhone = '919813893744';
 
   const activeCauseObj = CAUSES.find((c) => c.id === selectedCause) || CAUSES[0];
 
-  const upiPayUrl = `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20And%20Charitable%20Trust&am=${amount}&cu=INR&tn=${encodeURIComponent('Donation for ' + activeCauseObj.title)}`;
+  const upiPayUrl = `upi://pay?pa=${upiId}&pn=Wafa%20Educational%20and%20Charitable%20Trust&am=${amount}&cu=INR&tn=${encodeURIComponent('Donation for ' + activeCauseObj.title)}`;
 
   const whatsappUrl = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(
     `Hello Wafa Educational & Charitable Trust,\n\nI want to donate ₹${amount} for: *${activeCauseObj.title}*.\n\nPlease share transaction verification and 80G receipt details.`
   )}`;
 
   const copyBank = () => {
-    const text = `Account Name: WAFA EDUCATIONAL AND CHARITABLE TRUST\nAccount No: 923020055118432\nIFSC: UTIB0000000\nBranch: Akola, Maharashtra`;
+    const text = `Account Name: Wafa Educational and Charitable Trust\nAccount No: 2053101065464\nIFSC Code: CNRB0002053\nBank: Canara Bank\nBranch: Punhana`;
     navigator.clipboard.writeText(text);
     setCopiedBank(true);
     setTimeout(() => setCopiedBank(false), 2000);
@@ -196,7 +196,7 @@ export default function DonateSection() {
                 padding: '8px 14px',
                 borderRadius: 'var(--radius-sm)',
                 fontSize: '0.85rem',
-                marginBottom: '1rem',
+                marginBottom: '0.5rem',
               }}
             >
               <span>UPI: <strong>{upiId}</strong></span>
@@ -216,6 +216,20 @@ export default function DonateSection() {
               >
                 {copiedUpi ? 'Copied ✓' : 'Copy'}
               </button>
+            </div>
+            <div
+              style={{
+                background: '#f8faf9',
+                border: '1px solid var(--color-border-light)',
+                borderRadius: 'var(--radius-sm)',
+                padding: '6px 12px',
+                fontSize: '0.8rem',
+                textAlign: 'center',
+                marginBottom: '1rem',
+                color: 'var(--color-text)',
+              }}
+            >
+              Paytm / PhonePe / GPay: <strong>9813893744</strong>
             </div>
 
             <a
@@ -248,19 +262,23 @@ export default function DonateSection() {
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed var(--color-border-light)', paddingBottom: '6px' }}>
                 <span style={{ color: 'var(--color-text-light)' }}>Account Name:</span>
-                <strong style={{ textAlign: 'right', fontSize: '0.82rem' }}>WAFA EDUCATIONAL AND CHARITABLE TRUST</strong>
+                <strong style={{ textAlign: 'right', fontSize: '0.82rem' }}>Wafa Educational and Charitable Trust</strong>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed var(--color-border-light)', paddingBottom: '6px' }}>
                 <span style={{ color: 'var(--color-text-light)' }}>Account No:</span>
-                <strong>923020055118432</strong>
+                <strong>2053101065464</strong>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed var(--color-border-light)', paddingBottom: '6px' }}>
                 <span style={{ color: 'var(--color-text-light)' }}>IFSC Code:</span>
-                <strong>UTIB0000000</strong>
+                <strong>CNRB0002053</strong>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px dashed var(--color-border-light)', paddingBottom: '6px' }}>
+                <span style={{ color: 'var(--color-text-light)' }}>Bank:</span>
+                <strong>Canara Bank</strong>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ color: 'var(--color-text-light)' }}>Branch:</span>
-                <strong>Akola, Maharashtra</strong>
+                <strong>Punhana</strong>
               </div>
             </div>
 
